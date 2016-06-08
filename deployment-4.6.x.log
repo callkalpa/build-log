@@ -4243,3 +4243,21 @@ Jun 08, 2016 6:15:16 AM org.wso2.carbon.caching.impl.DataHolder getServerConfigu
 SEVERE: Before activating javax caching  bundle, an instance of ServerConfigurationService should be in existence
 Jun 08, 2016 6:15:16 AM org.wso2.carbon.caching.impl.DataHolder getServerConfigurationService
 SEVERE: Before activating javax caching  bundle, an instance of ServerConfigurationService should be in existence
+Jun 08, 2016 8:47:58 AM org.wso2.carbon.registry.core.config.RegistryConfigurationProcessor populateRegistryConfig
+WARNING: Unable to look-up JNDI name dataSourceName
+Jun 08, 2016 8:47:58 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 80
+Jun 08, 2016 8:47:58 AM org.apache.axis2.deployment.DeploymentEngine prepareRepository
+INFO: No modules directory was found under /home/wso2/carbon-deployment/components/service-mgt/axis2-service-mgt/org.wso2.carbon.service.mgt/src/test/resources/repository.
+Jun 08, 2016 8:47:58 AM org.apache.axis2.deployment.ModuleDeployer deploy
+INFO: Deploying module: POXSecurityModule-5.0.8 - file:/home/wso2/carbon-deployment/../repo-deployment/org/wso2/carbon/identity/org.wso2.carbon.security.mgt/5.0.8/org.wso2.carbon.security.mgt-5.0.8.jar
+Jun 08, 2016 8:47:58 AM org.apache.axis2.deployment.DeploymentEngine addServiceGroup
+INFO: Deploying Web service: echo - file:/home/wso2/carbon-deployment/components/service-mgt/axis2-service-mgt/org.wso2.carbon.service.mgt/src/test/resources/repository/services/echo/
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9,194.868 sec - in org.wso2.carbon.service.mgt.util.TestServiceArchiveCreator
+Running org.wso2.carbon.service.mgt.TestPolicyUtil
+Jun 08, 2016 8:48:01 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Jun 08, 2016 8:48:31 AM org.wso2.carbon.caching.impl.DataHolder getServerConfigurationService
+SEVERE: Before activating javax caching  bundle, an instance of ServerConfigurationService should be in existence
+Jun 08, 2016 8:48:31 AM org.wso2.carbon.caching.impl.DataHolder getServerConfigurationService
+SEVERE: Before activating javax caching  bundle, an instance of ServerConfigurationService should be in existence
