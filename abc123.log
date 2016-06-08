@@ -1621,3 +1621,526 @@ Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/ant/ant/1.6.
      [java] Retrieving document at 'src/main/resources/RepositoryAdminService.wsdl'.
      [java] Jun 08, 2016 1:49:51 AM org.apache.axis2.schema.SchemaCompiler compile
      [java] WARNING: No schemaLocation for import of http://data.prov.services.mgt.feature.carbon.wso2.org/xsd; compilation may fail
+     [java] Retrieving document at 'src/main/resources/ProvisioningAdminService.wsdl'.
+     [java] Jun 08, 2016 1:49:54 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://data.prov.services.mgt.feature.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/target/classes
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/target/generated-code/src/org/wso2/carbon/feature/mgt/stub/ProvisioningAdminServiceStub.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/target/generated-code/src/org/wso2/carbon/feature/mgt/stub/ProvisioningAdminServiceStub.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.feature.mgt.stub ---
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.feature.mgt.stub:bundle:4.4.6-SNAPSHOT : Did not find matching referal for !org.wso2.carbon.feature.mgt.stub.*
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/target/org.wso2.carbon.feature.mgt.stub-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.feature.mgt.stub/4.4.6-SNAPSHOT/org.wso2.carbon.feature.mgt.stub-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.feature.mgt.stub/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.feature.mgt.stub/4.4.6-SNAPSHOT/org.wso2.carbon.feature.mgt.stub-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.feature.mgt.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Server Role Management Stub 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Deleting /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Source directory: /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/ServerRolesManager.wsdl'.
+     [java] Jun 08, 2016 1:49:57 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://mgt.roles.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/classes
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/generated-code/src/org/wso2/carbon/roles/mgt/stub/ServerRolesManagerStub.java: /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/generated-code/src/org/wso2/carbon/roles/mgt/stub/ServerRolesManagerStub.java uses unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/generated-code/src/org/wso2/carbon/roles/mgt/stub/ServerRolesManagerStub.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.roles.mgt.stub ---
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.roles.mgt.stub:bundle:4.4.6-SNAPSHOT : Did not find matching referal for !org.wso2.carbon.roles.mgt.stub.*
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/target/org.wso2.carbon.roles.mgt.stub-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.roles.mgt.stub/4.4.6-SNAPSHOT/org.wso2.carbon.roles.mgt.stub-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.roles.mgt.stub/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.roles.mgt.stub/4.4.6-SNAPSHOT/org.wso2.carbon.roles.mgt.stub-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.roles.mgt.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Server Administration Stub 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Deleting /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Source directory: /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.server.admin.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/ServerAdmin.wsdl'.
+     [java] Jun 08, 2016 1:50:00 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://common.admin.server.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/classes
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/generated-code/src/org/wso2/carbon/server/admin/stub/ServerAdminStub.java: /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/generated-code/src/org/wso2/carbon/server/admin/stub/ServerAdminStub.java uses unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/generated-code/src/org/wso2/carbon/server/admin/stub/ServerAdminStub.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.server.admin.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.server.admin.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.server.admin.stub ---
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.server.admin.stub:bundle:4.4.6-SNAPSHOT : Did not find matching referal for !org.wso2.carbon.server.admin.stub.*
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/target/org.wso2.carbon.server.admin.stub-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.server.admin.stub/4.4.6-SNAPSHOT/org.wso2.carbon.server.admin.stub-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/service-stubs/org.wso2.carbon.server.admin.stub/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.server.admin.stub/4.4.6-SNAPSHOT/org.wso2.carbon.server.admin.stub-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.server.admin.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Parent Maven Project 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-scr-plugin/1.7.4/maven-scr-plugin-1.7.4.pom
+4/4 KB                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-scr-plugin/1.7.4/maven-scr-plugin-1.7.4.pom (4 KB at 309.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix-parent/1.2.0/felix-parent-1.2.0.pom
+4/15 KB   8/15 KB   12/15 KB   15/15 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix-parent/1.2.0/felix-parent-1.2.0.pom (15 KB at 538.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-scr-plugin/1.7.4/maven-scr-plugin-1.7.4.jar
+4/17 KB    8/17 KB   12/17 KB   16/17 KB   17/17 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-scr-plugin/1.7.4/maven-scr-plugin-1.7.4.jar (17 KB at 1385.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ carbon-kernel ---
+[INFO] Deleting /home/wso2/carbon-kernel/core/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ carbon-kernel ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ carbon-kernel ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ carbon-kernel ---
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.scr.generator/1.1.4/org.apache.felix.scr.generator-1.1.4.pom
+4/4 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.scr.generator/1.1.4/org.apache.felix.scr.generator-1.1.4.pom (4 KB at 356.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.pom
+4/19 KB   8/19 KB   12/19 KB   16/19 KB   19/19 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.pom (19 KB at 2013.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-all/3.1/asm-all-3.1.pom
+307/307 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-all/3.1/asm-all-3.1.pom (307 B at 37.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-parent/3.1/asm-parent-3.1.pom
+4/5 KB      5/5 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-parent/3.1/asm-parent-3.1.pom (5 KB at 193.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.scr.generator/1.1.4/org.apache.felix.scr.generator-1.1.4.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-all/3.1/asm-all-3.1.jar
+4/160 KB   8/160 KB   12/160 KB   4/108 KB   12/160 KB   4/108 KB   16/160 KB   5/108 KB   16/160 KB   9/108 KB   16/160 KB   9/108 KB   20/160 KB   13/108 KB   20/160 KB   13/108 KB   24/160 KB   13/108 KB   28/160 KB   13/108 KB   32/160 KB   13/108 KB   35/160 KB   4/196 KB   13/108 KB   35/160 KB   8/196 KB   13/108 KB   35/160 KB   12/196 KB   13/108 KB   35/160 KB   13/196 KB   13/108 KB   35/160 KB   13/196 KB   16/108 KB   35/160 KB   13/196 KB   4/176 KB   16/108 KB   35/160 KB   13/196 KB   8/176 KB   16/108 KB   35/160 KB   13/196 KB   12/176 KB   16/108 KB   35/160 KB   13/196 KB   16/176 KB   16/108 KB   35/160 KB   13/196 KB   20/176 KB   16/108 KB   35/160 KB   13/196 KB   21/176 KB   16/108 KB   35/160 KB   13/196 KB   21/176 KB   16/108 KB   39/160 KB   13/196 KB   21/176 KB   16/108 KB   43/160 KB   13/196 KB   21/176 KB   16/108 KB   47/160 KB   13/196 KB   21/176 KB   16/108 KB   51/160 KB   13/196 KB   21/176 KB   16/108 KB   55/160 KB   13/196 KB   21/176 KB   16/108 KB   59/160 KB   13/196 KB   21/176 KB   16/108 KB   63/160 KB   13/196 KB   21/176 KB   16/108 KB   63/160 KB   13/196 KB   21/176 KB   20/108 KB   63/160 KB   13/196 KB   21/176 KB   24/108 KB   63/160 KB   13/196 KB   21/176 KB   28/108 KB   63/160 KB   13/196 KB   21/176 KB   32/108 KB   63/160 KB   13/196 KB   21/176 KB   36/108 KB   63/160 KB   13/196 KB   21/176 KB   37/108 KB   63/160 KB   13/196 KB   25/176 KB   37/108 KB   63/160 KB   13/196 KB   29/176 KB   37/108 KB   63/160 KB   13/196 KB   33/176 KB   37/108 KB   63/160 KB   13/196 KB   37/176 KB   37/108 KB   63/160 KB   13/196 KB   41/176 KB   37/108 KB   63/160 KB   13/196 KB   41/176 KB   37/108 KB   63/160 KB   17/196 KB   41/176 KB   37/108 KB   63/160 KB   21/196 KB   41/176 KB   37/108 KB   63/160 KB   25/196 KB   41/176 KB   37/108 KB   63/160 KB   29/196 KB   41/176 KB   37/108 KB   63/160 KB   33/196 KB   41/176 KB   37/108 KB   63/160 KB   37/196 KB   41/176 KB   37/108 KB   63/160 KB   37/196 KB   41/176 KB   37/108 KB   67/160 KB   37/196 KB   41/176 KB   37/108 KB   71/160 KB   37/196 KB   41/176 KB   37/108 KB   75/160 KB   37/196 KB   41/176 KB   37/108 KB   79/160 KB   37/196 KB   41/176 KB   37/108 KB   83/160 KB   37/196 KB   41/176 KB   41/108 KB   83/160 KB   37/196 KB   41/176 KB   41/108 KB   84/160 KB   37/196 KB   45/176 KB   45/108 KB   84/160 KB   37/196 KB   45/176 KB   45/108 KB   84/160 KB   37/196 KB   49/176 KB   45/108 KB   84/160 KB   37/196 KB   49/176 KB   49/108 KB   84/160 KB   37/196 KB   53/176 KB   49/108 KB   84/160 KB   37/196 KB   53/176 KB   53/108 KB   84/160 KB   37/196 KB   57/176 KB   53/108 KB   84/160 KB   37/196 KB   57/176 KB   54/108 KB   84/160 KB   37/196 KB   61/176 KB   54/108 KB   84/160 KB   37/196 KB   65/176 KB   54/108 KB   84/160 KB   41/196 KB   65/176 KB   54/108 KB   84/160 KB   45/196 KB   65/176 KB   54/108 KB   84/160 KB   49/196 KB   65/176 KB   54/108 KB   84/160 KB   53/196 KB   65/176 KB   54/108 KB   84/160 KB   57/196 KB   65/176 KB   54/108 KB   84/160 KB   61/196 KB   65/176 KB   54/108 KB   84/160 KB   65/196 KB   65/176 KB   54/108 KB   84/160 KB   65/196 KB   65/176 KB   54/108 KB   84/160 KB   65/196 KB   69/176 KB   54/108 KB   84/160 KB   65/196 KB   69/176 KB   58/108 KB   84/160 KB   65/196 KB   73/176 KB   58/108 KB   84/160 KB   65/196 KB   73/176 KB   62/108 KB   84/160 KB   65/196 KB   77/176 KB   62/108 KB   84/160 KB   65/196 KB   77/176 KB   65/108 KB   84/160 KB   65/196 KB   80/176 KB   65/108 KB   84/160 KB   65/196 KB   80/176 KB   65/108 KB   88/160 KB   65/196 KB   80/176 KB   65/108 KB   92/160 KB   65/196 KB   80/176 KB   65/108 KB   96/160 KB   65/196 KB   80/176 KB   65/108 KB   100/160 KB   65/196 KB   80/176 KB   65/108 KB   104/160 KB   65/196 KB   80/176 KB   65/108 KB   108/160 KB   65/196 KB   80/176 KB   65/108 KB   112/160 KB   65/196 KB   80/176 KB   65/108 KB   116/160 KB   65/196 KB   80/176 KB   65/108 KB   116/160 KB   65/196 KB   80/176 KB   69/108 KB   116/160 KB   65/196 KB   80/176 KB   73/108 KB   116/160 KB   65/196 KB   80/176 KB   77/108 KB   116/160 KB   65/196 KB   80/176 KB   81/108 KB   116/160 KB   65/196 KB   80/176 KB   82/108 KB   116/160 KB   65/196 KB   84/176 KB   82/108 KB   116/160 KB   65/196 KB   88/176 KB   82/108 KB   116/160 KB   65/196 KB   91/176 KB   82/108 KB   116/160 KB   69/196 KB   91/176 KB   82/108 KB   116/160 KB   69/196 KB   91/176 KB   82/108 KB   118/160 KB   69/196 KB   91/176 KB   86/108 KB   118/160 KB   69/196 KB   91/176 KB   90/108 KB   118/160 KB   69/196 KB   91/176 KB   94/108 KB   118/160 KB   69/196 KB   91/176 KB   98/108 KB   118/160 KB   69/196 KB   91/176 KB   102/108 KB   118/160 KB   69/196 KB   91/176 KB   106/108 KB   118/160 KB   69/196 KB   95/176 KB   108/108 KB   118/160 KB   69/196 KB   95/176 KB   108/108 KB   118/160 KB   69/196 KB   99/176 KB   108/108 KB   118/160 KB   69/196 KB   103/176 KB   108/108 KB   118/160 KB   69/196 KB   107/176 KB   108/108 KB   118/160 KB   69/196 KB   111/176 KB   108/108 KB   118/160 KB   69/196 KB   115/176 KB   118/160 KB                                                                   69/196 KB   115/176 KB   118/160 KB   73/196 KB   115/176 KB   118/160 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.scr.generator/1.1.4/org.apache.felix.scr.generator-1.1.4.jar (108 KB at 5656.9 KB/sec)
+77/196 KB   115/176 KB   118/160 KB   81/196 KB   115/176 KB   118/160 KB   85/196 KB   115/176 KB   118/160 KB   89/196 KB   115/176 KB   118/160 KB   93/196 KB   115/176 KB   118/160 KB   97/196 KB   115/176 KB   118/160 KB   101/196 KB   115/176 KB   118/160 KB   103/196 KB   115/176 KB   118/160 KB   103/196 KB   115/176 KB   120/160 KB   103/196 KB   116/176 KB   120/160 KB   104/196 KB   116/176 KB   120/160 KB   107/196 KB   116/176 KB   120/160 KB   111/196 KB   116/176 KB   120/160 KB   115/196 KB   116/176 KB   120/160 KB   119/196 KB   116/176 KB   120/160 KB   123/196 KB   116/176 KB   120/160 KB   123/196 KB   116/176 KB   124/160 KB   127/196 KB   116/176 KB   124/160 KB   127/196 KB   116/176 KB   128/160 KB   131/196 KB   116/176 KB   128/160 KB   131/196 KB   116/176 KB   132/160 KB   134/196 KB   116/176 KB   132/160 KB   134/196 KB   116/176 KB   136/160 KB   134/196 KB   120/176 KB   136/160 KB   134/196 KB   120/176 KB   140/160 KB   134/196 KB   124/176 KB   140/160 KB   134/196 KB   124/176 KB   144/160 KB   134/196 KB   128/176 KB   144/160 KB   134/196 KB   128/176 KB   148/160 KB   134/196 KB   132/176 KB   148/160 KB   134/196 KB   132/176 KB   152/160 KB   134/196 KB   136/176 KB   152/160 KB   134/196 KB   136/176 KB   152/160 KB   134/196 KB   140/176 KB   152/160 KB   134/196 KB   144/176 KB   152/160 KB   134/196 KB   148/176 KB   152/160 KB   134/196 KB   151/176 KB   152/160 KB   134/196 KB   151/176 KB   156/160 KB   134/196 KB   151/176 KB   160/160 KB   134/196 KB   151/176 KB   160/160 KB                                          Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar (160 KB at 7271.1 KB/sec)
+134/196 KB   155/176 KB                134/196 KB   159/176 KB   134/196 KB   163/176 KB   134/196 KB   167/176 KB   134/196 KB   171/176 KB   134/196 KB   175/176 KB   134/196 KB   176/176 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/com/thoughtworks/qdox/qdox/1.12/qdox-1.12.jar (176 KB at 7977.7 KB/sec)
+138/196 KB                142/196 KB   146/196 KB   150/196 KB   154/196 KB   158/196 KB   162/196 KB   166/196 KB   167/196 KB   171/196 KB   175/196 KB   179/196 KB   183/196 KB   187/196 KB   191/196 KB   195/196 KB   196/196 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/asm/asm-all/3.1/asm-all-3.1.jar (196 KB at 8494.0 KB/sec)
+[WARNING] Source tree does not exist. Ignoring /home/wso2/carbon-kernel/core/src/main/java
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ carbon-kernel ---
+[INFO] Installing /home/wso2/carbon-kernel/core/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/carbon-kernel/4.4.6-SNAPSHOT/carbon-kernel-4.4.6-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Bootstrap 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+4/6 KB       6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (6 KB at 271.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+4/34 KB   8/34 KB   12/34 KB   16/34 KB   20/34 KB   24/34 KB   28/34 KB   32/34 KB   34/34 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 KB at 1582.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/wrapper/wrapper/3.2.3/wrapper-3.2.3.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/wrapper/wrapper/3.2.3/wrapper-3.2.3.pom
+186/186 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/wrapper/wrapper/3.2.3/wrapper-3.2.3.pom (186 B at 18.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/wrapper/wrapper/3.2.3/wrapper-3.2.3.jar
+            Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/wrapper/wrapper/3.2.3/wrapper-3.2.3.jar
+4/82 KB     8/82 KB   12/82 KB   16/82 KB   20/82 KB   24/82 KB   28/82 KB   32/82 KB   36/82 KB   37/82 KB   41/82 KB   45/82 KB   47/82 KB   51/82 KB   55/82 KB   59/82 KB   63/82 KB   63/82 KB   67/82 KB   71/82 KB   75/82 KB   79/82 KB   82/82 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/wrapper/wrapper/3.2.3/wrapper-3.2.3.jar (82 KB at 8185.5 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.bootstrap ---
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.bootstrap ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.bootstrap ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.bootstrap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.bootstrap ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/target/classes
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/src/main/java/org/wso2/carbon/bootstrap/CarbonSecurityManager.java:[21,25] sun.security.util.SecurityConstants is internal proprietary API and may be removed in a future release
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/src/main/java/org/wso2/carbon/bootstrap/CarbonSecurityManager.java:[89,25] sun.security.util.SecurityConstants is internal proprietary API and may be removed in a future release
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/src/main/java/org/wso2/carbon/bootstrap/CarbonSecurityManager.java:[103,25] sun.security.util.SecurityConstants is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.bootstrap ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.bootstrap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.bootstrap ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.bootstrap ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ org.wso2.carbon.bootstrap ---
+[INFO] Building jar: /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/target/org.wso2.carbon.bootstrap-4.4.6-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.bootstrap ---
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/target/org.wso2.carbon.bootstrap-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.bootstrap/4.4.6-SNAPSHOT/org.wso2.carbon.bootstrap-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.bootstrap/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.bootstrap/4.4.6-SNAPSHOT/org.wso2.carbon.bootstrap-4.4.6-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/log4j/wso2/log4j/1.2.17.wso2v1/log4j-1.2.17.wso2v1.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/log4j/wso2/log4j/1.2.17.wso2v1/log4j-1.2.17.wso2v1.pom (3 KB at 108.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/log4j/log4j/1.2.17/log4j-1.2.17.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.17/log4j-1.2.17.pom
+4/22 KB   8/22 KB   12/22 KB   16/22 KB   20/22 KB   22/22 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.17/log4j-1.2.17.pom (22 KB at 1179.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.pom
+420/420 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.pom (420 B at 22.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/log4j/wso2/log4j/1.2.17.wso2v1/log4j-1.2.17.wso2v1.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/log4j/log4j/1.2.17/log4j-1.2.17.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar
+                        4/471 KB    8/471 KB   12/471 KB   16/471 KB   20/471 KB   24/471 KB   28/471 KB   32/471 KB   36/471 KB   40/471 KB   41/471 KB   45/471 KB   49/471 KB   53/471 KB   57/471 KB   61/471 KB   62/471 KB   66/471 KB   66/471 KB   70/471 KB   74/471 KB   78/471 KB   82/471 KB   86/471 KB   89/471 KB   92/471 KB   96/471 KB   100/471 KB   104/471 KB   108/471 KB   112/471 KB   116/471 KB   120/471 KB   120/471 KB   121/471 KB   125/471 KB   129/471 KB   133/471 KB   137/471 KB   141/471 KB   145/471 KB   149/471 KB   150/471 KB   152/471 KB   156/471 KB   160/471 KB   164/471 KB   168/471 KB   172/471 KB   176/471 KB   180/471 KB   182/471 KB   186/471 KB   190/471 KB   194/471 KB   198/471 KB   202/471 KB   206/471 KB   210/471 KB   213/471 KB   217/471 KB   221/471 KB   225/471 KB   229/471 KB   233/471 KB   237/471 KB   241/471 KB   245/471 KB   249/471 KB   249/471 KB   253/471 KB   257/471 KB   261/471 KB   265/471 KB   269/471 KB   273/471 KB   277/471 KB   281/471 KB   285/471 KB   289/471 KB   293/471 KB   297/471 KB   301/471 KB   305/471 KB   309/471 KB   313/471 KB   317/471 KB   321/471 KB   325/471 KB   329/471 KB   333/471 KB   337/471 KB   341/471 KB   345/471 KB   348/471 KB   352/471 KB   356/471 KB   360/471 KB   364/471 KB   368/471 KB   372/471 KB   376/471 KB   380/471 KB   384/471 KB   388/471 KB   392/471 KB   396/471 KB   399/471 KB   403/471 KB   407/471 KB   411/471 KB   415/471 KB   419/471 KB   423/471 KB   427/471 KB   431/471 KB   435/471 KB   439/471 KB   443/471 KB   447/471 KB   450/471 KB   454/471 KB   458/471 KB   462/471 KB   466/471 KB   470/471 KB   471/471 KB                Downloaded: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/log4j/wso2/log4j/1.2.17.wso2v1/log4j-1.2.17.wso2v1.jar (471 KB at 12073.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.17/log4j-1.2.17.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar
+4/479 KB     8/479 KB   12/479 KB   16/479 KB   20/479 KB   24/479 KB   28/479 KB   32/479 KB   36/479 KB   40/479 KB   41/479 KB   45/479 KB   45/479 KB   49/479 KB   50/479 KB   54/479 KB   58/479 KB   62/479 KB   66/479 KB   70/479 KB   74/479 KB   74/479 KB   76/479 KB   80/479 KB   84/479 KB   88/479 KB   92/479 KB   96/479 KB   100/479 KB   101/479 KB   102/479 KB   105/479 KB   109/479 KB   113/479 KB   117/479 KB   121/479 KB   125/479 KB   129/479 KB   133/479 KB   136/479 KB   138/479 KB   142/479 KB   146/479 KB   150/479 KB   154/479 KB   158/479 KB   162/479 KB   166/479 KB   169/479 KB   173/479 KB   173/479 KB   176/479 KB   178/479 KB   182/479 KB   186/479 KB   190/479 KB   194/479 KB   196/479 KB   198/479 KB   202/479 KB   206/479 KB   210/479 KB   214/479 KB   218/479 KB   222/479 KB   226/479 KB   230/479 KB   232/479 KB   234/479 KB   238/479 KB   242/479 KB   246/479 KB   250/479 KB   254/479 KB   258/479 KB   262/479 KB   266/479 KB   270/479 KB   271/479 KB   275/479 KB   279/479 KB   283/479 KB   283/479 KB   287/479 KB   291/479 KB   295/479 KB   299/479 KB   303/479 KB   307/479 KB   311/479 KB   312/479 KB   313/479 KB   317/479 KB   321/479 KB   325/479 KB   329/479 KB   333/479 KB   337/479 KB   341/479 KB   345/479 KB   349/479 KB   353/479 KB   357/479 KB   361/479 KB   361/479 KB   365/479 KB   369/479 KB   373/479 KB   375/479 KB   379/479 KB   383/479 KB   387/479 KB   391/479 KB   395/479 KB   399/479 KB   403/479 KB   407/479 KB   408/479 KB   408/479 KB   4/1358 KB   408/479 KB   8/1358 KB   408/479 KB   12/1358 KB   408/479 KB   13/1358 KB   412/479 KB   13/1358 KB   416/479 KB   13/1358 KB   420/479 KB   13/1358 KB   424/479 KB   13/1358 KB   428/479 KB   13/1358 KB   432/479 KB   13/1358 KB   436/479 KB   13/1358 KB   440/479 KB   13/1358 KB   444/479 KB   13/1358 KB   448/479 KB   13/1358 KB   452/479 KB   13/1358 KB   456/479 KB   13/1358 KB   460/479 KB   13/1358 KB   464/479 KB   13/1358 KB   464/479 KB   17/1358 KB   468/479 KB   17/1358 KB   468/479 KB   21/1358 KB   472/479 KB   21/1358 KB   472/479 KB   25/1358 KB   476/479 KB   25/1358 KB   476/479 KB   29/1358 KB   479/479 KB   29/1358 KB   479/479 KB   33/1358 KB   479/479 KB   37/1358 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.17/log4j-1.2.17.jar (479 KB at 12589.5 KB/sec)
+41/1358 KB                45/1358 KB   49/1358 KB   49/1358 KB   53/1358 KB   57/1358 KB   61/1358 KB   61/1358 KB   62/1358 KB   66/1358 KB   70/1358 KB   72/1358 KB   76/1358 KB   80/1358 KB   82/1358 KB   86/1358 KB   90/1358 KB   92/1358 KB   96/1358 KB   100/1358 KB   104/1358 KB   108/1358 KB   112/1358 KB   116/1358 KB   116/1358 KB   120/1358 KB   124/1358 KB   128/1358 KB   132/1358 KB   136/1358 KB   140/1358 KB   141/1358 KB   142/1358 KB   146/1358 KB   150/1358 KB   154/1358 KB   158/1358 KB   162/1358 KB   166/1358 KB   169/1358 KB   170/1358 KB   174/1358 KB   178/1358 KB   180/1358 KB   184/1358 KB   188/1358 KB   192/1358 KB   196/1358 KB   200/1358 KB   204/1358 KB   204/1358 KB   205/1358 KB   209/1358 KB   213/1358 KB   214/1358 KB   218/1358 KB   222/1358 KB   226/1358 KB   230/1358 KB   234/1358 KB   238/1358 KB   241/1358 KB   244/1358 KB   248/1358 KB   252/1358 KB   253/1358 KB   257/1358 KB   261/1358 KB   265/1358 KB   269/1358 KB   273/1358 KB   277/1358 KB   281/1358 KB   283/1358 KB   285/1358 KB   289/1358 KB   291/1358 KB   295/1358 KB   299/1358 KB   303/1358 KB   307/1358 KB   311/1358 KB   315/1358 KB   319/1358 KB   323/1358 KB   327/1358 KB   327/1358 KB   331/1358 KB   335/1358 KB   339/1358 KB   343/1358 KB   343/1358 KB   347/1358 KB   351/1358 KB   355/1358 KB   357/1358 KB   361/1358 KB   365/1358 KB   369/1358 KB   373/1358 KB   376/1358 KB   380/1358 KB   384/1358 KB   388/1358 KB   389/1358 KB   393/1358 KB   397/1358 KB   401/1358 KB   405/1358 KB   405/1358 KB   409/1358 KB   413/1358 KB   417/1358 KB   421/1358 KB   424/1358 KB   428/1358 KB   432/1358 KB   436/1358 KB   440/1358 KB   444/1358 KB   448/1358 KB   452/1358 KB   456/1358 KB   460/1358 KB   464/1358 KB   468/1358 KB   472/1358 KB   476/1358 KB   480/1358 KB   484/1358 KB   488/1358 KB   488/1358 KB   492/1358 KB   496/1358 KB   500/1358 KB   504/1358 KB   508/1358 KB   512/1358 KB   515/1358 KB   519/1358 KB   523/1358 KB   527/1358 KB   531/1358 KB   534/1358 KB   538/1358 KB   542/1358 KB   546/1358 KB   550/1358 KB   554/1358 KB   554/1358 KB   558/1358 KB   562/1358 KB   566/1358 KB   570/1358 KB   574/1358 KB   578/1358 KB   582/1358 KB   586/1358 KB   590/1358 KB   594/1358 KB   598/1358 KB   602/1358 KB   605/1358 KB   609/1358 KB   613/1358 KB   615/1358 KB   619/1358 KB   623/1358 KB   627/1358 KB   631/1358 KB   635/1358 KB   639/1358 KB   643/1358 KB   647/1358 KB   651/1358 KB   655/1358 KB   659/1358 KB   663/1358 KB   666/1358 KB   670/1358 KB   674/1358 KB   678/1358 KB   682/1358 KB   686/1358 KB   690/1358 KB   694/1358 KB   698/1358 KB   702/1358 KB   706/1358 KB   710/1358 KB   714/1358 KB   718/1358 KB   722/1358 KB   726/1358 KB   730/1358 KB   731/1358 KB   735/1358 KB   739/1358 KB   743/1358 KB   747/1358 KB   751/1358 KB   755/1358 KB   759/1358 KB   763/1358 KB   767/1358 KB   771/1358 KB   775/1358 KB   779/1358 KB   783/1358 KB   787/1358 KB   791/1358 KB   795/1358 KB   799/1358 KB   801/1358 KB   805/1358 KB   809/1358 KB   813/1358 KB   817/1358 KB   821/1358 KB   825/1358 KB   829/1358 KB   833/1358 KB   837/1358 KB   841/1358 KB   845/1358 KB   849/1358 KB   853/1358 KB   857/1358 KB   861/1358 KB   862/1358 KB   866/1358 KB   870/1358 KB   874/1358 KB   878/1358 KB   882/1358 KB   886/1358 KB   890/1358 KB   894/1358 KB   898/1358 KB   902/1358 KB   906/1358 KB   910/1358 KB   914/1358 KB   918/1358 KB   922/1358 KB   926/1358 KB   930/1358 KB   934/1358 KB   938/1358 KB   942/1358 KB   946/1358 KB   950/1358 KB   954/1358 KB   958/1358 KB   962/1358 KB   966/1358 KB   970/1358 KB   974/1358 KB   978/1358 KB   982/1358 KB   986/1358 KB   990/1358 KB   994/1358 KB   998/1358 KB   1002/1358 KB   1006/1358 KB   1010/1358 KB   1014/1358 KB   1018/1358 KB   1022/1358 KB   1026/1358 KB   1030/1358 KB   1034/1358 KB   1038/1358 KB   1042/1358 KB   1046/1358 KB   1050/1358 KB   1054/1358 KB   1058/1358 KB   1062/1358 KB   1066/1358 KB   1070/1358 KB   1074/1358 KB   1078/1358 KB   1082/1358 KB   1086/1358 KB   1090/1358 KB   1094/1358 KB   1098/1358 KB   1102/1358 KB   1106/1358 KB   1110/1358 KB   1114/1358 KB   1115/1358 KB   1119/1358 KB   1123/1358 KB   1127/1358 KB   1131/1358 KB   1135/1358 KB   1139/1358 KB   1143/1358 KB   1147/1358 KB   1151/1358 KB   1155/1358 KB   1159/1358 KB   1163/1358 KB   1167/1358 KB   1171/1358 KB   1175/1358 KB   1179/1358 KB   1183/1358 KB   1187/1358 KB   1191/1358 KB   1195/1358 KB   1199/1358 KB   1203/1358 KB   1207/1358 KB   1211/1358 KB   1215/1358 KB   1219/1358 KB   1223/1358 KB   1227/1358 KB   1231/1358 KB   1235/1358 KB   1239/1358 KB   1243/1358 KB   1247/1358 KB   1251/1358 KB   1255/1358 KB   1259/1358 KB   1263/1358 KB   1267/1358 KB   1271/1358 KB   1275/1358 KB   1279/1358 KB   1283/1358 KB   1287/1358 KB   1291/1358 KB   1295/1358 KB   1299/1358 KB   1303/1358 KB   1307/1358 KB   1311/1358 KB   1315/1358 KB   1319/1358 KB   1323/1358 KB   1327/1358 KB   1331/1358 KB   1335/1358 KB   1339/1358 KB   1343/1358 KB   1347/1358 KB   1351/1358 KB   1355/1358 KB   1358/1358 KB                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar (1358 KB at 19400.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging ---
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.logging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/target/classes
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/src/main/java/org/wso2/carbon/logging/appenders/internal/CarbonLoggingActivator.java: /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/src/main/java/org/wso2/carbon/logging/appenders/internal/CarbonLoggingActivator.java uses unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/src/main/java/org/wso2/carbon/logging/appenders/internal/CarbonLoggingActivator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.logging ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.logging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.logging ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.logging ---
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.logging:bundle:4.4.6-SNAPSHOT : Instructions in Export-Package that are never used: org\.wso2\.carbon\.logging\..*|org\.wso2\.carbon\.logging
+Classpath: Jar:.,Jar:log4j,Jar:log4j,Jar:commons-logging,Jar:org.wso2.carbon.bootstrap,Jar:wrapper,Jar:org.eclipse.osgi
+
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.logging:bundle:4.4.6-SNAPSHOT : Superfluous export-package instructions: [org.wso2.carbon.logging.*]
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.logging:bundle:4.4.6-SNAPSHOT : Did not find matching referal for !org.apache.commons.logging.*
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.logging:bundle:4.4.6-SNAPSHOT : Did not find matching referal for !org.wso2.carbon.logging.*
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging ---
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/target/org.wso2.carbon.logging-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.logging/4.4.6-SNAPSHOT/org.wso2.carbon.logging-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.logging/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.logging/4.4.6-SNAPSHOT/org.wso2.carbon.logging-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.logging ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Queuing 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.queuing ---
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.queuing ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.queuing ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.queuing ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.queuing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.queuing ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.queuing ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.queuing ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.queuing ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.queuing ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.queuing ---
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/target/org.wso2.carbon.queuing-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.queuing/4.4.6-SNAPSHOT/org.wso2.carbon.queuing-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.queuing/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.queuing/4.4.6-SNAPSHOT/org.wso2.carbon.queuing-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.queuing ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Secure Vault 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.pom
+               Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.pom
+431/431 B                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.pom (431 B at 46.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.pom
+            Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.pom
+4/8 KB      8/8 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.pom (8 KB at 667.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.pom
+4/16 KB   8/16 KB   12/16 KB   16/16 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.pom (16 KB at 1691.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/ws/commons/axiom/axiom-parent/1.2.11/axiom-parent-1.2.11.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-parent/1.2.11/axiom-parent-1.2.11.pom
+4/19 KB    8/19 KB   12/19 KB   16/19 KB   19/19 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-parent/1.2.11/axiom-parent-1.2.11.pom (19 KB at 2008.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.pom (3 KB at 105.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+4/12 KB   8/12 KB   12/12 KB   12/12 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom (12 KB at 585.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+4/22 KB    8/22 KB   12/22 KB   16/22 KB   20/22 KB   22/22 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom (22 KB at 1064.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom (2 KB at 102.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+4/11 KB   8/11 KB   11/11 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom (11 KB at 492.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.pom (3 KB at 222.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/specs-parent/1.6/specs-parent-1.6.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/specs-parent/1.6/specs-parent-1.6.pom
+4/6 KB   6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/specs-parent/1.6/specs-parent-1.6.pom (6 KB at 527.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/config/project-config/1.5/project-config-1.5.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/project-config/1.5/project-config-1.5.pom
+4/17 KB   6/17 KB   10/17 KB   11/17 KB   15/17 KB   17/17 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/project-config/1.5/project-config-1.5.pom (17 KB at 1414.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/config/config/1.5/config-1.5.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/config/1.5/config-1.5.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/config/config/1.5/config-1.5.pom (3 KB at 219.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/genesis/genesis/1.5/genesis-1.5.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/genesis/1.5/genesis-1.5.pom
+4/15 KB   8/15 KB   12/15 KB   15/15 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/genesis/genesis/1.5/genesis-1.5.pom (15 KB at 1196.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/jaxen/jaxen/1.1.1/jaxen-1.1.1.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/jaxen/jaxen/1.1.1/jaxen-1.1.1.pom
+4/8 KB     8/8 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/jaxen/jaxen/1.1.1/jaxen-1.1.1.pom (8 KB at 346.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.pom
+4/6 KB   6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.pom (6 KB at 847.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.pom (2 KB at 68.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/log4j/log4j/1.2.14/log4j-1.2.14.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.14/log4j-1.2.14.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.14/log4j-1.2.14.pom (3 KB at 154.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/jline/jline/0.9.94/jline-0.9.94.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/jline/jline/0.9.94/jline-0.9.94.pom
+4/7 KB   7/7 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/jline/jline/0.9.94/jline-0.9.94.pom (7 KB at 887.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-lang/commons-lang/1.0/commons-lang-1.0.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-lang/commons-lang/1.0/commons-lang-1.0.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-lang/commons-lang/1.0/commons-lang-1.0.pom (3 KB at 342.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/commons-io/2.0/commons-io-2.0.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-io/commons-io/2.0/commons-io-2.0.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-io/commons-io/2.0/commons-io-2.0.pom (9 KB at 1201.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/commons/commons-parent/15/commons-parent-15.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/commons/commons-parent/15/commons-parent-15.pom
+4/31 KB   8/31 KB   12/31 KB   15/31 KB   19/31 KB   23/31 KB   25/31 KB   29/31 KB   31/31 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/commons/commons-parent/15/commons-parent-15.pom (31 KB at 3438.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-codec/commons-codec/1.2/commons-codec-1.2.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-codec/commons-codec/1.2/commons-codec-1.2.pom
+4/4 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-codec/commons-codec/1.2/commons-codec-1.2.pom (4 KB at 466.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.jar
+                  Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/log4j/log4j/1.2.14/log4j-1.2.14.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/jline/jline/0.9.94/jline-0.9.94.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-lang/commons-lang/1.0/commons-lang-1.0.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/commons-io/2.0/commons-io-2.0.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-codec/commons-codec/1.2/commons-codec-1.2.jar
+                                             Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar
+4/418 KB   8/418 KB   12/418 KB   13/418 KB   13/418 KB   4/79 KB   13/418 KB   7/79 KB   13/418 KB   11/79 KB   13/418 KB   13/79 KB   17/418 KB   13/79 KB   21/418 KB   13/79 KB   25/418 KB   13/79 KB   29/418 KB   13/79 KB   33/418 KB   13/79 KB   34/418 KB   13/79 KB   34/418 KB   17/79 KB   34/418 KB   21/79 KB   34/418 KB   25/79 KB   34/418 KB   29/79 KB   34/418 KB   31/79 KB   38/418 KB   31/79 KB   42/418 KB   31/79 KB   46/418 KB   31/79 KB   50/418 KB   31/79 KB   54/418 KB   31/79 KB   54/418 KB   31/79 KB   54/418 KB   35/79 KB   54/418 KB   35/79 KB   54/418 KB   36/79 KB   55/418 KB   36/79 KB   55/418 KB   37/79 KB   55/418 KB   41/79 KB   55/418 KB   45/79 KB   55/418 KB   49/79 KB   55/418 KB   53/79 KB   55/418 KB   53/79 KB   59/418 KB   53/79 KB   63/418 KB   53/79 KB   67/418 KB   53/79 KB   67/418 KB   57/79 KB   67/418 KB   60/79 KB   71/418 KB   60/79 KB   75/418 KB   60/79 KB   79/418 KB   60/79 KB   80/418 KB   60/79 KB   80/418 KB   64/79 KB   80/418 KB   68/79 KB   80/418 KB   72/79 KB   80/418 KB   76/79 KB   80/418 KB   79/79 KB                          Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/securevault/org.wso2.securevault/1.0.0-wso2v2/org.wso2.securevault-1.0.0-wso2v2.jar (79 KB at 6023.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar
+84/418 KB              88/418 KB   92/418 KB   96/418 KB   100/418 KB   104/418 KB   108/418 KB   109/418 KB   113/418 KB   117/418 KB   120/418 KB   124/418 KB   128/418 KB   132/418 KB   136/418 KB   136/418 KB   140/418 KB   144/418 KB   148/418 KB   152/418 KB   154/418 KB   158/418 KB   162/418 KB   165/418 KB   168/418 KB   172/418 KB   176/418 KB   180/418 KB   180/418 KB   184/418 KB   188/418 KB   192/418 KB   196/418 KB   198/418 KB   202/418 KB   206/418 KB   210/418 KB   212/418 KB   216/418 KB   220/418 KB   224/418 KB   228/418 KB   232/418 KB   236/418 KB   240/418 KB   244/418 KB   248/418 KB   249/418 KB   252/418 KB   256/418 KB   260/418 KB   264/418 KB   268/418 KB   272/418 KB   275/418 KB   279/418 KB   283/418 KB   287/418 KB   291/418 KB   295/418 KB   299/418 KB   303/418 KB   307/418 KB   311/418 KB   315/418 KB   319/418 KB   323/418 KB   327/418 KB   327/418 KB   331/418 KB   335/418 KB   339/418 KB   343/418 KB   347/418 KB   351/418 KB   4/34 KB   351/418 KB   4/34 KB   355/418 KB   4/34 KB   359/418 KB   8/34 KB   359/418 KB   8/34 KB   359/418 KB   12/34 KB   359/418 KB   13/34 KB   359/418 KB   17/34 KB   359/418 KB   17/34 KB   363/418 KB   21/34 KB   363/418 KB   21/34 KB   367/418 KB   25/34 KB   367/418 KB   25/34 KB   371/418 KB   29/34 KB   371/418 KB   29/34 KB   375/418 KB   33/34 KB   375/418 KB   33/34 KB   379/418 KB   34/34 KB   379/418 KB   34/34 KB   383/418 KB   34/34 KB   387/418 KB   34/34 KB   391/418 KB   34/34 KB   395/418 KB                           Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.0.2/geronimo-activation_1.1_spec-1.0.2.jar (34 KB at 1514.8 KB/sec)
+399/418 KB              Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.jar
+403/418 KB   407/418 KB   411/418 KB   415/418 KB   418/418 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-api/1.2.11/axiom-api-1.2.11.jar (418 KB at 18987.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar
+1/201 KB     5/201 KB   9/201 KB   13/201 KB   17/201 KB   21/201 KB   25/201 KB   29/201 KB   33/201 KB   37/201 KB   41/201 KB   45/201 KB   49/201 KB   53/201 KB   57/201 KB   61/201 KB   65/201 KB   67/201 KB   71/201 KB   75/201 KB   76/201 KB   80/201 KB   84/201 KB   88/201 KB   92/201 KB   96/201 KB   96/201 KB   96/201 KB   1/120 KB   96/201 KB   5/120 KB   96/201 KB   9/120 KB   96/201 KB   13/120 KB   96/201 KB   16/120 KB   96/201 KB   20/120 KB   96/201 KB   23/120 KB   96/201 KB   27/120 KB   96/201 KB   31/120 KB   96/201 KB   35/120 KB   96/201 KB   39/120 KB   96/201 KB   43/120 KB   96/201 KB   43/120 KB   96/201 KB   47/120 KB   96/201 KB   51/120 KB   96/201 KB   53/120 KB   96/201 KB   57/120 KB   96/201 KB   61/120 KB   96/201 KB   65/120 KB   96/201 KB   69/120 KB   96/201 KB   72/120 KB   96/201 KB   76/120 KB   96/201 KB   80/120 KB   96/201 KB   84/120 KB   96/201 KB   88/120 KB   96/201 KB   88/120 KB   96/201 KB   92/120 KB   96/201 KB   96/120 KB   96/201 KB   100/120 KB   98/201 KB   100/120 KB   98/201 KB   104/120 KB   98/201 KB   106/120 KB   98/201 KB   108/120 KB   98/201 KB   112/120 KB   102/201 KB   112/120 KB   102/201 KB   116/120 KB   106/201 KB   116/120 KB   106/201 KB   120/120 KB   110/201 KB   120/120 KB   110/201 KB   120/120 KB   114/201 KB   120/120 KB   118/201 KB   120/120 KB   122/201 KB   120/120 KB   124/201 KB   120/120 KB   125/201 KB                                          Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/ws/commons/axiom/axiom-impl/1.2.11/axiom-impl-1.2.11.jar (120 KB at 10867.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.14/log4j-1.2.14.jar
+127/201 KB   127/201 KB   4/81 KB   127/201 KB   7/81 KB   127/201 KB   11/81 KB   127/201 KB   15/81 KB   127/201 KB   19/81 KB   127/201 KB   23/81 KB   127/201 KB   27/81 KB   127/201 KB   31/81 KB   127/201 KB   35/81 KB   127/201 KB   39/81 KB   127/201 KB   43/81 KB   127/201 KB   44/81 KB   131/201 KB   44/81 KB   135/201 KB   44/81 KB   139/201 KB   44/81 KB   139/201 KB   48/81 KB   139/201 KB   52/81 KB   139/201 KB   56/81 KB   139/201 KB   59/81 KB   143/201 KB   59/81 KB   143/201 KB   63/81 KB   143/201 KB   67/81 KB   143/201 KB   68/81 KB   147/201 KB   68/81 KB   151/201 KB   68/81 KB   155/201 KB   68/81 KB   159/201 KB   68/81 KB   163/201 KB   68/81 KB   167/201 KB   68/81 KB   167/201 KB   72/81 KB   167/201 KB   76/81 KB   167/201 KB   80/81 KB   167/201 KB   81/81 KB   167/201 KB   4/222 KB   81/81 KB   167/201 KB   8/222 KB   81/81 KB   167/201 KB   12/222 KB   81/81 KB   167/201 KB   15/222 KB   81/81 KB                                       Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/osgi/org.eclipse.osgi.services/3.3.100.v20130513-1956/org.eclipse.osgi.services-3.3.100.v20130513-1956.jar (81 KB at 2123.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/jline/jline/0.9.94/jline-0.9.94.jar
+171/201 KB   15/222 KB              175/201 KB   15/222 KB   179/201 KB   15/222 KB   183/201 KB   15/222 KB   187/201 KB   15/222 KB   191/201 KB   15/222 KB   195/201 KB   15/222 KB   199/201 KB   15/222 KB   201/201 KB   15/222 KB                            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.6/geronimo-javamail_1.4_spec-1.6.jar (201 KB at 5409.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-lang/commons-lang/1.0/commons-lang-1.0.jar
+19/222 KB                23/222 KB   27/222 KB   31/222 KB   35/222 KB   39/222 KB   43/222 KB   47/222 KB   51/222 KB   55/222 KB   59/222 KB   59/222 KB   63/222 KB   67/222 KB   71/222 KB   72/222 KB   76/222 KB   79/222 KB   83/222 KB   87/222 KB   87/222 KB   91/222 KB   95/222 KB   99/222 KB   103/222 KB   107/222 KB   107/222 KB   108/222 KB   112/222 KB   116/222 KB   120/222 KB   124/222 KB   128/222 KB   132/222 KB   135/222 KB   136/222 KB   139/222 KB   143/222 KB   144/222 KB   148/222 KB   152/222 KB   156/222 KB   160/222 KB   163/222 KB   167/222 KB   171/222 KB   174/222 KB   178/222 KB   182/222 KB   186/222 KB   190/222 KB   194/222 KB   198/222 KB   198/222 KB   202/222 KB   206/222 KB   210/222 KB   210/222 KB   214/222 KB   218/222 KB   222/222 KB   222/222 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar (222 KB at 6924.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-io/commons-io/2.0/commons-io-2.0.jar
+4/512 KB     4/86 KB   4/512 KB   8/86 KB   4/512 KB   12/86 KB   4/512 KB   13/86 KB   4/512 KB   13/86 KB   8/512 KB   13/86 KB   12/512 KB   13/86 KB   16/512 KB   13/86 KB   20/512 KB   13/86 KB   24/512 KB   13/86 KB   28/512 KB   13/86 KB   32/512 KB   17/86 KB   32/512 KB   21/86 KB   32/512 KB   25/86 KB   32/512 KB   29/86 KB   32/512 KB   29/86 KB   32/512 KB   4/63 KB   29/86 KB   32/512 KB   8/63 KB   29/86 KB   32/512 KB   12/63 KB   29/86 KB   32/512 KB   13/63 KB   29/86 KB   32/512 KB   13/63 KB   29/86 KB   36/512 KB   13/63 KB   29/86 KB   40/512 KB   13/63 KB   29/86 KB   44/512 KB   13/63 KB   29/86 KB   48/512 KB   13/63 KB   29/86 KB   52/512 KB   13/63 KB   29/86 KB   56/512 KB   13/63 KB   29/86 KB   60/512 KB   13/63 KB   29/86 KB   64/512 KB   13/63 KB   29/86 KB   65/512 KB   13/63 KB   33/86 KB   65/512 KB   13/63 KB   37/86 KB   65/512 KB   13/63 KB   41/86 KB   65/512 KB   13/63 KB   45/86 KB   65/512 KB   13/63 KB   48/86 KB   65/512 KB   17/63 KB   48/86 KB   65/512 KB   21/63 KB   48/86 KB   65/512 KB   25/63 KB   48/86 KB   65/512 KB   29/63 KB   48/86 KB   65/512 KB   33/63 KB   48/86 KB   65/512 KB   35/63 KB   48/86 KB   65/512 KB   35/63 KB   48/86 KB   69/512 KB   35/63 KB   48/86 KB   73/512 KB   35/63 KB   48/86 KB   77/512 KB   35/63 KB   48/86 KB   81/512 KB   35/63 KB   48/86 KB   85/512 KB   35/63 KB   48/86 KB   85/512 KB   35/63 KB   52/86 KB   85/512 KB   39/63 KB   52/86 KB   85/512 KB   39/63 KB   56/86 KB   85/512 KB   43/63 KB   56/86 KB   89/512 KB   43/63 KB   60/86 KB   93/512 KB   43/63 KB   56/86 KB   85/512 KB   43/63 KB   60/86 KB   93/512 KB   43/63 KB   60/86 KB   97/512 KB   43/63 KB   64/86 KB   97/512 KB   43/63 KB   64/86 KB   101/512 KB   43/63 KB   68/86 KB   101/512 KB   43/63 KB   68/86 KB   105/512 KB   43/63 KB   72/86 KB   107/512 KB   43/63 KB   72/86 KB   107/512 KB   43/63 KB   73/86 KB   107/512 KB   47/63 KB   73/86 KB   107/512 KB   51/63 KB   73/86 KB   107/512 KB   55/63 KB   73/86 KB   107/512 KB   59/63 KB   73/86 KB   107/512 KB   59/63 KB   73/86 KB   107/512 KB   62/63 KB   73/86 KB   107/512 KB   62/63 KB   75/86 KB   107/512 KB   62/63 KB   75/86 KB   111/512 KB   62/63 KB   76/86 KB   111/512 KB   62/63 KB   76/86 KB   115/512 KB   63/63 KB   76/86 KB   115/512 KB   63/63 KB   76/86 KB   119/512 KB   63/63 KB   76/86 KB   123/512 KB   63/63 KB   76/86 KB   127/512 KB   63/63 KB   76/86 KB   131/512 KB   63/63 KB   76/86 KB   135/512 KB   80/86 KB   135/512 KB              80/86 KB   139/512 KB   84/86 KB   139/512 KB   84/86 KB   140/512 KB   86/86 KB   140/512 KB   86/86 KB   144/512 KB   86/86 KB   148/512 KB                           152/512 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/jline/jline/0.9.94/jline-0.9.94.jar (86 KB at 5685.2 KB/sec)
+156/512 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar
+160/512 KB   164/512 KB   168/512 KB   171/512 KB                                      175/512 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-lang/commons-lang/1.0/commons-lang-1.0.jar (63 KB at 4157.6 KB/sec)
+179/512 KB   183/512 KB   187/512 KB   191/512 KB   195/512 KB   199/512 KB   203/512 KB   207/512 KB   207/512 KB   211/512 KB   215/512 KB   219/512 KB   223/512 KB   227/512 KB   231/512 KB   235/512 KB   238/512 KB   239/512 KB   243/512 KB   247/512 KB   251/512 KB   251/512 KB   255/512 KB   259/512 KB   263/512 KB   267/512 KB   271/512 KB   271/512 KB   275/512 KB   279/512 KB   283/512 KB   287/512 KB   291/512 KB   295/512 KB   299/512 KB   303/512 KB   307/512 KB   311/512 KB   314/512 KB   1/359 KB   314/512 KB   5/359 KB   314/512 KB   9/359 KB   314/512 KB   13/359 KB   314/512 KB   17/359 KB   314/512 KB   17/359 KB   318/512 KB   21/359 KB   318/512 KB   21/359 KB   322/512 KB   24/359 KB   322/512 KB   24/359 KB   326/512 KB   24/359 KB   330/512 KB   24/359 KB   334/512 KB   24/359 KB   338/512 KB   28/359 KB   338/512 KB   28/359 KB   342/512 KB   32/359 KB   342/512 KB   32/359 KB   346/512 KB   36/359 KB   346/512 KB   36/359 KB   350/512 KB   36/359 KB   350/512 KB   36/359 KB   354/512 KB   36/359 KB   358/512 KB   36/359 KB   359/512 KB   40/359 KB   359/512 KB   44/359 KB   359/512 KB   44/359 KB   363/512 KB   45/359 KB   363/512 KB   45/359 KB   367/512 KB   45/359 KB   371/512 KB   45/359 KB   375/512 KB   49/359 KB   375/512 KB   53/359 KB   375/512 KB   57/359 KB   379/512 KB   57/359 KB   379/512 KB   57/359 KB   383/512 KB   60/359 KB   383/512 KB   60/359 KB   387/512 KB   60/359 KB   391/512 KB   4/30 KB   60/359 KB   391/512 KB   4/30 KB   60/359 KB   395/512 KB   4/30 KB   61/359 KB   395/512 KB   8/30 KB   61/359 KB   395/512 KB   8/30 KB   61/359 KB   399/512 KB   12/30 KB   61/359 KB   399/512 KB   13/30 KB   61/359 KB   399/512 KB   13/30 KB   64/359 KB   399/512 KB   13/30 KB   64/359 KB   403/512 KB   13/30 KB   64/359 KB   407/512 KB   13/30 KB   64/359 KB   411/512 KB   13/30 KB   64/359 KB   415/512 KB   13/30 KB   65/359 KB   415/512 KB   17/30 KB   65/359 KB   415/512 KB   17/30 KB   68/359 KB   419/512 KB   17/30 KB   68/359 KB   415/512 KB   17/30 KB   68/359 KB   423/512 KB   17/30 KB   68/359 KB   423/512 KB   17/30 KB   68/359 KB   427/512 KB   17/30 KB   72/359 KB   427/512 KB   21/30 KB   72/359 KB   427/512 KB   21/30 KB   76/359 KB   427/512 KB   21/30 KB   76/359 KB   427/512 KB   21/30 KB   80/359 KB   427/512 KB   21/30 KB   84/359 KB   427/512 KB   25/30 KB   84/359 KB   427/512 KB   25/30 KB   87/359 KB   427/512 KB   25/30 KB   87/359 KB   431/512 KB   29/30 KB   87/359 KB   431/512 KB   29/30 KB   87/359 KB   435/512 KB   30/30 KB   87/359 KB   435/512 KB   30/30 KB   87/359 KB   439/512 KB   30/30 KB   87/359 KB   443/512 KB   30/30 KB   87/359 KB   447/512 KB   30/30 KB   87/359 KB   451/512 KB   30/30 KB   87/359 KB   455/512 KB   30/30 KB   87/359 KB   457/512 KB                                       Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar (30 KB at 2938.0 KB/sec)
+91/359 KB   457/512 KB              91/359 KB   461/512 KB   95/359 KB   461/512 KB   95/359 KB   465/512 KB   95/359 KB   469/512 KB   99/359 KB   469/512 KB   99/359 KB   473/512 KB   103/359 KB   473/512 KB   103/359 KB   477/512 KB   107/359 KB   477/512 KB   107/359 KB   481/512 KB   108/359 KB   481/512 KB   108/359 KB   485/512 KB   108/359 KB   489/512 KB   108/359 KB   493/512 KB   112/359 KB   493/512 KB   116/359 KB   493/512 KB   116/359 KB   497/512 KB   118/359 KB   497/512 KB   118/359 KB   501/512 KB   118/359 KB   505/512 KB   122/359 KB   505/512 KB   122/359 KB   509/512 KB   126/359 KB   509/512 KB   126/359 KB   512/512 KB   130/359 KB   512/512 KB   131/359 KB   512/512 KB   135/359 KB   512/512 KB   139/359 KB   512/512 KB   140/359 KB   512/512 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar (512 KB at 12189.0 KB/sec)
+144/359 KB                148/359 KB   152/359 KB   156/359 KB   160/359 KB   162/359 KB   163/359 KB   167/359 KB   171/359 KB   175/359 KB   179/359 KB   183/359 KB   187/359 KB   191/359 KB   194/359 KB   195/359 KB   199/359 KB   203/359 KB   207/359 KB   211/359 KB   215/359 KB   219/359 KB   223/359 KB   227/359 KB   227/359 KB   227/359 KB   4/156 KB   227/359 KB   8/156 KB   227/359 KB   12/156 KB   227/359 KB   13/156 KB   231/359 KB   13/156 KB   235/359 KB   13/156 KB   239/359 KB   13/156 KB   243/359 KB   13/156 KB   247/359 KB   13/156 KB   251/359 KB   13/156 KB   255/359 KB   13/156 KB   259/359 KB   13/156 KB   262/359 KB   13/156 KB   262/359 KB   17/156 KB   262/359 KB   21/156 KB   262/359 KB   25/156 KB   262/359 KB   29/156 KB   262/359 KB   33/156 KB   262/359 KB   35/156 KB   266/359 KB   35/156 KB   270/359 KB   35/156 KB   274/359 KB   35/156 KB   278/359 KB   35/156 KB   282/359 KB   35/156 KB   286/359 KB   35/156 KB   289/359 KB   35/156 KB   289/359 KB   39/156 KB   289/359 KB   43/156 KB   289/359 KB   47/156 KB   289/359 KB   51/156 KB   289/359 KB   52/156 KB   293/359 KB   52/156 KB   297/359 KB   52/156 KB   297/359 KB   53/156 KB   301/359 KB   53/156 KB   305/359 KB   53/156 KB   309/359 KB   53/156 KB   313/359 KB   53/156 KB   317/359 KB   53/156 KB   321/359 KB   53/156 KB   321/359 KB   57/156 KB   321/359 KB   61/156 KB   321/359 KB   65/156 KB   321/359 KB   69/156 KB   321/359 KB   73/156 KB   321/359 KB   73/156 KB   325/359 KB   73/156 KB   329/359 KB   73/156 KB   333/359 KB   73/156 KB   333/359 KB   77/156 KB   333/359 KB   79/156 KB   337/359 KB   79/156 KB   341/359 KB   79/156 KB   345/359 KB   79/156 KB   349/359 KB   79/156 KB   353/359 KB   79/156 KB   353/359 KB   83/156 KB   353/359 KB   87/156 KB   353/359 KB   91/156 KB   353/359 KB   95/156 KB   353/359 KB   99/156 KB   353/359 KB   103/156 KB   353/359 KB   107/156 KB   353/359 KB   107/156 KB   357/359 KB   107/156 KB   359/359 KB   107/156 KB   359/359 KB   111/156 KB   359/359 KB   115/156 KB   359/359 KB   119/156 KB   359/359 KB   120/156 KB   359/359 KB   124/156 KB   359/359 KB   128/156 KB   359/359 KB   132/156 KB   359/359 KB   134/156 KB   359/359 KB   135/156 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/log4j/log4j/1.2.14/log4j-1.2.14.jar (359 KB at 8752.0 KB/sec)
+139/156 KB                143/156 KB   147/156 KB   151/156 KB   155/156 KB   156/156 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-io/commons-io/2.0/commons-io-2.0.jar (156 KB at 5016.2 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.securevault ---
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.securevault ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.securevault ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.securevault ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.securevault ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.securevault ---
+[WARNING] Class org.wso2.carbon.securevault.internal.SecretManagerInitializerComponent is using deprecated javadoc tags  at file:/home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/src/main/java/org/wso2/carbon/securevault/internal/SecretManagerInitializerComponent.java:32
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.securevault ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.securevault ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.securevault ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.securevault ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.securevault ---
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/target/org.wso2.carbon.securevault-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.securevault/4.4.6-SNAPSHOT/org.wso2.carbon.securevault-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.securevault/pom.xml to /home/wso2/carbon-kernel/../repo123/org/wso2/carbon/org.wso2.carbon.securevault/4.4.6-SNAPSHOT/org.wso2.carbon.securevault-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.securevault ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Base 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/equinox/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+             Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/equinox/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+419/419 B                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/eclipse/equinox/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (419 B at 29.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/eclipse/equinox/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+            
