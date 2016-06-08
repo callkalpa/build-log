@@ -453,3 +453,66 @@ Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apach
 1/3 KB   3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (3 KB at 3.8 KB/sec)
 Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
          Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (2 KB at 2.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (2 KB at 3.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom (2 KB at 3.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (3 KB at 5.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+3/4 KB   4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (4 KB at 5.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+880/880 B               Downloaded: http://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom (880 B at 1.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (2 KB at 3.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+4/8 KB   8/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom (8 KB at 13.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/commons/commons-parent/11/commons-parent-11.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+3/25 KB   7/25 KB   11/25 KB   15/25 KB   17/25 KB   19/25 KB   20/25 KB   21/25 KB   24/25 KB   25/25 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom (25 KB at 42.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom (2 KB at 2.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom (3 KB at 3.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-monitor/2.2.0/maven-monitor-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.0/maven-monitor-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.0/maven-monitor-2.2.0.pom (2 KB at 2.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3 KB at 5.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+3/7 KB   7/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (7 KB at 12.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+2/9 KB   6/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom (9 KB at 15.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+4/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (6 KB at 9.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (3 KB at 3.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+3/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (5 KB at 7.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+3/9 KB   7/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (9 KB at 15.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+4/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom (7 KB at 12.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom (2 KB at 3.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
