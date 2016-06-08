@@ -2159,4 +2159,10 @@ Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codeh
 3/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (6 KB at 5.2 KB/sec)
 Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
          Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
-1/10 KB   5/10 KB   9/10 KB   10/10 KB   
+1/10 KB   5/10 KB   9/10 KB   10/10 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (10 KB at 18.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom (2 KB at 2.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.pom (2 KB at 3.8 KB/sec)
