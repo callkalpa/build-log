@@ -3536,3 +3536,55 @@ Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-pool
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.user.core ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 127 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/classes
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/common/AbstractUserStoreManager.java: Some input files use or override a deprecated API.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/common/AbstractUserStoreManager.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/common/AbstractUserStoreManager.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/common/AbstractUserStoreManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.user.core ---
+[WARNING] Class org.wso2.carbon.user.core.internal.UMListenerServiceComponent is using deprecated javadoc tags  at file:/home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/internal/UMListenerServiceComponent.java:33
+[WARNING] Class org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent is using deprecated javadoc tags  at file:/home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/main/java/org/wso2/carbon/user/core/internal/UserStoreMgtDSComponent.java:43
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 4 MetaType Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 2 entries.
+[INFO] Generating 2 Service Component Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.user.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 0 resource
+[INFO] Copying 7 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (copy-resources) @ org.wso2.carbon.user.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.user.core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/test-classes
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/test/java/org/wso2/carbon/user/core/jdbc/ReadOnlyJDBCRealmTest.java: Some input files use or override a deprecated API.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/test/java/org/wso2/carbon/user/core/jdbc/ReadOnlyJDBCRealmTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/test/java/org/wso2/carbon/user/core/claim/AdvancedClaimManagerTest.java: /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/test/java/org/wso2/carbon/user/core/claim/AdvancedClaimManagerTest.java uses unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/src/test/java/org/wso2/carbon/user/core/claim/AdvancedClaimManagerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.user.core ---
+[INFO] Surefire report directory: /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/surefire-reports
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/surefire/surefire-junit4/2.18/surefire-junit4-2.18.pom
+3/3 KB                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/surefire/surefire-junit4/2.18/surefire-junit4-2.18.pom (3 KB at 202.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/surefire/surefire-junit4/2.18/surefire-junit4-2.18.jar
+4/67 KB   8/67 KB   12/67 KB   16/67 KB   20/67 KB   24/67 KB   28/67 KB   32/67 KB   36/67 KB   40/67 KB   44/67 KB   48/67 KB   52/67 KB   56/67 KB   60/67 KB   64/67 KB   67/67 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/surefire/surefire-junit4/2.18/surefire-junit4-2.18.jar (67 KB at 5527.0 KB/sec)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.user.core.authorization.HybridRoleAuthorizationTest
+log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 sec - in org.wso2.carbon.user.core.authorization.HybridRoleAuthorizationTest
+Running org.wso2.carbon.user.core.authorization.AuthorizationCacheTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in org.wso2.carbon.user.core.authorization.AuthorizationCacheTest
+Running org.wso2.carbon.user.core.authman.AdvancedPermissionTreeTest
+Jun 08, 2016 1:50:52 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
