@@ -4576,3 +4576,11 @@ log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.inter
 log4j:WARN Please initialize the log4j system properly.
 Jun 08, 2016 10:24:13 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
 WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Jun 08, 2016 10:36:38 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 80
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 748.097 sec - in org.wso2.carbon.registry.core.test.jdbc.RenameTest
+Running org.wso2.carbon.registry.core.test.jdbc.CopyTest
+log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
+log4j:WARN Please initialize the log4j system properly.
+Jun 08, 2016 10:36:42 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
