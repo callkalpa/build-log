@@ -3803,3 +3803,26 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Deleting /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/target
 [INFO] 
 [INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.operation.mgt ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.operation.mgt ---
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.operation.mgt ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/target/classes
+[INFO] /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/src/main/java/org/wso2/carbon/operation/mgt/OperationAdmin.java: /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/src/main/java/org/wso2/carbon/operation/mgt/OperationAdmin.java uses or overrides a deprecated API.
+[INFO] /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/src/main/java/org/wso2/carbon/operation/mgt/OperationAdmin.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.operation.mgt ---
+[WARNING] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-deployment/components/service-mgt/operation-mgt/org.wso2.carbon.operation.mgt/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.operation.mgt ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.operation.mgt ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.operation.mgt ---
