@@ -477,4 +477,13 @@ Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apach
 4/5 KB       5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/axis2/axis2-aar-maven-plugin/1.6.2/axis2-aar-maven-plugin-1.6.2.pom (5 KB at 8.2 KB/sec)
 Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/axis2/axis2-parent/1.6.2/axis2-parent-1.6.2.pom
          Downloading: http://repo.maven.apache.org/maven2/org/apache/axis2/axis2-parent/1.6.2/axis2-parent-1.6.2.pom
-3/46 KB   7/46 KB   11/46 KB   15/46 KB   19/46 KB   23/46 KB   27/46 KB   31/46 KB   35/46 KB   35/46 KB   36/46 KB   37/46 KB   39/46 KB   40/46 KB   41/46 KB   44/46 KB   45/46 KB   
+3/46 KB   7/46 KB   11/46 KB   15/46 KB   19/46 KB   23/46 KB   27/46 KB   31/46 KB   35/46 KB   35/46 KB   36/46 KB   37/46 KB   39/46 KB   40/46 KB   41/46 KB   44/46 KB   45/46 KB   46/46 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/axis2/axis2-parent/1.6.2/axis2-parent-1.6.2.pom (46 KB at 35.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/apache/8/apache-8.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/8/apache-8.pom
+2/14 KB    6/14 KB   10/14 KB   14/14 KB   14/14 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/8/apache-8.pom (14 KB at 27.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+3/3 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (3 KB at 4.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/junit/junit/4.4/junit-4.4.pom
+         Downloading: http://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2/2 KB   
