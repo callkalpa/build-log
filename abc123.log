@@ -1,0 +1,488 @@
+[INFO] Scanning for projects...
+Downloading: http://repo.maven.apache.org/maven2/org/wso2/wso2/1/wso2-1.pom
+4/18 KB   8/18 KB   12/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: http://repo.maven.apache.org/maven2/org/wso2/wso2/1/wso2-1.pom (18 KB at 14.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.pom
+4/6 KB     6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.pom (6 KB at 10.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-providers/2.1/wagon-providers-2.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-providers/2.1/wagon-providers-2.1.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-providers/2.1/wagon-providers-2.1.pom (3 KB at 5.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon/2.1/wagon-2.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.1/wagon-2.1.pom
+4/16 KB   8/16 KB   12/16 KB   16/16 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.1/wagon-2.1.pom (16 KB at 28.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-parent/21/maven-parent-21.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+4/26 KB    8/26 KB   12/26 KB   16/26 KB   20/26 KB   24/26 KB   26/26 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 KB at 47.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/apache/10/apache-10.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 KB at 26.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.pom
+4/4 KB              Downloaded: http://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.pom (4 KB at 6.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom (5 KB at 8.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+4/4 KB   4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4 KB at 7.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+3/9 KB   7/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (9 KB at 15.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (9 KB at 15.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.pom (2 KB at 3.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom
+726/726 B               Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom (726 B at 1.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom (2 KB at 2.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (3 KB at 4.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (9 KB at 14.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-provider-api/2.1/wagon-provider-api-2.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.1/wagon-provider-api-2.1.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.1/wagon-provider-api-2.1.pom (2 KB at 3.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar
+                                             Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.jar
+Downloading: http://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.jar
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar
+1/29 KB   5/29 KB   9/29 KB   13/29 KB   17/29 KB   21/29 KB   25/29 KB   29/29 KB   29/29 KB   1/25 KB   29/29 KB   5/25 KB   29/29 KB   9/25 KB   29/29 KB   13/25 KB   29/29 KB   13/25 KB   3/221 KB   29/29 KB   13/25 KB   7/221 KB   29/29 KB   13/25 KB   11/221 KB   29/29 KB   13/25 KB   13/221 KB   29/29 KB   13/25 KB   13/221 KB   29/29 KB   13/25 KB   4/209 KB   13/221 KB   29/29 KB   13/25 KB   8/209 KB   13/221 KB   29/29 KB   13/25 KB   12/209 KB   13/221 KB   4/12 KB   29/29 KB   13/25 KB   12/209 KB   13/221 KB   4/12 KB   29/29 KB   13/25 KB   13/209 KB   13/221 KB   8/12 KB   29/29 KB   13/25 KB   13/209 KB   13/221 KB   12/12 KB   29/29 KB   13/25 KB   13/209 KB   13/221 KB   12/12 KB   29/29 KB   13/25 KB   13/209 KB                                                            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/2.1/wagon-ssh-2.1.jar (29 KB at 50.9 KB/sec)
+13/221 KB   12/12 KB   16/25 KB   13/209 KB              13/221 KB   12/12 KB   20/25 KB   13/209 KB   13/221 KB   12/12 KB   24/25 KB   13/209 KB   13/221 KB   12/12 KB   25/25 KB   13/209 KB   13/221 KB   12/12 KB   25/25 KB   15/209 KB   13/221 KB   12/12 KB   25/25 KB   19/209 KB   13/221 KB   12/12 KB   25/25 KB   23/209 KB   13/221 KB   12/12 KB   25/25 KB   27/209 KB   13/221 KB   12/12 KB   25/25 KB   31/209 KB   17/221 KB   12/12 KB   25/25 KB   31/209 KB   17/221 KB   12/12 KB   25/25 KB   35/209 KB   21/221 KB   12/12 KB   25/25 KB   35/209 KB   21/221 KB   12/12 KB   25/25 KB   39/209 KB   25/221 KB   12/12 KB   25/25 KB   39/209 KB   25/221 KB   12/12 KB   25/25 KB   40/209 KB   29/221 KB   12/12 KB   25/25 KB   40/209 KB   33/221 KB   12/12 KB   25/25 KB   40/209 KB   37/221 KB   12/12 KB   25/25 KB   40/209 KB   40/221 KB   12/12 KB   25/25 KB   40/209 KB                                                 Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar (12 KB at 14.3 KB/sec)
+                                              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/2.1/wagon-ssh-common-2.1.jar (25 KB at 23.1 KB/sec)
+40/221 KB   44/209 KB                         40/221 KB   48/209 KB   40/221 KB   52/209 KB   41/221 KB   52/209 KB   41/221 KB   56/209 KB   45/221 KB   56/209 KB   49/221 KB   56/209 KB   49/221 KB   60/209 KB   53/221 KB   60/209 KB   53/221 KB   64/209 KB   57/221 KB   64/209 KB   57/221 KB   68/209 KB   61/221 KB   68/209 KB   65/221 KB   72/209 KB   65/221 KB   72/209 KB   69/221 KB   72/209 KB   69/221 KB   76/209 KB   73/221 KB   76/209 KB   73/221 KB   80/209 KB   77/221 KB   80/209 KB   77/221 KB   81/209 KB   81/221 KB   81/209 KB   85/221 KB   81/209 KB   89/221 KB   81/209 KB   93/221 KB   81/209 KB   93/221 KB   81/209 KB   93/221 KB   85/209 KB   95/221 KB   85/209 KB   99/221 KB   85/209 KB   99/221 KB   89/209 KB   99/221 KB   93/209 KB   103/221 KB   93/209 KB   103/221 KB   97/209 KB   107/221 KB   97/209 KB   107/221 KB   101/209 KB   111/221 KB   101/209 KB   111/221 KB   105/209 KB   115/221 KB   105/209 KB   115/221 KB   109/209 KB   119/221 KB   109/209 KB   119/221 KB   113/209 KB   123/221 KB   113/209 KB   123/221 KB   117/209 KB   127/221 KB   117/209 KB   127/221 KB   121/209 KB   131/221 KB   121/209 KB   131/221 KB   125/209 KB   135/221 KB   125/209 KB   135/221 KB   129/209 KB   139/221 KB   129/209 KB   139/221 KB   133/209 KB   143/221 KB   133/209 KB   143/221 KB   137/209 KB   147/221 KB   137/209 KB   147/221 KB   141/209 KB   151/221 KB   141/209 KB   151/221 KB   145/209 KB   155/221 KB   145/209 KB   155/221 KB   149/209 KB   155/221 KB   153/209 KB   159/221 KB   153/209 KB   159/221 KB   157/209 KB   163/221 KB   157/209 KB   163/221 KB   161/209 KB   163/221 KB   165/209 KB   167/221 KB   165/209 KB   167/221 KB   169/209 KB   171/221 KB   169/209 KB   171/221 KB   173/209 KB   175/221 KB   173/209 KB   175/221 KB   177/209 KB   179/221 KB   177/209 KB   179/221 KB   181/209 KB   183/221 KB   181/209 KB   183/221 KB   184/209 KB   187/221 KB   184/209 KB   191/221 KB   184/209 KB   195/221 KB   184/209 KB   199/221 KB   184/209 KB   200/221 KB   184/209 KB   200/221 KB   187/209 KB   200/221 KB   188/209 KB   200/221 KB   191/209 KB   200/221 KB   195/209 KB   200/221 KB   199/209 KB   200/221 KB   203/209 KB   200/221 KB   207/209 KB   200/221 KB   209/209 KB   202/221 KB   209/209 KB   206/221 KB   209/209 KB   210/221 KB   209/209 KB   214/221 KB   209/209 KB   218/221 KB   209/209 KB   221/221 KB   209/209 KB                             Downloaded: http://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.44-1/jsch-0.1.44-1.jar (209 KB at 111.5 KB/sec)
+                          Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (221 KB at 117.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/2.3.5/maven-bundle-plugin-2.3.5.pom
+4/4 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/2.3.5/maven-bundle-plugin-2.3.5.pom (4 KB at 205.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix-parent/2.1/felix-parent-2.1.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix-parent/2.1/felix-parent-2.1.pom (10 KB at 277.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/9/apache-9.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/9/apache-9.pom (15 KB at 510.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.pom (2 KB at 70.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.bundlerepository/1.6.6/org.apache.felix.bundlerepository-1.6.6.pom
+4/6 KB   6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.bundlerepository/1.6.6/org.apache.felix.bundlerepository-1.6.6.pom (6 KB at 287.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.pom
+193/193 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.pom (193 B at 4.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/easymock/easymock/2.4/easymock-2.4.pom
+4/6 KB      6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/easymock/easymock/2.4/easymock-2.4.pom (6 KB at 179.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-core/2.0.7/maven-core-2.0.7.pom
+4/7 KB   7/7 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-core/2.0.7/maven-core-2.0.7.pom (7 KB at 361.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.7/maven-2.0.7.pom
+4/11 KB   8/11 KB   11/11 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.7/maven-2.0.7.pom (11 KB at 515.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/5/maven-parent-5.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 KB at 992.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/3/apache-3.pom
+4/4 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/3/apache-3.pom (4 KB at 167.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.7/maven-settings-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.7/maven-settings-2.0.7.pom (2 KB at 139.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.7/maven-model-2.0.7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.7/maven-model-2.0.7.pom (3 KB at 175.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (2 KB at 133.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom (9 KB at 515.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom (4 KB at 214.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+492/492 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom (492 B at 24.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+4/6 KB      6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom (6 KB at 400.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/junit/junit/3.8.1/junit-3.8.1.pom
+998/998 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 51.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+4/7 KB      7/7 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (7 KB at 334.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (4 KB at 179.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.7/maven-plugin-parameter-documenter-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.7/maven-plugin-parameter-documenter-2.0.7.pom (2 KB at 103.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting-api/2.0.7/maven-reporting-api-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting-api/2.0.7/maven-reporting-api-2.0.7.pom (2 KB at 114.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting/2.0.7/maven-reporting-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting/2.0.7/maven-reporting-2.0.7.pom (2 KB at 87.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+424/424 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 23.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+4/4 KB               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (4 KB at 166.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.7/maven-profile-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.7/maven-profile-2.0.7.pom (2 KB at 84.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.7/maven-artifact-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.7/maven-artifact-2.0.7.pom (2 KB at 102.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.7/maven-repository-metadata-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.7/maven-repository-metadata-2.0.7.pom (2 KB at 120.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-error-diagnostics/2.0.7/maven-error-diagnostics-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-error-diagnostics/2.0.7/maven-error-diagnostics-2.0.7.pom (2 KB at 138.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.7/maven-project-2.0.7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.7/maven-project-2.0.7.pom (3 KB at 117.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.7/maven-artifact-manager-2.0.7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.7/maven-artifact-manager-2.0.7.pom (3 KB at 160.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.7/maven-plugin-registry-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.7/maven-plugin-registry-2.0.7.pom (2 KB at 86.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-cli/commons-cli/1.0/commons-cli-1.0.pom (3 KB at 82.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.pom (2 KB at 118.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-descriptor/2.0.7/maven-plugin-descriptor-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-descriptor/2.0.7/maven-plugin-descriptor-2.0.7.pom (2 KB at 131.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+4/7 KB   7/7 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7 KB at 346.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-monitor/2.0.7/maven-monitor-2.0.7.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-monitor/2.0.7/maven-monitor-2.0.7.pom (2 KB at 53.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/classworlds/classworlds/1.1/classworlds-1.1.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/classworlds/classworlds/1.1/classworlds-1.1.pom (4 KB at 162.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom (4 KB at 183.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (10 KB at 414.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/16/maven-parent-16.pom
+4/23 KB    8/23 KB   12/23 KB   16/23 KB   20/23 KB   23/23 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 KB at 988.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/7/apache-7.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/7/apache-7.pom (15 KB at 828.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (2 KB at 81.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9 KB at 441.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3 KB at 141.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom (2 KB at 120.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom
+4/6 KB   6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom (6 KB at 133.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+4/17 KB   7/17 KB   11/17 KB   15/17 KB   17/17 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom (17 KB at 705.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+4/4 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (4 KB at 130.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+4/17 KB   6/17 KB   10/17 KB   14/17 KB   17/17 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 KB at 818.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom (2 KB at 50.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+890/890 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 86.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+3/3 KB               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (3 KB at 309.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+4/16 KB   8/16 KB   12/16 KB   16/16 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom (16 KB at 794.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.pom
+4/4 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.pom (4 KB at 220.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom (4 KB at 189.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/8/maven-parent-8.pom
+4/24 KB   8/24 KB   12/24 KB   16/24 KB   20/24 KB   24/24 KB   24/24 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 KB at 1473.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/4/apache-4.pom
+4/5 KB     5/5 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/apache/4/apache-4.pom (5 KB at 219.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (3 KB at 126.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+4/12 KB   8/12 KB   12/12 KB   12/12 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (12 KB at 621.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/6/maven-parent-6.pom
+4/20 KB    8/20 KB   12/20 KB   16/20 KB   20/20 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/6/maven-parent-6.pom (20 KB at 1398.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (3 KB at 105.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom (4 KB at 219.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (3 KB at 122.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (2 KB at 104.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (3 KB at 175.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (2 KB at 88.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (2 KB at 83.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (2 KB at 130.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom (4 KB at 179.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/2.3.5/maven-bundle-plugin-2.3.5.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.bundlerepository/1.6.6/org.apache.felix.bundlerepository-1.6.6.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/easymock/easymock/2.4/easymock-2.4.jar
+4/120 KB   4/160 KB   4/120 KB   4/160 KB   4/120 KB   8/160 KB   8/120 KB   8/160 KB   8/120 KB   12/160 KB   12/120 KB   12/160 KB   12/120 KB   13/160 KB   16/120 KB   13/160 KB   20/120 KB   13/160 KB   20/120 KB   17/160 KB   24/120 KB   17/160 KB   24/120 KB   21/160 KB   28/120 KB   21/160 KB   28/120 KB   25/160 KB   32/120 KB   25/160 KB   32/120 KB   29/160 KB   35/120 KB   29/160 KB   35/120 KB   33/160 KB   35/120 KB   36/160 KB   35/120 KB   40/160 KB   39/120 KB   40/160 KB   39/120 KB   44/160 KB   43/120 KB   48/160 KB   43/120 KB   48/160 KB   43/120 KB   52/160 KB   47/120 KB   52/160 KB   47/120 KB   52/160 KB   51/120 KB   52/160 KB   55/120 KB   52/160 KB   58/120 KB   52/160 KB   58/120 KB   56/160 KB   62/120 KB   56/160 KB   62/120 KB   60/160 KB   66/120 KB   60/160 KB   66/120 KB   64/160 KB   70/120 KB   64/160 KB   70/120 KB   68/160 KB   70/120 KB   68/160 KB   70/120 KB   71/160 KB   74/120 KB   71/160 KB   74/120 KB   72/160 KB   78/120 KB   72/160 KB   78/120 KB   72/160 KB   78/120 KB   75/160 KB   78/120 KB   77/160 KB   78/120 KB   81/160 KB   78/120 KB   85/160 KB   82/120 KB   85/160 KB   82/120 KB   87/160 KB   86/120 KB   87/160 KB   86/120 KB   91/160 KB   90/120 KB   91/160 KB   90/120 KB   95/160 KB   94/120 KB   95/160 KB   94/120 KB   96/160 KB   98/120 KB   96/160 KB   98/120 KB   100/160 KB   102/120 KB   100/160 KB   102/120 KB   104/160 KB   105/120 KB   104/160 KB   105/120 KB   108/160 KB   105/120 KB   112/160 KB   105/120 KB   112/160 KB   1/80 KB   105/120 KB   112/160 KB   1/80 KB   109/120 KB   116/160 KB   5/80 KB   109/120 KB   116/160 KB   1/80 KB   109/120 KB   116/160 KB   5/80 KB   113/120 KB   116/160 KB   9/80 KB   113/120 KB   116/160 KB   9/80 KB   113/120 KB   120/160 KB   9/80 KB   117/120 KB   120/160 KB   13/80 KB   117/120 KB   120/160 KB   13/80 KB   117/120 KB   124/160 KB   13/80 KB   120/120 KB   124/160 KB   13/80 KB   120/120 KB   124/160 KB                                        Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/2.3.5/maven-bundle-plugin-2.3.5.jar (120 KB at 4581.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting-api/2.0.7/maven-reporting-api-2.0.7.jar
+13/80 KB   126/160 KB                15/80 KB   126/160 KB   17/80 KB   126/160 KB   17/80 KB   130/160 KB   21/80 KB   130/160 KB   21/80 KB   134/160 KB   25/80 KB   138/160 KB   25/80 KB   138/160 KB   29/80 KB   138/160 KB   29/80 KB   142/160 KB   33/80 KB   142/160 KB   33/80 KB   146/160 KB   33/80 KB   146/160 KB   33/80 KB   150/160 KB   33/80 KB   151/160 KB   33/80 KB   155/160 KB   35/80 KB   155/160 KB   35/80 KB   159/160 KB   35/80 KB   160/160 KB   39/80 KB   160/160 KB                           43/80 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar (160 KB at 5912.3 KB/sec)
+47/80 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+49/80 KB   53/80 KB   57/80 KB   59/80 KB   63/80 KB   67/80 KB   71/80 KB   75/80 KB   79/80 KB   80/80 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/easymock/easymock/2.4/easymock-2.4.jar (80 KB at 2829.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/junit/junit/3.8.1/junit-3.8.1.jar
+1/165 KB   5/165 KB   9/165 KB   13/165 KB   17/165 KB   21/165 KB   25/165 KB   29/165 KB   33/165 KB   33/165 KB   37/165 KB   41/165 KB   45/165 KB   49/165 KB   53/165 KB   57/165 KB   4/664 KB   57/165 KB   4/664 KB   57/165 KB   8/664 KB   57/165 KB   12/664 KB   57/165 KB   13/664 KB   57/165 KB   13/664 KB   61/165 KB   13/664 KB   65/165 KB   17/664 KB   65/165 KB   17/664 KB   69/165 KB   21/664 KB   69/165 KB   21/664 KB   73/165 KB   25/664 KB   73/165 KB   25/664 KB   75/165 KB   29/664 KB   75/165 KB   32/664 KB   75/165 KB   32/664 KB   79/165 KB   32/664 KB   83/165 KB   36/664 KB   83/165 KB   36/664 KB   87/165 KB   40/664 KB   87/165 KB   40/664 KB   91/165 KB   44/664 KB   91/165 KB   44/664 KB   95/165 KB   48/664 KB   95/165 KB   48/664 KB   99/165 KB   52/664 KB   99/165 KB   52/664 KB   103/165 KB   52/664 KB   103/165 KB   52/664 KB   103/165 KB   52/664 KB   107/165 KB   56/664 KB   107/165 KB   56/664 KB   111/165 KB   60/664 KB   111/165 KB   60/664 KB   115/165 KB   61/664 KB   115/165 KB   61/664 KB   119/165 KB   61/664 KB   123/165 KB   61/664 KB   123/165 KB   4/10 KB   61/664 KB   127/165 KB   4/10 KB   65/664 KB   127/165 KB   4/10 KB   65/664 KB   131/165 KB   4/10 KB   65/664 KB   131/165 KB   8/10 KB   69/664 KB   131/165 KB   8/10 KB   69/664 KB   132/165 KB   8/10 KB   69/664 KB   132/165 KB   8/10 KB   69/664 KB   132/165 KB   10/10 KB                                       69/664 KB   136/165 KB              73/664 KB   136/165 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/reporting/maven-reporting-api/2.0.7/maven-reporting-api-2.0.7.jar (10 KB at 693.3 KB/sec)
+73/664 KB   140/165 KB   77/664 KB   140/165 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+77/664 KB   144/165 KB   80/664 KB   144/165 KB   80/664 KB   148/165 KB   80/664 KB   152/165 KB   80/664 KB   156/165 KB   80/664 KB   160/165 KB   84/664 KB   160/165 KB   84/664 KB   164/165 KB   88/664 KB   164/165 KB   88/664 KB   165/165 KB   92/664 KB   165/165 KB   96/664 KB   165/165 KB                            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.apache.felix.bundlerepository/1.6.6/org.apache.felix.bundlerepository-1.6.6.jar (165 KB at 4008.2 KB/sec)
+96/664 KB                Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+100/664 KB   104/664 KB   108/664 KB   112/664 KB   116/664 KB   120/664 KB   124/664 KB   128/664 KB   132/664 KB   136/664 KB   140/664 KB   144/664 KB   148/664 KB   152/664 KB   156/664 KB   160/664 KB   164/664 KB   168/664 KB   172/664 KB   174/664 KB   178/664 KB   182/664 KB   186/664 KB   190/664 KB   194/664 KB   198/664 KB   202/664 KB   206/664 KB   210/664 KB   214/664 KB   218/664 KB   222/664 KB   226/664 KB   230/664 KB   234/664 KB   236/664 KB   240/664 KB   244/664 KB   248/664 KB   252/664 KB   256/664 KB   260/664 KB   264/664 KB   267/664 KB   271/664 KB   275/664 KB   279/664 KB   283/664 KB   287/664 KB   291/664 KB   295/664 KB   299/664 KB   303/664 KB   307/664 KB   311/664 KB   315/664 KB   319/664 KB   323/664 KB   327/664 KB   331/664 KB   335/664 KB   339/664 KB   343/664 KB   347/664 KB   351/664 KB   355/664 KB   359/664 KB   359/664 KB   4/6 KB   363/664 KB   4/6 KB   367/664 KB   4/6 KB   371/664 KB   4/6 KB   371/664 KB   6/6 KB   375/664 KB   6/6 KB                         379/664 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar (6 KB at 252.0 KB/sec)
+383/664 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar
+387/664 KB   391/664 KB   395/664 KB   399/664 KB   403/664 KB   407/664 KB   411/664 KB   415/664 KB   419/664 KB   423/664 KB   427/664 KB   431/664 KB   435/664 KB   439/664 KB   443/664 KB   447/664 KB   451/664 KB   455/664 KB   459/664 KB   463/664 KB   467/664 KB   471/664 KB   475/664 KB   479/664 KB   483/664 KB   487/664 KB   491/664 KB   495/664 KB   499/664 KB   503/664 KB   507/664 KB   511/664 KB   515/664 KB   519/664 KB   523/664 KB   523/664 KB   4/14 KB   527/664 KB   4/14 KB   527/664 KB   8/14 KB   531/664 KB   8/14 KB   531/664 KB   12/14 KB   535/664 KB   12/14 KB   535/664 KB   14/14 KB   539/664 KB   14/14 KB   543/664 KB   14/14 KB   547/664 KB   14/14 KB                           551/664 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar (14 KB at 872.9 KB/sec)
+555/664 KB   559/664 KB   563/664 KB   567/664 KB   567/664 KB   4/119 KB   571/664 KB   4/119 KB   571/664 KB   8/119 KB   571/664 KB   12/119 KB   575/664 KB   12/119 KB   575/664 KB   16/119 KB   575/664 KB   20/119 KB   579/664 KB   24/119 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar
+583/664 KB   24/119 KB   587/664 KB   24/119 KB   579/664 KB   24/119 KB   591/664 KB   24/119 KB   591/664 KB   28/119 KB   595/664 KB   28/119 KB   595/664 KB   32/119 KB   599/664 KB   32/119 KB   599/664 KB   36/119 KB   603/664 KB   36/119 KB   603/664 KB   40/119 KB   607/664 KB   40/119 KB   607/664 KB   44/119 KB   611/664 KB   44/119 KB   611/664 KB   48/119 KB   611/664 KB   52/119 KB   615/664 KB   52/119 KB   615/664 KB   56/119 KB   619/664 KB   60/119 KB   623/664 KB   60/119 KB   623/664 KB   1/30 KB   60/119 KB   627/664 KB   1/30 KB   60/119 KB   627/664 KB   5/30 KB   60/119 KB   631/664 KB   5/30 KB   60/119 KB   631/664 KB   9/30 KB   60/119 KB   635/664 KB   9/30 KB   60/119 KB   635/664 KB   13/30 KB   60/119 KB   619/664 KB   60/119 KB   639/664 KB   13/30 KB   60/119 KB   639/664 KB   17/30 KB   60/119 KB   643/664 KB   17/30 KB   60/119 KB   643/664 KB   21/30 KB   60/119 KB   643/664 KB   21/30 KB   64/119 KB   647/664 KB   21/30 KB   64/119 KB   651/664 KB   25/30 KB   68/119 KB   655/664 KB   25/30 KB   68/119 KB   655/664 KB   25/30 KB   68/119 KB   659/664 KB   25/30 KB   68/119 KB   663/664 KB   25/30 KB   68/119 KB   664/664 KB   25/30 KB   72/119 KB   663/664 KB   25/30 KB   72/119 KB                                       664/664 KB   25/30 KB   76/119 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.jar (664 KB at 10707.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar
+25/30 KB   80/119 KB                25/30 KB   84/119 KB   25/30 KB   88/119 KB   25/30 KB   92/119 KB   25/30 KB   96/119 KB   647/664 KB   25/30 KB   96/119 KB   29/30 KB   100/119 KB               25/30 KB   100/119 KB   30/30 KB   100/119 KB   30/30 KB   104/119 KB                           108/119 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/commons-cli/commons-cli/1.0/commons-cli-1.0.jar (30 KB at 1225.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+112/119 KB   116/119 KB   119/119 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/junit/junit/3.8.1/junit-3.8.1.jar (119 KB at 3284.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.jar
+4/20 KB      8/20 KB   12/20 KB   16/20 KB   20/20 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar (20 KB at 934.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.jar
+4/60 KB    6/60 KB   10/60 KB   14/60 KB   18/60 KB   22/60 KB   26/60 KB   30/60 KB   34/60 KB   38/60 KB   42/60 KB   46/60 KB   50/60 KB   54/60 KB   58/60 KB   60/60 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar (60 KB at 5962.6 KB/sec)
+4/174 KB   8/174 KB   12/174 KB   16/174 KB   20/174 KB   24/174 KB   28/174 KB   32/174 KB   36/174 KB   40/174 KB   44/174 KB   48/174 KB   52/174 KB   56/174 KB   58/174 KB   59/174 KB   63/174 KB   67/174 KB   71/174 KB   75/174 KB   78/174 KB   82/174 KB   86/174 KB   90/174 KB   94/174 KB   98/174 KB   102/174 KB   106/174 KB   110/174 KB   114/174 KB   118/174 KB   122/174 KB   126/174 KB   130/174 KB   134/174 KB   4/34 KB   134/174 KB   4/34 KB   138/174 KB   8/34 KB   138/174 KB   8/34 KB   142/174 KB   8/34 KB   146/174 KB   12/34 KB   146/174 KB   12/34 KB   150/174 KB   16/34 KB   150/174 KB   16/34 KB   154/174 KB   20/34 KB   154/174 KB   20/34 KB   158/174 KB   24/34 KB   158/174 KB   24/34 KB   162/174 KB   28/34 KB   166/174 KB   28/34 KB   166/174 KB   32/34 KB   166/174 KB   32/34 KB   170/174 KB   34/34 KB   174/174 KB   34/34 KB   174/174 KB                                                   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar (174 KB at 5088.6 KB/sec)
+Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.jar (34 KB at 1406.2 KB/sec)
+4/220 KB                8/220 KB   12/220 KB   16/220 KB   20/220 KB   24/220 KB   28/220 KB   32/220 KB   36/220 KB   40/220 KB   44/220 KB   48/220 KB   52/220 KB   56/220 KB   60/220 KB   64/220 KB   68/220 KB   72/220 KB   76/220 KB   80/220 KB   84/220 KB   88/220 KB   92/220 KB   96/220 KB   100/220 KB   104/220 KB   108/220 KB   112/220 KB   116/220 KB   120/220 KB   124/220 KB   128/220 KB   132/220 KB   136/220 KB   140/220 KB   144/220 KB   148/220 KB   152/220 KB   156/220 KB   160/220 KB   164/220 KB   168/220 KB   172/220 KB   176/220 KB   180/220 KB   184/220 KB   188/220 KB   192/220 KB   196/220 KB   200/220 KB   204/220 KB   208/220 KB   212/220 KB   216/220 KB   220/220 KB   220/220 KB   4/50 KB                          Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.jar (220 KB at 7308.0 KB/sec)
+8/50 KB                12/50 KB   16/50 KB   20/50 KB   24/50 KB   28/50 KB   32/50 KB   36/50 KB   40/50 KB   44/50 KB   48/50 KB   50/50 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar (50 KB at 1210.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/1.4.0/maven-bundle-plugin-1.4.0.pom
+4/5 KB     5/5 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/1.4.0/maven-bundle-plugin-1.4.0.pom (5 KB at 234.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix/1.0.2/felix-1.0.2.pom
+4/14 KB   8/14 KB   12/14 KB   14/14 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix/1.0.2/felix-1.0.2.pom (14 KB at 873.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.pom
+864/864 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.pom (864 B at 76.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.pom
+2/2 KB               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.pom (2 KB at 114.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+386/386 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom (386 B at 19.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.pom
+3/3 KB               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.pom (3 KB at 95.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix/1.0.0/felix-1.0.0.pom
+4/12 KB   8/12 KB   12/12 KB   12/12 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/felix/1.0.0/felix-1.0.0.pom (12 KB at 901.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.service.obr/1.0.1/org.osgi.service.obr-1.0.1.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.service.obr/1.0.1/org.osgi.service.obr-1.0.1.pom (2 KB at 90.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.2/maven-archiver-2.2.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.2/maven-archiver-2.2.pom (2 KB at 74.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/3/maven-shared-components-3.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/3/maven-shared-components-3.pom (2 KB at 128.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/4/maven-parent-4.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/4/maven-parent-4.pom (10 KB at 488.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0/maven-project-2.0.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0/maven-project-2.0.pom (2 KB at 76.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0/maven-2.0.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0/maven-2.0.pom (9 KB at 611.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom (2 KB at 74.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0/maven-model-2.0.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0/maven-model-2.0.pom (3 KB at 138.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+4/8 KB   8/8 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (8 KB at 443.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom (2 KB at 25.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom (2 KB at 74.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+723/723 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 33.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.pom
+2/2 KB               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.pom (2 KB at 46.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.6/plexus-components-1.1.6.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.6/plexus-components-1.1.6.pom (2 KB at 167.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+4/8 KB   8/8 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (8 KB at 441.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom
+767/767 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom (767 B at 39.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom
+4/6 KB      6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom (6 KB at 263.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.pom (3 KB at 220.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (3 KB at 237.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/7/maven-parent-7.pom
+4/21 KB   8/21 KB   12/21 KB   16/21 KB   20/21 KB   21/21 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 KB at 987.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-osgi/0.2.0/maven-osgi-0.2.0.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-osgi/0.2.0/maven-osgi-0.2.0.pom (2 KB at 117.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (3 KB at 160.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2 KB at 85.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+2/2 KB   2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2 KB at 161.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (3 KB at 150.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (2 KB at 86.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (2 KB at 126.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.203/bndlib-0.0.203.pom
+886/886 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.203/bndlib-0.0.203.pom (886 B at 45.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+680/680 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom (680 B at 30.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+4/6 KB      6/6 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom (6 KB at 478.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.7/plexus-utils-1.4.7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.7/plexus-utils-1.4.7.pom (3 KB at 138.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/1.4.0/maven-bundle-plugin-1.4.0.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar
+4/135 KB   8/135 KB   12/135 KB   13/135 KB   17/135 KB   21/135 KB   25/135 KB   29/135 KB   33/135 KB   37/135 KB   41/135 KB   45/135 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+49/135 KB   49/135 KB   4/43 KB   53/135 KB   4/43 KB   53/135 KB   8/43 KB   57/135 KB   8/43 KB   57/135 KB   12/43 KB   61/135 KB   16/43 KB   61/135 KB   16/43 KB   61/135 KB   20/43 KB   61/135 KB   24/43 KB   61/135 KB   28/43 KB   61/135 KB   32/43 KB   61/135 KB   36/43 KB   61/135 KB   40/43 KB   61/135 KB   43/43 KB   65/135 KB   43/43 KB   69/135 KB   43/43 KB                          73/135 KB              Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar
+77/135 KB   4/154 KB   73/135 KB   4/154 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar (43 KB at 1208.3 KB/sec)
+81/135 KB   4/154 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.service.obr/1.0.1/org.osgi.service.obr-1.0.1.jar
+81/135 KB   8/154 KB   85/135 KB   8/154 KB   85/135 KB   12/154 KB   89/135 KB   12/154 KB   89/135 KB   16/154 KB   93/135 KB   16/154 KB   93/135 KB   20/154 KB   93/135 KB   24/154 KB   93/135 KB   28/154 KB   97/135 KB   28/154 KB   97/135 KB   32/154 KB   101/135 KB   32/154 KB   101/135 KB   36/154 KB   105/135 KB   36/154 KB   105/135 KB   40/154 KB   109/135 KB   44/154 KB   109/135 KB   44/154 KB   109/135 KB   48/154 KB   113/135 KB   48/154 KB   113/135 KB   52/154 KB   117/135 KB   52/154 KB   117/135 KB   56/154 KB   121/135 KB   56/154 KB   121/135 KB   60/154 KB   125/135 KB   60/154 KB   125/135 KB   64/154 KB   125/135 KB   68/154 KB   129/135 KB   68/154 KB   129/135 KB   72/154 KB   133/135 KB   76/154 KB   133/135 KB   76/154 KB   133/135 KB   80/154 KB   133/135 KB   84/154 KB   135/135 KB   88/154 KB   135/135 KB   84/154 KB   135/135 KB   92/154 KB   135/135 KB   96/154 KB   135/135 KB   100/154 KB                             104/154 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/maven-bundle-plugin/1.4.0/maven-bundle-plugin-1.4.0.jar (135 KB at 2745.5 KB/sec)
+108/154 KB   Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.2/maven-archiver-2.2.jar
+110/154 KB   114/154 KB   118/154 KB   122/154 KB   126/154 KB   130/154 KB   132/154 KB   136/154 KB   140/154 KB   144/154 KB   148/154 KB   152/154 KB   154/154 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.jar (154 KB at 3272.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.jar
+4/11 KB      8/11 KB   11/11 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.service.obr/1.0.1/org.osgi.service.obr-1.0.1.jar (11 KB at 859.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-osgi/0.2.0/maven-osgi-0.2.0.jar
+4/8 KB     8/8 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar (8 KB at 292.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar
+4/34 KB   8/34 KB   12/34 KB   16/34 KB   20/34 KB   24/34 KB   28/34 KB   32/34 KB   34/34 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.jar (34 KB at 2205.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.7/plexus-utils-1.4.7.jar
+1/10 KB    5/10 KB   9/10 KB   10/10 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-archiver/2.2/maven-archiver-2.2.jar (10 KB at 466.0 KB/sec)
+4/60 KB    8/60 KB   12/60 KB   13/60 KB   17/60 KB   21/60 KB   24/60 KB   4/13 KB   24/60 KB   8/13 KB   24/60 KB   12/13 KB   24/60 KB   13/13 KB   24/60 KB   13/13 KB   28/60 KB                         Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-osgi/0.2.0/maven-osgi-0.2.0.jar (13 KB at 873.7 KB/sec)
+32/60 KB              36/60 KB   39/60 KB   41/60 KB   45/60 KB   49/60 KB   53/60 KB   57/60 KB   60/60 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar (60 KB at 1525.7 KB/sec)
+4/139 KB   8/139 KB   12/139 KB   15/139 KB   19/139 KB   23/139 KB   27/139 KB   31/139 KB   35/139 KB   36/139 KB   36/139 KB   4/199 KB   36/139 KB   8/199 KB   36/139 KB   12/199 KB   36/139 KB   13/199 KB   40/139 KB   13/199 KB   44/139 KB   13/199 KB   48/139 KB   13/199 KB   52/139 KB   13/199 KB   52/139 KB   13/199 KB   52/139 KB   17/199 KB   56/139 KB   17/199 KB   56/139 KB   21/199 KB   60/139 KB   21/199 KB   60/139 KB   25/199 KB   64/139 KB   25/199 KB   64/139 KB   29/199 KB   68/139 KB   29/199 KB   68/139 KB   29/199 KB   71/139 KB   29/199 KB   71/139 KB   33/199 KB   71/139 KB   37/199 KB   71/139 KB   41/199 KB   71/139 KB   45/199 KB   71/139 KB   49/199 KB   71/139 KB   51/199 KB   75/139 KB   51/199 KB   79/139 KB   51/199 KB   83/139 KB   51/199 KB   87/139 KB   51/199 KB   91/139 KB   51/199 KB   95/139 KB   51/199 KB   99/139 KB   51/199 KB   99/139 KB   51/199 KB   99/139 KB   55/199 KB   99/139 KB   59/199 KB   99/139 KB   63/199 KB   99/139 KB   67/199 KB   99/139 KB   68/199 KB   103/139 KB   68/199 KB   107/139 KB   68/199 KB   108/139 KB   68/199 KB   108/139 KB   72/199 KB   108/139 KB   76/199 KB   108/139 KB   80/199 KB   108/139 KB   80/199 KB   112/139 KB   80/199 KB   116/139 KB   80/199 KB   120/139 KB   80/199 KB   124/139 KB   80/199 KB   128/139 KB   80/199 KB   130/139 KB   80/199 KB   130/139 KB   84/199 KB   130/139 KB   88/199 KB   130/139 KB   92/199 KB   130/139 KB   96/199 KB   134/139 KB   100/199 KB   134/139 KB   100/199 KB   138/139 KB   100/199 KB   138/139 KB   104/199 KB   139/139 KB   104/199 KB   139/139 KB   106/199 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar (139 KB at 4334.6 KB/sec)
+110/199 KB                114/199 KB   118/199 KB   122/199 KB   126/199 KB   126/199 KB   130/199 KB   134/199 KB   138/199 KB   142/199 KB   146/199 KB   150/199 KB   150/199 KB   154/199 KB   158/199 KB   162/199 KB   166/199 KB   170/199 KB   174/199 KB   178/199 KB   180/199 KB   184/199 KB   188/199 KB   192/199 KB   196/199 KB   199/199 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/1.4.7/plexus-utils-1.4.7.jar (199 KB at 5677.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/apache/felix/maven-bundle-plugin/maven-metadata.xml
+             Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/felix/maven-bundle-plugin/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/maven-metadata.xml
+             993/993 B                Downloaded: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/maven-metadata.xml (993 B at 1.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.pom
+4/9 KB      8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.pom (9 KB at 15.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/felix/felix-parent/3/felix-parent-3.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/3/felix-parent-3.pom
+3/17 KB   7/17 KB   11/17 KB   15/17 KB   17/17 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/3/felix-parent-3.pom (17 KB at 30.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/apache/17/apache-17.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+3/16 KB    7/16 KB   11/16 KB   15/16 KB   16/16 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom (16 KB at 25.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.jar
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.jar
+4/206 KB   8/206 KB   12/206 KB   16/206 KB   20/206 KB   24/206 KB   27/206 KB   28/206 KB   31/206 KB   32/206 KB   35/206 KB   36/206 KB   39/206 KB   41/206 KB   43/206 KB   45/206 KB   47/206 KB   49/206 KB   51/206 KB   53/206 KB   55/206 KB   57/206 KB   60/206 KB   61/206 KB   64/206 KB   65/206 KB   68/206 KB   69/206 KB   72/206 KB   75/206 KB   76/206 KB   79/206 KB   80/206 KB   83/206 KB   84/206 KB   87/206 KB   88/206 KB   91/206 KB   93/206 KB   95/206 KB   97/206 KB   99/206 KB   101/206 KB   103/206 KB   105/206 KB   107/206 KB   109/206 KB   112/206 KB   113/206 KB   116/206 KB   117/206 KB   120/206 KB   121/206 KB   124/206 KB   125/206 KB   128/206 KB   131/206 KB   132/206 KB   135/206 KB   136/206 KB   139/206 KB   140/206 KB   143/206 KB   145/206 KB   147/206 KB   149/206 KB   151/206 KB   153/206 KB   155/206 KB   157/206 KB   159/206 KB   161/206 KB   164/206 KB   165/206 KB   168/206 KB   170/206 KB   172/206 KB   174/206 KB   176/206 KB   178/206 KB   180/206 KB   183/206 KB   184/206 KB   187/206 KB   188/206 KB   191/206 KB   192/206 KB   195/206 KB   198/206 KB   199/206 KB   202/206 KB   203/206 KB   206/206 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/3.0.1/maven-bundle-plugin-3.0.1.jar (206 KB at 367.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.pom
+             Downloading: http://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.pom
+2/2 KB                Downloaded: http://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.pom (2 KB at 2.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/biz/aQute/bnd/biz.aQute.bndlib/3.0.0/biz.aQute.bndlib-3.0.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/3.0.0/biz.aQute.bndlib-3.0.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/3.0.0/biz.aQute.bndlib-3.0.0.pom (2 KB at 2.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/easymock/easymock/2.5.2/easymock-2.5.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom
+3/12 KB   7/12 KB   11/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom (12 KB at 21.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/felix/org.apache.felix.utils/1.6.0/org.apache.felix.utils-1.6.0.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.utils/1.6.0/org.apache.felix.utils-1.6.0.pom
+4/4 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.utils/1.6.0/org.apache.felix.utils-1.6.0.pom (4 KB at 5.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.pom
+463/463 B               Downloaded: http://repo.maven.apache.org/maven2/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.pom (463 B at 0.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-core/2.2.0/maven-core-2.2.0.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.0/maven-core-2.2.0.pom
+4/11 KB     8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.0/maven-core-2.2.0.pom (11 KB at 20.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+4/22 KB    8/22 KB   12/22 KB   16/22 KB   19/22 KB   20/22 KB   22/22 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (22 KB at 40.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-parent/11/maven-parent-11.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/11/maven-parent-11.pom
+4/32 KB    8/32 KB   12/32 KB   16/32 KB   20/32 KB   24/32 KB   28/32 KB   32/32 KB   32/32 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/11/maven-parent-11.pom (32 KB at 58.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/apache/5/apache-5.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/5/apache-5.pom
+4/5 KB     5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/5/apache-5.pom (5 KB at 7.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (3 KB at 3.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (4 KB at 5.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+3/7 KB   7/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom (7 KB at 12.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+3/12 KB   7/12 KB   11/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom (12 KB at 20.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom
+889/889 B               Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom (889 B at 1.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+4/6 KB      6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom (6 KB at 10.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/junit/junit/4.11/junit-4.11.pom
+         Downloading: http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom (3 KB at 4.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+766/766 B               Downloaded: http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (766 B at 1.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (2 KB at 3.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-parameter-documenter/2.2.0/maven-plugin-parameter-documenter-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.0/maven-plugin-parameter-documenter-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.0/maven-plugin-parameter-documenter-2.2.0.pom (2 KB at 3.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom (2 KB at 3.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+3/8 KB   7/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom (8 KB at 14.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom (3 KB at 5.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom (3 KB at 3.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/reporting/maven-reporting-api/2.2.0/maven-reporting-api-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.0/maven-reporting-api-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.0/maven-reporting-api-2.2.0.pom (2 KB at 3.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/reporting/maven-reporting/2.2.0/maven-reporting-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.0/maven-reporting-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.0/maven-reporting-2.2.0.pom (2 KB at 2.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom (2 KB at 3.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+1/15 KB   5/15 KB   9/15 KB   12/15 KB   13/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom (15 KB at 26.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom (2 KB at 2.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+3/4 KB   4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom (4 KB at 6.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom (2 KB at 3.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom (3 KB at 4.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (4 KB at 5.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (3 KB at 3.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (2 KB at 2.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (2 KB at 3.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.0/maven-error-diagnostics-2.2.0.pom (2 KB at 3.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (3 KB at 5.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (4 KB at 5.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+880/880 B               Downloaded: http://repo.maven.apache.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom (880 B at 1.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+            Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (2 KB at 3.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+4/8 KB   8/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom (8 KB at 14.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/commons/commons-parent/11/commons-parent-11.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+3/25 KB   7/25 KB   11/25 KB   15/25 KB   19/25 KB   20/25 KB   23/25 KB   25/25 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom (25 KB at 44.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom (2 KB at 2.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.0/maven-plugin-descriptor-2.2.0.pom (3 KB at 3.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/maven/maven-monitor/2.2.0/maven-monitor-2.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.0/maven-monitor-2.2.0.pom
