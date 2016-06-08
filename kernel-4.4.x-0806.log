@@ -3568,3 +3568,863 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in or
 Running org.wso2.carbon.user.core.authman.AdvancedPermissionTreeTest
 Jun 08, 2016 2:02:55 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
 WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,809.209 sec - in org.wso2.carbon.user.core.authman.AdvancedPermissionTreeTest
+Running org.wso2.carbon.user.core.claim.ClaimDAOTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.431 sec - in org.wso2.carbon.user.core.claim.ClaimDAOTest
+Running org.wso2.carbon.user.core.claim.AdvancedClaimManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.385 sec - in org.wso2.carbon.user.core.claim.AdvancedClaimManagerTest
+Running org.wso2.carbon.user.core.tenant.TestTenantManager
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.438 sec - in org.wso2.carbon.user.core.tenant.TestTenantManager
+Running org.wso2.carbon.user.core.hybrid.HybridRoleManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 sec - in org.wso2.carbon.user.core.hybrid.HybridRoleManagerTest
+Running org.wso2.carbon.user.core.hybrid.AdvancedHybridRoleManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 sec - in org.wso2.carbon.user.core.hybrid.AdvancedHybridRoleManagerTest
+Running org.wso2.carbon.user.core.profile.AdvancedProfileConfigManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 sec - in org.wso2.carbon.user.core.profile.AdvancedProfileConfigManagerTest
+Running org.wso2.carbon.user.core.jdbc.AdvancedJDBCRealmTest
+Jun 08, 2016 2:33:07 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 sec - in org.wso2.carbon.user.core.jdbc.AdvancedJDBCRealmTest
+Running org.wso2.carbon.user.core.jdbc.ReadOnlyJDBCRealmTest
+Jun 08, 2016 2:33:07 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Jun 08, 2016 2:33:07 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 sec - in org.wso2.carbon.user.core.jdbc.ReadOnlyJDBCRealmTest
+Running org.wso2.carbon.user.core.jdbc.JDBCConfigurationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.wso2.carbon.user.core.jdbc.JDBCConfigurationTest
+Running org.wso2.carbon.user.core.jdbc.AdvancedReadOnlyJDBCRealmTest
+Jun 08, 2016 2:33:08 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Jun 08, 2016 2:33:08 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.548 sec - in org.wso2.carbon.user.core.jdbc.AdvancedReadOnlyJDBCRealmTest
+Running org.wso2.carbon.user.core.jdbc.JDBCRealmTest
+Jun 08, 2016 2:33:08 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.73 sec - in org.wso2.carbon.user.core.jdbc.JDBCRealmTest
+Running org.wso2.carbon.user.core.jdbc.PermissionTest
+Jun 08, 2016 2:33:09 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 sec - in org.wso2.carbon.user.core.jdbc.PermissionTest
+
+Results :
+
+
+
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.user.core ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.user.core ---
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/target/org.wso2.carbon.user.core-4.4.6-SNAPSHOT.jar to /home/wso2/carbon-kernel/../repo/org/wso2/carbon/org.wso2.carbon.user.core/4.4.6-SNAPSHOT/org.wso2.carbon.user.core-4.4.6-SNAPSHOT.jar
+[INFO] Installing /home/wso2/carbon-kernel/core/org.wso2.carbon.user.core/pom.xml to /home/wso2/carbon-kernel/../repo/org/wso2/carbon/org.wso2.carbon.user.core/4.4.6-SNAPSHOT/org.wso2.carbon.user.core-4.4.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ org.wso2.carbon.user.core ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Registry Kernel 4.4.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-assembly-plugin/2.4/maven-assembly-plugin-2.4.pom
+4/17 KB    8/17 KB   12/17 KB   16/17 KB   17/17 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-assembly-plugin/2.4/maven-assembly-plugin-2.4.pom (17 KB at 1028.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-assembly-plugin/2.4/maven-assembly-plugin-2.4.jar
+4/221 KB   8/221 KB   12/221 KB   16/221 KB   20/221 KB   24/221 KB   28/221 KB   32/221 KB   36/221 KB   40/221 KB   44/221 KB   48/221 KB   52/221 KB   56/221 KB   60/221 KB   64/221 KB   68/221 KB   72/221 KB   76/221 KB   80/221 KB   84/221 KB   88/221 KB   92/221 KB   96/221 KB   100/221 KB   104/221 KB   108/221 KB   112/221 KB   116/221 KB   120/221 KB   124/221 KB   128/221 KB   132/221 KB   136/221 KB   140/221 KB   144/221 KB   148/221 KB   152/221 KB   156/221 KB   160/221 KB   164/221 KB   168/221 KB   172/221 KB   172/221 KB   176/221 KB   180/221 KB   184/221 KB   188/221 KB   192/221 KB   196/221 KB   200/221 KB   204/221 KB   208/221 KB   212/221 KB   216/221 KB   220/221 KB   221/221 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/plugins/maven-assembly-plugin/2.4/maven-assembly-plugin-2.4.jar (221 KB at 13785.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/wso2/commons-io/2.4.0.wso2v1/commons-io-2.4.0.wso2v1.pom
+4/4 KB                Downloaded: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/wso2/commons-io/2.4.0.wso2v1/commons-io-2.4.0.wso2v1.pom (4 KB at 136.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.pom
+764/764 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.pom (764 B at 82.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.pom
+            Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.pom
+4/5 KB      5/5 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.pom (5 KB at 449.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.pom
+4/5 KB   5/5 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.pom (5 KB at 413.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.pom (3 KB at 10.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.pom
+         Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.pom
+4/18 KB   8/18 KB   12/18 KB   16/18 KB   18/18 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.pom (18 KB at 60.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/ehcache/ehcache-parent/1.5.0/ehcache-parent-1.5.0.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache-parent/1.5.0/ehcache-parent-1.5.0.pom
+4/20 KB    8/20 KB   12/20 KB   16/20 KB   20/20 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache-parent/1.5.0/ehcache-parent-1.5.0.pom (20 KB at 1122.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.pom
+3/3 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.pom (3 KB at 145.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/wso2/commons-io/2.4.0.wso2v1/commons-io-2.4.0.wso2v1.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.jar
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.jar
+                  Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.jar
+         Downloading: http://maven.wso2.org/nexus/content/repositories/releases/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar
+                           4/178 KB   8/178 KB   12/178 KB   16/178 KB   20/178 KB   24/178 KB   28/178 KB   32/178 KB   35/178 KB   39/178 KB   39/178 KB   43/178 KB   47/178 KB   51/178 KB   55/178 KB   58/178 KB   62/178 KB   62/178 KB   66/178 KB   70/178 KB   74/178 KB   77/178 KB   81/178 KB   85/178 KB   89/178 KB   93/178 KB   93/178 KB   97/178 KB   101/178 KB   102/178 KB   106/178 KB   110/178 KB   114/178 KB   118/178 KB   122/178 KB   125/178 KB   129/178 KB   133/178 KB   137/178 KB   137/178 KB   141/178 KB   145/178 KB   149/178 KB   153/178 KB   157/178 KB   158/178 KB   162/178 KB   166/178 KB   170/178 KB   174/178 KB   178/178 KB                Downloaded: http://maven.wso2.org/nexus/content/repositories/releases/commons-io/wso2/commons-io/2.4.0.wso2v1/commons-io-2.4.0.wso2v1.jar (178 KB at 6556.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.jar
+4/12 KB      7/12 KB   11/12 KB   12/12 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sourceforge/findbugs/annotations/1.3.2/annotations-1.3.2.jar (12 KB at 1254.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar
+3/1083 KB   7/1083 KB   4/5581 KB   7/1083 KB   4/5581 KB   11/1083 KB   4/5581 KB   15/1083 KB   8/5581 KB   15/1083 KB   8/5581 KB   19/1083 KB   12/5581 KB   19/1083 KB   12/5581 KB   23/1083 KB   12/5581 KB   27/1083 KB   12/5581 KB   31/1083 KB   12/5581 KB   32/1083 KB   16/5581 KB   32/1083 KB   20/5581 KB   32/1083 KB   20/5581 KB   36/1083 KB   24/5581 KB   36/1083 KB   24/5581 KB   40/1083 KB   28/5581 KB   40/1083 KB   28/5581 KB   43/1083 KB   32/5581 KB   43/1083 KB   32/5581 KB   47/1083 KB   36/5581 KB   47/1083 KB   36/5581 KB   51/1083 KB   36/5581 KB   55/1083 KB   36/5581 KB   59/1083 KB   36/5581 KB   63/1083 KB   40/5581 KB   63/1083 KB   40/5581 KB   67/1083 KB   44/5581 KB   67/1083 KB   44/5581 KB   68/1083 KB   48/5581 KB   68/1083 KB   48/5581 KB   72/1083 KB   52/5581 KB   72/1083 KB   52/5581 KB   76/1083 KB   56/5581 KB   76/1083 KB   56/5581 KB   77/1083 KB   60/5581 KB   77/1083 KB   60/5581 KB   80/1083 KB   60/5581 KB   84/1083 KB   64/5581 KB   84/1083 KB   64/5581 KB   87/1083 KB   64/5581 KB   89/1083 KB   68/5581 KB   89/1083 KB   68/5581 KB   92/1083 KB   68/5581 KB   96/1083 KB   72/5581 KB   96/1083 KB   72/5581 KB   100/1083 KB   76/5581 KB   100/1083 KB   76/5581 KB   104/1083 KB   76/5581 KB   106/1083 KB   80/5581 KB   106/1083 KB   84/5581 KB   106/1083 KB   84/5581 KB   110/1083 KB   84/5581 KB   110/1083 KB   84/5581 KB   114/1083 KB   88/5581 KB   115/1083 KB   88/5581 KB   115/1083 KB   88/5581 KB   119/1083 KB   88/5581 KB   123/1083 KB   92/5581 KB   123/1083 KB   92/5581 KB   127/1083 KB   92/5581 KB   131/1083 KB   96/5581 KB   131/1083 KB   96/5581 KB   135/1083 KB   100/5581 KB   135/1083 KB   100/5581 KB   139/1083 KB   104/5581 KB   139/1083 KB   104/5581 KB   143/1083 KB   108/5581 KB   143/1083 KB   108/5581 KB   147/1083 KB   108/5581 KB   151/1083 KB   112/5581 KB   151/1083 KB   112/5581 KB   151/1083 KB   116/5581 KB   155/1083 KB   116/5581 KB   151/1083 KB   116/5581 KB   159/1083 KB   116/5581 KB   163/1083 KB   120/5581 KB   163/1083 KB   124/5581 KB   163/1083 KB   128/5581 KB   163/1083 KB   132/5581 KB   163/1083 KB   136/5581 KB   163/1083 KB   140/5581 KB   163/1083 KB   144/5581 KB   163/1083 KB   148/5581 KB   163/1083 KB   152/5581 KB   163/1083 KB   156/5581 KB   163/1083 KB   160/5581 KB   163/1083 KB   164/5581 KB   163/1083 KB   168/5581 KB   163/1083 KB   172/5581 KB   163/1083 KB   176/5581 KB   163/1083 KB   180/5581 KB   163/1083 KB   184/5581 KB   163/1083 KB   188/5581 KB   163/1083 KB   192/5581 KB   163/1083 KB   196/5581 KB   163/1083 KB   200/5581 KB   163/1083 KB   204/5581 KB   163/1083 KB   208/5581 KB   163/1083 KB   212/5581 KB   163/1083 KB   212/5581 KB   167/1083 KB   212/5581 KB   171/1083 KB   216/5581 KB   171/1083 KB   216/5581 KB   175/1083 KB   220/5581 KB   179/1083 KB   220/5581 KB   179/1083 KB   220/5581 KB   183/1083 KB   220/5581 KB   187/1083 KB   220/5581 KB   191/1083 KB   224/5581 KB   191/1083 KB   224/5581 KB   195/1083 KB   224/5581 KB   199/1083 KB   228/5581 KB   199/1083 KB   228/5581 KB   203/1083 KB   232/5581 KB   203/1083 KB   236/5581 KB   207/1083 KB   236/5581 KB   207/1083 KB   236/5581 KB   211/1083 KB   236/5581 KB   215/1083 KB   240/5581 KB   215/1083 KB   240/5581 KB   219/1083 KB   240/5581 KB   223/1083 KB   240/5581 KB   227/1083 KB   244/5581 KB   227/1083 KB   244/5581 KB   231/1083 KB   244/5581 KB   235/1083 KB   244/5581 KB   239/1083 KB   248/5581 KB   239/1083 KB   248/5581 KB   243/1083 KB   248/5581 KB   247/1083 KB   3/9 KB   252/5581 KB   247/1083 KB   252/5581 KB   247/1083 KB   3/9 KB   252/5581 KB   251/1083 KB   7/9 KB   252/5581 KB   251/1083 KB   7/9 KB   256/5581 KB   251/1083 KB   7/9 KB   256/5581 KB   255/1083 KB   9/9 KB   256/5581 KB   255/1083 KB   9/9 KB   256/5581 KB   259/1083 KB   9/9 KB   256/5581 KB   263/1083 KB   9/9 KB   260/5581 KB   267/1083 KB   9/9 KB   260/5581 KB   271/1083 KB                                        9/9 KB   260/5581 KB   271/1083 KB   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar (9 KB at 278.7 KB/sec)
+260/5581 KB   275/1083 KB            264/5581 KB   275/1083 KB   264/5581 KB   279/1083 KB   268/5581 KB   283/1083 KB   268/5581 KB   283/1083 KB   272/5581 KB   283/1083 KB   272/5581 KB   287/1083 KB   276/5581 KB   287/1083 KB   276/5581 KB   291/1083 KB   280/5581 KB   291/1083 KB   280/5581 KB   295/1083 KB   284/5581 KB   295/1083 KB   284/5581 KB   299/1083 KB   288/5581 KB   299/1083 KB   288/5581 KB   303/1083 KB   292/5581 KB   303/1083 KB   292/5581 KB   307/1083 KB   296/5581 KB   307/1083 KB   300/5581 KB   311/1083 KB   300/5581 KB   311/1083 KB   304/5581 KB   311/1083 KB   304/5581 KB   315/1083 KB   308/5581 KB   315/1083 KB   308/5581 KB   319/1083 KB   312/5581 KB   319/1083 KB   316/5581 KB   323/1083 KB   316/5581 KB   323/1083 KB   320/5581 KB   323/1083 KB   320/5581 KB   327/1083 KB   320/5581 KB   331/1083 KB   320/5581 KB   335/1083 KB   320/5581 KB   339/1083 KB   324/5581 KB   343/1083 KB   324/5581 KB   339/1083 KB   324/5581 KB   347/1083 KB   324/5581 KB   351/1083 KB   324/5581 KB   355/1083 KB   328/5581 KB   355/1083 KB   328/5581 KB   359/1083 KB   332/5581 KB   359/1083 KB   332/5581 KB   363/1083 KB   332/5581 KB   367/1083 KB   332/5581 KB   371/1083 KB   336/5581 KB   371/1083 KB   336/5581 KB   375/1083 KB   336/5581 KB   379/1083 KB   336/5581 KB   383/1083 KB   340/5581 KB   383/1083 KB   340/5581 KB   387/1083 KB   344/5581 KB   387/1083 KB   344/5581 KB   391/1083 KB   344/5581 KB   395/1083 KB   344/5581 KB   399/1083 KB   348/5581 KB   403/1083 KB   348/5581 KB   403/1083 KB   348/5581 KB   407/1083 KB   348/5581 KB   411/1083 KB   352/5581 KB   411/1083 KB   352/5581 KB   415/1083 KB   352/5581 KB   419/1083 KB   356/5581 KB   419/1083 KB   356/5581 KB   423/1083 KB   360/5581 KB   423/1083 KB   364/5581 KB   427/1083 KB   364/5581 KB   427/1083 KB   364/5581 KB   431/1083 KB   364/5581 KB   435/1083 KB   368/5581 KB   435/1083 KB   368/5581 KB   439/1083 KB   368/5581 KB   443/1083 KB   372/5581 KB   443/1083 KB   372/5581 KB   447/1083 KB   372/5581 KB   451/1083 KB   372/5581 KB   455/1083 KB   376/5581 KB   455/1083 KB   376/5581 KB   459/1083 KB   376/5581 KB   463/1083 KB   376/5581 KB   467/1083 KB   376/5581 KB   471/1083 KB   380/5581 KB   471/1083 KB   380/5581 KB   475/1083 KB   384/5581 KB   479/1083 KB   384/5581 KB   479/1083 KB   384/5581 KB   483/1083 KB   384/5581 KB   487/1083 KB   388/5581 KB   487/1083 KB   388/5581 KB   491/1083 KB   392/5581 KB   491/1083 KB   392/5581 KB   495/1083 KB   392/5581 KB   499/1083 KB   392/5581 KB   503/1083 KB   396/5581 KB   507/1083 KB   396/5581 KB   503/1083 KB   396/5581 KB   511/1083 KB   400/5581 KB   511/1083 KB   400/5581 KB   515/1083 KB   400/5581 KB   519/1083 KB   400/5581 KB   523/1083 KB   404/5581 KB   527/1083 KB   404/5581 KB   523/1083 KB   404/5581 KB   531/1083 KB   408/5581 KB   531/1083 KB   408/5581 KB   535/1083 KB   408/5581 KB   539/1083 KB   412/5581 KB   539/1083 KB   412/5581 KB   543/1083 KB   412/5581 KB   547/1083 KB   412/5581 KB   551/1083 KB   416/5581 KB   551/1083 KB   416/5581 KB   555/1083 KB   416/5581 KB   559/1083 KB   416/5581 KB   563/1083 KB   420/5581 KB   563/1083 KB   420/5581 KB   567/1083 KB   424/5581 KB   567/1083 KB   424/5581 KB   571/1083 KB   424/5581 KB   575/1083 KB   428/5581 KB   575/1083 KB   428/5581 KB   579/1083 KB   428/5581 KB   583/1083 KB   432/5581 KB   583/1083 KB   432/5581 KB   587/1083 KB   436/5581 KB   587/1083 KB   436/5581 KB   591/1083 KB   436/5581 KB   595/1083 KB   436/5581 KB   599/1083 KB   440/5581 KB   599/1083 KB   440/5581 KB   603/1083 KB   440/5581 KB   607/1083 KB   444/5581 KB   607/1083 KB   444/5581 KB   611/1083 KB   448/5581 KB   611/1083 KB   448/5581 KB   615/1083 KB   452/5581 KB   615/1083 KB   452/5581 KB   619/1083 KB   456/5581 KB   619/1083 KB   456/5581 KB   623/1083 KB   460/5581 KB   623/1083 KB   464/5581 KB   623/1083 KB   464/5581 KB   627/1083 KB   468/5581 KB   627/1083 KB   468/5581 KB   631/1083 KB   472/5581 KB   631/1083 KB   472/5581 KB   635/1083 KB   476/5581 KB   635/1083 KB   476/5581 KB   639/1083 KB   480/5581 KB   639/1083 KB   480/5581 KB   643/1083 KB   484/5581 KB   643/1083 KB   484/5581 KB   647/1083 KB   488/5581 KB   647/1083 KB   488/5581 KB   651/1083 KB   492/5581 KB   651/1083 KB   492/5581 KB   655/1083 KB   496/5581 KB   655/1083 KB   496/5581 KB   659/1083 KB   500/5581 KB   659/1083 KB   500/5581 KB   663/1083 KB   504/5581 KB   663/1083 KB   504/5581 KB   667/1083 KB   508/5581 KB   667/1083 KB   508/5581 KB   671/1083 KB   512/5581 KB   671/1083 KB   512/5581 KB   675/1083 KB   516/5581 KB   679/1083 KB   516/5581 KB   683/1083 KB   516/5581 KB   687/1083 KB   516/5581 KB   691/1083 KB   516/5581 KB   695/1083 KB   516/5581 KB   695/1083 KB   516/5581 KB   699/1083 KB   520/5581 KB   699/1083 KB   520/5581 KB   703/1083 KB   524/5581 KB   703/1083 KB   524/5581 KB   707/1083 KB   528/5581 KB   707/1083 KB   528/5581 KB   711/1083 KB   532/5581 KB   711/1083 KB   532/5581 KB   715/1083 KB   536/5581 KB   715/1083 KB   536/5581 KB   719/1083 KB   540/5581 KB   719/1083 KB   540/5581 KB   723/1083 KB   544/5581 KB   723/1083 KB   544/5581 KB   727/1083 KB   548/5581 KB   727/1083 KB   548/5581 KB   731/1083 KB   548/5581 KB   735/1083 KB   552/5581 KB   735/1083 KB   552/5581 KB   739/1083 KB   556/5581 KB   739/1083 KB   556/5581 KB   743/1083 KB   560/5581 KB   743/1083 KB   560/5581 KB   747/1083 KB   564/5581 KB   747/1083 KB   564/5581 KB   751/1083 KB   568/5581 KB   751/1083 KB   568/5581 KB   755/1083 KB   572/5581 KB   755/1083 KB   572/5581 KB   759/1083 KB   576/5581 KB   759/1083 KB   576/5581 KB   763/1083 KB   576/5581 KB   767/1083 KB   580/5581 KB   767/1083 KB   580/5581 KB   771/1083 KB   584/5581 KB   771/1083 KB   588/5581 KB   771/1083 KB   588/5581 KB   775/1083 KB   588/5581 KB   779/1083 KB   588/5581 KB   783/1083 KB   588/5581 KB   787/1083 KB   592/5581 KB   787/1083 KB   592/5581 KB   791/1083 KB   596/5581 KB   791/1083 KB   596/5581 KB   795/1083 KB   600/5581 KB   795/1083 KB   600/5581 KB   799/1083 KB   604/5581 KB   799/1083 KB   604/5581 KB   803/1083 KB   604/5581 KB   807/1083 KB   608/5581 KB   807/1083 KB   608/5581 KB   811/1083 KB   612/5581 KB   811/1083 KB   612/5581 KB   815/1083 KB   616/5581 KB   815/1083 KB   616/5581 KB   819/1083 KB   620/5581 KB   819/1083 KB   620/5581 KB   823/1083 KB   624/5581 KB   823/1083 KB   624/5581 KB   827/1083 KB   628/5581 KB   827/1083 KB   628/5581 KB   831/1083 KB   632/5581 KB   831/1083 KB   632/5581 KB   835/1083 KB   636/5581 KB   835/1083 KB   636/5581 KB   839/1083 KB   640/5581 KB   839/1083 KB   640/5581 KB   840/1083 KB   644/5581 KB   840/1083 KB   648/5581 KB   840/1083 KB   652/5581 KB   840/1083 KB   656/5581 KB   840/1083 KB   660/5581 KB   840/1083 KB   664/5581 KB   840/1083 KB   664/5581 KB   844/1083 KB   668/5581 KB   844/1083 KB   668/5581 KB   848/1083 KB   672/5581 KB   848/1083 KB   676/5581 KB   848/1083 KB   676/5581 KB   852/1083 KB   680/5581 KB   852/1083 KB   684/5581 KB   852/1083 KB   684/5581 KB   856/1083 KB   688/5581 KB   856/1083 KB   688/5581 KB   860/1083 KB   692/5581 KB   860/1083 KB   692/5581 KB   864/1083 KB   696/5581 KB   864/1083 KB   696/5581 KB   868/1083 KB   700/5581 KB   868/1083 KB   700/5581 KB   872/1083 KB   704/5581 KB   872/1083 KB   704/5581 KB   876/1083 KB   708/5581 KB   876/1083 KB   712/5581 KB   876/1083 KB   712/5581 KB   880/1083 KB   716/5581 KB   880/1083 KB   716/5581 KB   884/1083 KB   720/5581 KB   884/1083 KB   720/5581 KB   888/1083 KB   724/5581 KB   888/1083 KB   728/5581 KB   892/1083 KB   724/5581 KB   892/1083 KB   732/5581 KB   892/1083 KB   732/5581 KB   896/1083 KB   736/5581 KB   896/1083 KB   740/5581 KB   896/1083 KB   740/5581 KB   900/1083 KB   744/5581 KB   900/1083 KB   744/5581 KB   904/1083 KB   748/5581 KB   904/1083 KB   752/5581 KB   904/1083 KB   752/5581 KB   904/1083 KB   756/5581 KB   904/1083 KB   756/5581 KB   908/1083 KB   756/5581 KB   912/1083 KB   756/5581 KB   916/1083 KB   760/5581 KB   916/1083 KB   760/5581 KB   920/1083 KB   764/5581 KB   920/1083 KB   764/5581 KB   924/1083 KB   768/5581 KB   924/1083 KB   772/5581 KB   928/1083 KB   772/5581 KB   928/1083 KB   772/5581 KB   932/1083 KB   776/5581 KB   932/1083 KB   776/5581 KB   936/1083 KB   780/5581 KB   936/1083 KB   780/5581 KB   940/1083 KB   784/5581 KB   940/1083 KB   784/5581 KB   944/1083 KB   788/5581 KB   944/1083 KB   788/5581 KB   948/1083 KB   792/5581 KB   948/1083 KB   792/5581 KB   952/1083 KB   796/5581 KB   952/1083 KB   796/5581 KB   956/1083 KB   800/5581 KB   956/1083 KB   800/5581 KB   960/1083 KB   804/5581 KB   960/1083 KB   804/5581 KB   964/1083 KB   808/5581 KB   964/1083 KB   808/5581 KB   968/1083 KB   812/5581 KB   968/1083 KB   812/5581 KB   972/1083 KB   816/5581 KB   972/1083 KB   816/5581 KB   976/1083 KB   820/5581 KB   976/1083 KB   820/5581 KB   978/1083 KB   824/5581 KB   978/1083 KB   828/5581 KB   978/1083 KB   832/5581 KB   978/1083 KB   836/5581 KB   978/1083 KB   840/5581 KB   978/1083 KB   840/5581 KB   982/1083 KB   840/5581 KB   986/1083 KB   844/5581 KB   986/1083 KB   844/5581 KB   990/1083 KB   848/5581 KB   990/1083 KB   848/5581 KB   994/1083 KB   852/5581 KB   994/1083 KB   852/5581 KB   998/1083 KB   856/5581 KB   998/1083 KB   856/5581 KB   1002/1083 KB   860/5581 KB   1002/1083 KB   860/5581 KB   1006/1083 KB   864/5581 KB   1010/1083 KB   860/5581 KB   1010/1083 KB   868/5581 KB   1010/1083 KB   868/5581 KB   1014/1083 KB   872/5581 KB   1014/1083 KB   876/5581 KB   1018/1083 KB   876/5581 KB   1018/1083 KB   880/5581 KB   1018/1083 KB   880/5581 KB   1022/1083 KB   884/5581 KB   1022/1083 KB   884/5581 KB   1026/1083 KB   888/5581 KB   1026/1083 KB   888/5581 KB   1030/1083 KB   892/5581 KB   1030/1083 KB   892/5581 KB   1034/1083 KB   896/5581 KB   1034/1083 KB   896/5581 KB   1038/1083 KB   900/5581 KB   1038/1083 KB   904/5581 KB   1042/1083 KB   900/5581 KB   1042/1083 KB   908/5581 KB   1042/1083 KB   908/5581 KB   1046/1083 KB   912/5581 KB   1046/1083 KB   912/5581 KB   1050/1083 KB   916/5581 KB   1050/1083 KB   916/5581 KB   1054/1083 KB   916/5581 KB   1058/1083 KB   916/5581 KB   1059/1083 KB   916/5581 KB   1063/1083 KB   920/5581 KB   1063/1083 KB   920/5581 KB   1067/1083 KB   924/5581 KB   1067/1083 KB   924/5581 KB   1071/1083 KB   928/5581 KB   1071/1083 KB   928/5581 KB   1075/1083 KB   932/5581 KB   1075/1083 KB   932/5581 KB   1079/1083 KB   936/5581 KB   1079/1083 KB   936/5581 KB   1083/1083 KB   940/5581 KB   1083/1083 KB   940/5581 KB   1083/1083 KB   944/5581 KB   1083/1083 KB   948/5581 KB   1083/1083 KB   952/5581 KB   1083/1083 KB   956/5581 KB   1083/1083 KB                                960/5581 KB                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/abdera/wso2/abdera/1.0.0.wso2v3/abdera-1.0.0.wso2v3.jar (1083 KB at 18355.0 KB/sec)
+964/5581 KB   968/5581 KB   972/5581 KB   976/5581 KB   980/5581 KB   984/5581 KB   988/5581 KB   992/5581 KB   996/5581 KB   1000/5581 KB   1004/5581 KB   1008/5581 KB   1012/5581 KB   1016/5581 KB   1020/5581 KB   1024/5581 KB   1028/5581 KB   1032/5581 KB   1036/5581 KB   1040/5581 KB   1044/5581 KB   1048/5581 KB   1052/5581 KB   1056/5581 KB   1060/5581 KB   1064/5581 KB   1068/5581 KB   1072/5581 KB   1076/5581 KB   1080/5581 KB   1084/5581 KB   1088/5581 KB   1092/5581 KB   1096/5581 KB   1100/5581 KB   1104/5581 KB   1108/5581 KB   1112/5581 KB   1116/5581 KB   1120/5581 KB   1124/5581 KB   1128/5581 KB   1132/5581 KB   1136/5581 KB   1140/5581 KB   1144/5581 KB   1148/5581 KB   1152/5581 KB   1156/5581 KB   1160/5581 KB   1164/5581 KB   1168/5581 KB   1172/5581 KB   1176/5581 KB   1180/5581 KB   1184/5581 KB   1188/5581 KB   1192/5581 KB   1196/5581 KB   1200/5581 KB   1204/5581 KB   1208/5581 KB   1212/5581 KB   1216/5581 KB   1220/5581 KB   1224/5581 KB   1228/5581 KB   1232/5581 KB   1236/5581 KB   1240/5581 KB   1244/5581 KB   1248/5581 KB   1252/5581 KB   1256/5581 KB   1260/5581 KB   1264/5581 KB   1268/5581 KB   1272/5581 KB   1276/5581 KB   1280/5581 KB   1284/5581 KB   1288/5581 KB   1292/5581 KB   1296/5581 KB   1300/5581 KB   1304/5581 KB   1308/5581 KB   1312/5581 KB   1316/5581 KB   1320/5581 KB   1324/5581 KB   1328/5581 KB   1332/5581 KB   1336/5581 KB   1340/5581 KB   1344/5581 KB   1348/5581 KB   1352/5581 KB   1356/5581 KB   1360/5581 KB   1364/5581 KB   1368/5581 KB   1372/5581 KB   1376/5581 KB   1380/5581 KB   1384/5581 KB   1388/5581 KB   1392/5581 KB   1396/5581 KB   1400/5581 KB   1404/5581 KB   1408/5581 KB   1412/5581 KB   1416/5581 KB   1420/5581 KB   1424/5581 KB   1428/5581 KB   1432/5581 KB   1436/5581 KB   1440/5581 KB   1444/5581 KB   1448/5581 KB   1452/5581 KB   1456/5581 KB   1460/5581 KB   1464/5581 KB   1468/5581 KB   1472/5581 KB   1476/5581 KB   1480/5581 KB   1484/5581 KB   1488/5581 KB   1492/5581 KB   1496/5581 KB   1500/5581 KB   1504/5581 KB   1508/5581 KB   1512/5581 KB   1516/5581 KB   1520/5581 KB   1524/5581 KB   1528/5581 KB   1532/5581 KB   1536/5581 KB   1540/5581 KB   1544/5581 KB   1548/5581 KB   1552/5581 KB   1556/5581 KB   1560/5581 KB   1564/5581 KB   1568/5581 KB   1572/5581 KB   1576/5581 KB   1580/5581 KB   1584/5581 KB   1588/5581 KB   1592/5581 KB   1596/5581 KB   1600/5581 KB   1604/5581 KB   1608/5581 KB   1612/5581 KB   1616/5581 KB   1620/5581 KB   1624/5581 KB   1628/5581 KB   1632/5581 KB   1636/5581 KB   1640/5581 KB   1644/5581 KB   1648/5581 KB   1652/5581 KB   1656/5581 KB   1660/5581 KB   1664/5581 KB   1668/5581 KB   1672/5581 KB   1676/5581 KB   1680/5581 KB   1684/5581 KB   1688/5581 KB   1692/5581 KB   1696/5581 KB   1700/5581 KB   1704/5581 KB   1708/5581 KB   1712/5581 KB   1716/5581 KB   1720/5581 KB   1724/5581 KB   1728/5581 KB   1732/5581 KB   1736/5581 KB   1740/5581 KB   1744/5581 KB   1748/5581 KB   1752/5581 KB   1756/5581 KB   1760/5581 KB   1764/5581 KB   1768/5581 KB   1772/5581 KB   1776/5581 KB   1780/5581 KB   1784/5581 KB   1788/5581 KB   1792/5581 KB   1796/5581 KB   1800/5581 KB   1804/5581 KB   1808/5581 KB   1812/5581 KB   1816/5581 KB   1820/5581 KB   1824/5581 KB   1828/5581 KB   1832/5581 KB   1836/5581 KB   1840/5581 KB   1844/5581 KB   1848/5581 KB   1852/5581 KB   1856/5581 KB   1860/5581 KB   1864/5581 KB   1868/5581 KB   1872/5581 KB   1876/5581 KB   1880/5581 KB   1884/5581 KB   1888/5581 KB   1892/5581 KB   1896/5581 KB   1900/5581 KB   1904/5581 KB   1908/5581 KB   1912/5581 KB   1916/5581 KB   1920/5581 KB   1924/5581 KB   1928/5581 KB   1932/5581 KB   1936/5581 KB   1940/5581 KB   1944/5581 KB   1948/5581 KB   1952/5581 KB   1956/5581 KB   1960/5581 KB   1964/5581 KB   1968/5581 KB   1972/5581 KB   1976/5581 KB   1980/5581 KB   1984/5581 KB   1988/5581 KB   1992/5581 KB   1996/5581 KB   2000/5581 KB   2004/5581 KB   2008/5581 KB   2012/5581 KB   2016/5581 KB   2020/5581 KB   2024/5581 KB   2028/5581 KB   2032/5581 KB   2036/5581 KB   2040/5581 KB   2044/5581 KB   2048/5581 KB   2052/5581 KB   2056/5581 KB   2060/5581 KB   2064/5581 KB   2068/5581 KB   2072/5581 KB   2076/5581 KB   2080/5581 KB   2084/5581 KB   2088/5581 KB   2092/5581 KB   2096/5581 KB   2100/5581 KB   2104/5581 KB   2108/5581 KB   2112/5581 KB   2116/5581 KB   2120/5581 KB   2124/5581 KB   2128/5581 KB   2132/5581 KB   2136/5581 KB   2140/5581 KB   2144/5581 KB   2148/5581 KB   2152/5581 KB   2156/5581 KB   2160/5581 KB   2164/5581 KB   2168/5581 KB   2172/5581 KB   2176/5581 KB   2180/5581 KB   2184/5581 KB   2188/5581 KB   2192/5581 KB   2196/5581 KB   2200/5581 KB   2204/5581 KB   2208/5581 KB   2212/5581 KB   2216/5581 KB   2220/5581 KB   2224/5581 KB   2228/5581 KB   2232/5581 KB   2236/5581 KB   2240/5581 KB   2244/5581 KB   2248/5581 KB   2252/5581 KB   2256/5581 KB   2260/5581 KB   2264/5581 KB   2268/5581 KB   2272/5581 KB   2276/5581 KB   2280/5581 KB   2284/5581 KB   2288/5581 KB   2292/5581 KB   2296/5581 KB   2300/5581 KB   2304/5581 KB   2308/5581 KB   2312/5581 KB   2316/5581 KB   2320/5581 KB   2324/5581 KB   2328/5581 KB   2332/5581 KB   2336/5581 KB   2340/5581 KB   2344/5581 KB   2348/5581 KB   2352/5581 KB   2356/5581 KB   2360/5581 KB   2364/5581 KB   2368/5581 KB   2372/5581 KB   2376/5581 KB   2380/5581 KB   2384/5581 KB   2388/5581 KB   2392/5581 KB   2396/5581 KB   2400/5581 KB   2404/5581 KB   2408/5581 KB   2412/5581 KB   2416/5581 KB   2420/5581 KB   2424/5581 KB   2428/5581 KB   2432/5581 KB   2436/5581 KB   2440/5581 KB   2444/5581 KB   2448/5581 KB   2452/5581 KB   2456/5581 KB   2460/5581 KB   2464/5581 KB   2468/5581 KB   2472/5581 KB   2476/5581 KB   2480/5581 KB   2484/5581 KB   2488/5581 KB   2492/5581 KB   2496/5581 KB   2500/5581 KB   2504/5581 KB   2508/5581 KB   2512/5581 KB   2516/5581 KB   2520/5581 KB   2524/5581 KB   2528/5581 KB   2532/5581 KB   2536/5581 KB   2540/5581 KB   2544/5581 KB   2548/5581 KB   2552/5581 KB   2556/5581 KB   2560/5581 KB   2564/5581 KB   2568/5581 KB   2572/5581 KB   2576/5581 KB   2580/5581 KB   2584/5581 KB   2588/5581 KB   2592/5581 KB   2596/5581 KB   2600/5581 KB   2604/5581 KB   2608/5581 KB   2612/5581 KB   2616/5581 KB   2620/5581 KB   2624/5581 KB   2628/5581 KB   2632/5581 KB   2636/5581 KB   2640/5581 KB   2644/5581 KB   2648/5581 KB   2652/5581 KB   2656/5581 KB   2660/5581 KB   2664/5581 KB   2668/5581 KB   2672/5581 KB   2676/5581 KB   2680/5581 KB   2684/5581 KB   2688/5581 KB   2692/5581 KB   2696/5581 KB   2700/5581 KB   2704/5581 KB   2708/5581 KB   2712/5581 KB   2716/5581 KB   2720/5581 KB   2724/5581 KB   2728/5581 KB   2732/5581 KB   2736/5581 KB   2740/5581 KB   2744/5581 KB   2748/5581 KB   2752/5581 KB   2756/5581 KB   2760/5581 KB   2764/5581 KB   2768/5581 KB   2772/5581 KB   2776/5581 KB   2780/5581 KB   2784/5581 KB   2788/5581 KB   2792/5581 KB   2796/5581 KB   2800/5581 KB   2804/5581 KB   2808/5581 KB   2812/5581 KB   2816/5581 KB   2820/5581 KB   2824/5581 KB   2828/5581 KB   2832/5581 KB   2836/5581 KB   2840/5581 KB   2844/5581 KB   2848/5581 KB   2852/5581 KB   2856/5581 KB   2860/5581 KB   2864/5581 KB   2868/5581 KB   2872/5581 KB   2876/5581 KB   2880/5581 KB   2884/5581 KB   2888/5581 KB   2892/5581 KB   2896/5581 KB   2900/5581 KB   2904/5581 KB   2908/5581 KB   2912/5581 KB   2916/5581 KB   2920/5581 KB   2924/5581 KB   2928/5581 KB   2932/5581 KB   2936/5581 KB   2940/5581 KB   2944/5581 KB   2948/5581 KB   2952/5581 KB   2956/5581 KB   2960/5581 KB   2964/5581 KB   2968/5581 KB   2972/5581 KB   2976/5581 KB   2980/5581 KB   2984/5581 KB   2988/5581 KB   2992/5581 KB   2996/5581 KB   3000/5581 KB   3004/5581 KB   3008/5581 KB   3012/5581 KB   3016/5581 KB   3020/5581 KB   3024/5581 KB   3028/5581 KB   3032/5581 KB   3036/5581 KB   3040/5581 KB   3044/5581 KB   3048/5581 KB   3052/5581 KB   3056/5581 KB   3060/5581 KB   3064/5581 KB   3068/5581 KB   3072/5581 KB   3076/5581 KB   3080/5581 KB   3084/5581 KB   3088/5581 KB   3092/5581 KB   3096/5581 KB   3100/5581 KB   3104/5581 KB   3108/5581 KB   3112/5581 KB   3116/5581 KB   3120/5581 KB   3124/5581 KB   3128/5581 KB   3132/5581 KB   3136/5581 KB   3140/5581 KB   3144/5581 KB   3148/5581 KB   3152/5581 KB   3156/5581 KB   3160/5581 KB   3164/5581 KB   3168/5581 KB   3172/5581 KB   3176/5581 KB   3180/5581 KB   3184/5581 KB   3188/5581 KB   3192/5581 KB   3196/5581 KB   3200/5581 KB   3204/5581 KB   3208/5581 KB   3212/5581 KB   3216/5581 KB   3220/5581 KB   3224/5581 KB   3228/5581 KB   3232/5581 KB   3236/5581 KB   3240/5581 KB   3244/5581 KB   3248/5581 KB   3252/5581 KB   3256/5581 KB   3260/5581 KB   3264/5581 KB   3268/5581 KB   3272/5581 KB   3276/5581 KB   3280/5581 KB   3284/5581 KB   3288/5581 KB   3292/5581 KB   3296/5581 KB   3300/5581 KB   3304/5581 KB   3308/5581 KB   3312/5581 KB   3316/5581 KB   3320/5581 KB   3324/5581 KB   3328/5581 KB   3332/5581 KB   3336/5581 KB   3340/5581 KB   3344/5581 KB   3348/5581 KB   3352/5581 KB   3356/5581 KB   3360/5581 KB   3364/5581 KB   3368/5581 KB   3372/5581 KB   3376/5581 KB   3380/5581 KB   3384/5581 KB   3388/5581 KB   3392/5581 KB   3396/5581 KB   3400/5581 KB   3404/5581 KB   3408/5581 KB   3412/5581 KB   3416/5581 KB   3420/5581 KB   3424/5581 KB   3428/5581 KB   3432/5581 KB   3436/5581 KB   3440/5581 KB   3444/5581 KB   3448/5581 KB   3452/5581 KB   3456/5581 KB   3460/5581 KB   3464/5581 KB   3468/5581 KB   3472/5581 KB   3476/5581 KB   3480/5581 KB   3484/5581 KB   3488/5581 KB   3492/5581 KB   3496/5581 KB   3500/5581 KB   3504/5581 KB   3508/5581 KB   3512/5581 KB   3516/5581 KB   3520/5581 KB   3524/5581 KB   3528/5581 KB   3532/5581 KB   3536/5581 KB   3540/5581 KB   3544/5581 KB   3548/5581 KB   3552/5581 KB   3556/5581 KB   3560/5581 KB   3564/5581 KB   3568/5581 KB   3572/5581 KB   3576/5581 KB   3580/5581 KB   3584/5581 KB   3588/5581 KB   3592/5581 KB   3596/5581 KB   3600/5581 KB   3604/5581 KB   3608/5581 KB   3612/5581 KB   3616/5581 KB   3620/5581 KB   3624/5581 KB   3628/5581 KB   3632/5581 KB   3636/5581 KB   3640/5581 KB   3644/5581 KB   3648/5581 KB   3652/5581 KB   3656/5581 KB   3660/5581 KB   3664/5581 KB   3668/5581 KB   3672/5581 KB   3676/5581 KB   3680/5581 KB   3684/5581 KB   3688/5581 KB   3692/5581 KB   3696/5581 KB   3700/5581 KB   3704/5581 KB   3708/5581 KB   3712/5581 KB   3716/5581 KB   3720/5581 KB   3724/5581 KB   3728/5581 KB   3732/5581 KB   3736/5581 KB   3740/5581 KB   3744/5581 KB   3748/5581 KB   3752/5581 KB   3756/5581 KB   3760/5581 KB   3764/5581 KB   3768/5581 KB   3772/5581 KB   3776/5581 KB   3780/5581 KB   3784/5581 KB   3788/5581 KB   3792/5581 KB   3796/5581 KB   3800/5581 KB   3804/5581 KB   3808/5581 KB   3812/5581 KB   3816/5581 KB   3820/5581 KB   3824/5581 KB   3828/5581 KB   3832/5581 KB   3836/5581 KB   3840/5581 KB   3844/5581 KB   3848/5581 KB   3852/5581 KB   3856/5581 KB   3860/5581 KB   3864/5581 KB   3868/5581 KB   3872/5581 KB   3876/5581 KB   3880/5581 KB   3884/5581 KB   3888/5581 KB   3892/5581 KB   3896/5581 KB   3900/5581 KB   3904/5581 KB   3908/5581 KB   3912/5581 KB   3916/5581 KB   3920/5581 KB   3924/5581 KB   3928/5581 KB   3932/5581 KB   3936/5581 KB   3940/5581 KB   3944/5581 KB   3948/5581 KB   3952/5581 KB   3956/5581 KB   3960/5581 KB   3964/5581 KB   3968/5581 KB   3972/5581 KB   3976/5581 KB   3980/5581 KB   3984/5581 KB   3988/5581 KB   3992/5581 KB   3996/5581 KB   4000/5581 KB   4004/5581 KB   4008/5581 KB   4012/5581 KB   4016/5581 KB   4020/5581 KB   4024/5581 KB   4028/5581 KB   4032/5581 KB   4036/5581 KB   4040/5581 KB   4044/5581 KB   4048/5581 KB   4052/5581 KB   4056/5581 KB   4060/5581 KB   4064/5581 KB   4068/5581 KB   4072/5581 KB   4076/5581 KB   4080/5581 KB   4084/5581 KB   4088/5581 KB   4092/5581 KB   4096/5581 KB   4100/5581 KB   4104/5581 KB   4108/5581 KB   4112/5581 KB   4116/5581 KB   4120/5581 KB   4124/5581 KB   4128/5581 KB   4132/5581 KB   4136/5581 KB   4140/5581 KB   4144/5581 KB   4148/5581 KB   4152/5581 KB   4156/5581 KB   4160/5581 KB   4164/5581 KB   4168/5581 KB   4172/5581 KB   4176/5581 KB   4180/5581 KB   4184/5581 KB   4188/5581 KB   4192/5581 KB   4196/5581 KB   4200/5581 KB   4204/5581 KB   4208/5581 KB   4212/5581 KB   4216/5581 KB   4220/5581 KB   4224/5581 KB   4228/5581 KB   4232/5581 KB   4236/5581 KB   4240/5581 KB   4244/5581 KB   4248/5581 KB   4252/5581 KB   4256/5581 KB   4260/5581 KB   4264/5581 KB   4268/5581 KB   4272/5581 KB   4276/5581 KB   4280/5581 KB   4284/5581 KB   4288/5581 KB   4292/5581 KB   4296/5581 KB   4300/5581 KB   4304/5581 KB   4308/5581 KB   4312/5581 KB   4316/5581 KB   4320/5581 KB   4324/5581 KB   4328/5581 KB   4332/5581 KB   4336/5581 KB   4340/5581 KB   4344/5581 KB   4348/5581 KB   4352/5581 KB   4356/5581 KB   4360/5581 KB   4364/5581 KB   4368/5581 KB   4372/5581 KB   4376/5581 KB   4380/5581 KB   4384/5581 KB   4388/5581 KB   4392/5581 KB   4396/5581 KB   4400/5581 KB   4404/5581 KB   4408/5581 KB   4412/5581 KB   4416/5581 KB   4420/5581 KB   4424/5581 KB   4428/5581 KB   4432/5581 KB   4436/5581 KB   4440/5581 KB   4444/5581 KB   4448/5581 KB   4452/5581 KB   4456/5581 KB   4460/5581 KB   4464/5581 KB   4468/5581 KB   4472/5581 KB   4476/5581 KB   4480/5581 KB   4484/5581 KB   4488/5581 KB   4492/5581 KB   4496/5581 KB   4500/5581 KB   4504/5581 KB   4508/5581 KB   4512/5581 KB   4516/5581 KB   4520/5581 KB   4524/5581 KB   4528/5581 KB   4532/5581 KB   4536/5581 KB   4540/5581 KB   4544/5581 KB   4548/5581 KB   4552/5581 KB   4556/5581 KB   4560/5581 KB   4564/5581 KB   4568/5581 KB   4572/5581 KB   4576/5581 KB   4580/5581 KB   4584/5581 KB   4588/5581 KB   4592/5581 KB   4596/5581 KB   4600/5581 KB   4604/5581 KB   4608/5581 KB   4612/5581 KB   4616/5581 KB   4620/5581 KB   4624/5581 KB   4628/5581 KB   4632/5581 KB   4636/5581 KB   4640/5581 KB   4644/5581 KB   4648/5581 KB   4652/5581 KB   4656/5581 KB   4660/5581 KB   4664/5581 KB   4668/5581 KB   4672/5581 KB   4676/5581 KB   4680/5581 KB   4684/5581 KB   4688/5581 KB   4692/5581 KB   4696/5581 KB   4700/5581 KB   4704/5581 KB   4708/5581 KB   4712/5581 KB   4716/5581 KB   4720/5581 KB   4724/5581 KB   4728/5581 KB   4732/5581 KB   4736/5581 KB   4740/5581 KB   4744/5581 KB   4748/5581 KB   4752/5581 KB   4756/5581 KB   4760/5581 KB   4764/5581 KB   4768/5581 KB   4772/5581 KB   4776/5581 KB   4780/5581 KB   4784/5581 KB   4788/5581 KB   4792/5581 KB   4796/5581 KB   4800/5581 KB   4804/5581 KB   4808/5581 KB   4812/5581 KB   4816/5581 KB   4820/5581 KB   4824/5581 KB   4828/5581 KB   4832/5581 KB   4836/5581 KB   4840/5581 KB   4844/5581 KB   4848/5581 KB   4852/5581 KB   4856/5581 KB   4860/5581 KB   4864/5581 KB   4868/5581 KB   4872/5581 KB   4876/5581 KB   4880/5581 KB   4884/5581 KB   4888/5581 KB   4892/5581 KB   4896/5581 KB   4900/5581 KB   4904/5581 KB   4908/5581 KB   4912/5581 KB   4916/5581 KB   4920/5581 KB   4924/5581 KB   4928/5581 KB   4932/5581 KB   4936/5581 KB   4940/5581 KB   4944/5581 KB   4948/5581 KB   4952/5581 KB   4956/5581 KB   4960/5581 KB   4964/5581 KB   4968/5581 KB   4972/5581 KB   4976/5581 KB   4980/5581 KB   4984/5581 KB   4988/5581 KB   4992/5581 KB   4996/5581 KB   5000/5581 KB   5004/5581 KB   5008/5581 KB   5012/5581 KB   5016/5581 KB   5020/5581 KB   5024/5581 KB   5028/5581 KB   5032/5581 KB   5036/5581 KB   5040/5581 KB   5044/5581 KB   5048/5581 KB   5052/5581 KB   5056/5581 KB   5060/5581 KB   5064/5581 KB   5068/5581 KB   5072/5581 KB   5076/5581 KB   5080/5581 KB   5084/5581 KB   5088/5581 KB   5092/5581 KB   5096/5581 KB   5100/5581 KB   5104/5581 KB   5108/5581 KB   5112/5581 KB   5116/5581 KB   5120/5581 KB   5124/5581 KB   5128/5581 KB   5132/5581 KB   5136/5581 KB   5140/5581 KB   5144/5581 KB   5148/5581 KB   5152/5581 KB   5156/5581 KB   5160/5581 KB   5164/5581 KB   5168/5581 KB   5172/5581 KB   5176/5581 KB   5180/5581 KB   5184/5581 KB   5188/5581 KB   5192/5581 KB   5196/5581 KB   5200/5581 KB   5204/5581 KB   5208/5581 KB   5212/5581 KB   5216/5581 KB   5220/5581 KB   5224/5581 KB   5228/5581 KB   5232/5581 KB   5236/5581 KB   5240/5581 KB   5244/5581 KB   5248/5581 KB   5252/5581 KB   5256/5581 KB   5260/5581 KB   5264/5581 KB   5268/5581 KB   5272/5581 KB   5276/5581 KB   5280/5581 KB   5284/5581 KB   5288/5581 KB   5292/5581 KB   5296/5581 KB   5300/5581 KB   5304/5581 KB   5308/5581 KB   5312/5581 KB   5316/5581 KB   5320/5581 KB   5324/5581 KB   5328/5581 KB   5332/5581 KB   5336/5581 KB   5340/5581 KB   5344/5581 KB   5348/5581 KB   5352/5581 KB   5356/5581 KB   5360/5581 KB   5364/5581 KB   5368/5581 KB   5372/5581 KB   5376/5581 KB   5380/5581 KB   5384/5581 KB   5388/5581 KB   5392/5581 KB   5396/5581 KB   5400/5581 KB   5404/5581 KB   5408/5581 KB   5412/5581 KB   5416/5581 KB   5420/5581 KB   5424/5581 KB   5428/5581 KB   5432/5581 KB   5436/5581 KB   5440/5581 KB   5444/5581 KB   5448/5581 KB   5452/5581 KB   5456/5581 KB   5460/5581 KB   5464/5581 KB   5468/5581 KB   5472/5581 KB   5476/5581 KB   5480/5581 KB   5484/5581 KB   5488/5581 KB   5492/5581 KB   5496/5581 KB   5500/5581 KB   5504/5581 KB   5508/5581 KB   5512/5581 KB   5516/5581 KB   5520/5581 KB   5524/5581 KB   5528/5581 KB   5532/5581 KB   5536/5581 KB   5540/5581 KB   5544/5581 KB   5548/5581 KB   5552/5581 KB   5556/5581 KB   5560/5581 KB   5564/5581 KB   5568/5581 KB   5572/5581 KB   5576/5581 KB   5580/5581 KB   5581/5581 KB                  Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/compass-project/wso2/compass/2.0.1.wso2v2/compass-2.0.1.wso2v2.jar (5581 KB at 32255.0 KB/sec)
+4/245 KB       8/245 KB   12/245 KB   16/245 KB   20/245 KB   24/245 KB   28/245 KB   32/245 KB   36/245 KB   40/245 KB   44/245 KB   48/245 KB   52/245 KB   56/245 KB   57/245 KB   61/245 KB   61/245 KB   65/245 KB   69/245 KB   73/245 KB   77/245 KB   81/245 KB   85/245 KB   85/245 KB   89/245 KB   93/245 KB   97/245 KB   101/245 KB   105/245 KB   109/245 KB   113/245 KB   117/245 KB   121/245 KB   125/245 KB   129/245 KB   133/245 KB   137/245 KB   141/245 KB   145/245 KB   149/245 KB   153/245 KB   157/245 KB   161/245 KB   165/245 KB   169/245 KB   173/245 KB   174/245 KB   178/245 KB   182/245 KB   186/245 KB   190/245 KB   194/245 KB   198/245 KB   202/245 KB   205/245 KB   209/245 KB   213/245 KB   217/245 KB   221/245 KB   225/245 KB   229/245 KB   233/245 KB   237/245 KB   241/245 KB   245/245 KB   245/245 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/ehcache/1.5.0-wso2v2/ehcache-1.5.0-wso2v2.jar (245 KB at 821.9 KB/sec)
+4/247 KB     8/247 KB   12/247 KB   16/247 KB   20/247 KB   24/247 KB   28/247 KB   32/247 KB   36/247 KB   39/247 KB   43/247 KB   47/247 KB   51/247 KB   55/247 KB   59/247 KB   62/247 KB   66/247 KB   70/247 KB   74/247 KB   78/247 KB   82/247 KB   86/247 KB   90/247 KB   90/247 KB   94/247 KB   98/247 KB   102/247 KB   106/247 KB   110/247 KB   114/247 KB   118/247 KB   122/247 KB   126/247 KB   128/247 KB   132/247 KB   136/247 KB   140/247 KB   144/247 KB   148/247 KB   152/247 KB   156/247 KB   160/247 KB   164/247 KB   168/247 KB   172/247 KB   176/247 KB   180/247 KB   182/247 KB   186/247 KB   190/247 KB   194/247 KB   198/247 KB   200/247 KB   204/247 KB   208/247 KB   212/247 KB   216/247 KB   217/247 KB   221/247 KB   225/247 KB   229/247 KB   232/247 KB   236/247 KB   240/247 KB   244/247 KB   247/247 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/net/sf/ehcache/wso2/ehcache/1.5.0.wso2v2/ehcache-1.5.0.wso2v2.jar (247 KB at 796.4 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.registry.core ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.registry.core ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.registry.core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.registry.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.carbon.registry.core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/classes
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/BasicFactory.java: Some input files use or override a deprecated API.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/BasicFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/RegistryFactory.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/RegistryFactory.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.registry.core ---
+[WARNING] Class org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent is using deprecated javadoc tags  at file:/home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.java:75
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.registry.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/../../distribution/kernel/carbon-home/lib/core/WEB-INF/classes
+[INFO] Copying 1 resource
+[INFO] Copying 27 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.carbon.registry.core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 41 source files to /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/test-classes
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/test/java/org/wso2/carbon/registry/core/test/jdbc/TagsTest.java: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/test/java/org/wso2/carbon/registry/core/test/jdbc/TagsTest.java uses or overrides a deprecated API.
+[INFO] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/test/java/org/wso2/carbon/registry/core/test/jdbc/TagsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.registry.core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ org.wso2.carbon.registry.core ---
+[WARNING] Include-Resource: overriding META-INF/services/org.apache.abdera.factory.ExtensionFactory=src/main/resources/META-INF/services/org.apache.abdera.factory.ExtensionFactory,org/wso2/registry/i18n/resource.properties=src/main/resources/org/wso2/registry/i18n/resource.properties,META-INF/NOTICE=target/maven-shared-archive-resources/META-INF/NOTICE,META-INF/LICENSE=target/maven-shared-archive-resources/META-INF/LICENSE,META-INF/DEPENDENCIES=target/maven-shared-archive-resources/META-INF/DEPENDENCIES,OSGI-INF/serviceComponents.xml=target/scr-plugin-generated/OSGI-INF/serviceComponents.xml,OSGI-INF/scr-plugin/scrinfo.xml=target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml,OSGI-INF/metatype/metatype.xml=target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml with META-INF/services/org.apache.abdera.factory.ExtensionFactory=src/main/resources/META-INF/services/org.apache.abdera.factory.ExtensionFactory,OSGI-INF/serviceComponents.xml=target/scr-plugin-generated/OSGI-INF/serviceComponents.xml, (add {maven-resources} if you want to include the maven resources)
+[WARNING] Embed-Dependency: clause "acegi-security;scope=compile|runtime;inline=false" did not match any dependencies
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.registry.core:bundle:4.4.6-SNAPSHOT : Did not find matching referal for org.apache.lucene.*
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.registry.core:bundle:4.4.6-SNAPSHOT : Did not find matching referal for org.apache.ws.commons.schema.*
+[WARNING] Bundle org.wso2.carbon:org.wso2.carbon.registry.core:bundle:4.4.6-SNAPSHOT : Did not find matching referal for org.pdfbox.*
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:site (default) @ org.wso2.carbon.registry.core ---
+[INFO] configuring report plugin org.apache.maven.plugins:maven-javadoc-plugin:2.9
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.9:javadoc (report:javadoc) @ org.wso2.carbon.registry.core >>>
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.registry.core ---
+[INFO] Incremental build test already done. Skipping...
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.9:javadoc (report:javadoc) @ org.wso2.carbon.registry.core <<<
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:2.4
+[INFO] Parent project loaded from repository: org.wso2:wso2:pom:1
+[INFO] Relativizing decoration links with respect to project URL: http://wso2.org/org.wso2.carbon.registry.core
+[INFO] Rendering site with org.apache.maven.skins:maven-default-skin:jar:1.0 skin.
+[INFO] Generating "JavaDocs" report    --- maven-javadoc-plugin:2.9
+[INFO] The goal 'org.apache.maven.plugins:maven-javadoc-plugin:2.9:javadoc' has not been previously called for the module: 'org.wso2.carbon:org.wso2.carbon.registry.xboot:jar:4.4.6-SNAPSHOT'. Trying to invoke it...
+[INFO] 
+Loading source files for package org.wso2.carbon.registry.app...
+Loading source files for package org.wso2.carbon.registry.app.targets...
+Loading source files for package org.wso2.carbon.registry.synchronization...
+Loading source files for package org.wso2.carbon.registry.synchronization.message...
+Loading source files for package org.wso2.carbon.registry.synchronization.operation...
+Loading source files for package org.wso2.carbon.registry.core.clustering...
+Loading source files for package org.wso2.carbon.registry.core...
+Loading source files for package org.wso2.carbon.registry.core.utils...
+Loading source files for package org.wso2.carbon.registry.core.secure...
+Loading source files for package org.wso2.carbon.registry.core.dataaccess...
+Loading source files for package org.wso2.carbon.registry.core.servlet.utils...
+Loading source files for package org.wso2.carbon.registry.core.servlet...
+Loading source files for package org.wso2.carbon.registry.core.session...
+Loading source files for package org.wso2.carbon.registry.core.internal...
+Loading source files for package org.wso2.carbon.registry.core.caching...
+Loading source files for package org.wso2.carbon.registry.core.pagination.handler...
+Loading source files for package org.wso2.carbon.registry.core.pagination...
+Loading source files for package org.wso2.carbon.registry.core.statistics...
+Loading source files for package org.wso2.carbon.registry.core.statistics.query...
+Loading source files for package org.wso2.carbon.registry.core.dao...
+Loading source files for package org.wso2.carbon.registry.core.config...
+Loading source files for package org.wso2.carbon.registry.core.service...
+Loading source files for package org.wso2.carbon.registry.core.ghostregistry...
+Loading source files for package org.wso2.carbon.registry.core.jdbc...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.utils...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.dataobjects...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.dataaccess...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.handlers...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.handlers.builtin...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.handlers.filters...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.queries...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.realm...
+Loading source files for package org.wso2.carbon.registry.core.jdbc.dao...
+Loading source files for package org.wso2.carbon.registry.core.exceptions...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_51
+Building tree for all the packages and classes...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/APPConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/CachedResources.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/OMElementResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/Properties.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/Property.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/PropertyExtensionFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/PropertyName.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/PropertyValue.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RegistryAdapter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RegistryProvider.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RegistryRequestProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RegistryResolver.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RemoteRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RemoteRegistryFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RemoteRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/RemoteResourceImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/ResourceServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/StackTraceResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/StringResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/ResourceTarget.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/ResponseTarget.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/RegistrySynchronizer.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/SynchronizationConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/SynchronizationException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/UserInputCallback.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/Message.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/MessageCode.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/CheckInCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/CheckOutCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/UpdateCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/NodeGroupLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ActionConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Aspect.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Association.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Collection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/CollectionImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/CollectionVersionImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Comment.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/CoreRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/LogEntry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/LogEntryCollection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Registry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/RegistryConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/RegistryFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Resource.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ResourceIDImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ResourceImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ResourceImporter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ResourcePath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/Tag.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/TaggedResourcePath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/AccessControlConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/AuthorizationUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/LogQueue.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/LogRecord.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/LogWriter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/MediaTypesUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/RegistryClientUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/RegistryUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/UUIDGenerator.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/VersionedPath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/AuthorizationFailedException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/AuthorizeRoleListener.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/RegistryUMConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/ClusterLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/DAOManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/DataAccessManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/DatabaseTransaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/QueryProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/TransactionManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/UserUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/FileUploadUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/RegistryServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/ResourceRequestProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/UDDIServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/ChrootWrapper.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/CurrentSession.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/UserRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.DefaultSimulationService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/RegistryDataHolder.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/CacheBackedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/CachingHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/PathCache.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/RegistryCacheEntry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/RegistryCacheKey.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/PageCountHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/Paginate.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/PaginationConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/PaginationContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/PaginationUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/StatisticsCollector.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/StatisticsLog.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/DBQueryStatisticsLog.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/StatisticsRecord.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/AssociationDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/CommentsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/LogsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/RatingsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/ResourceDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/ResourceVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/TagsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/DataBaseConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/HandlerConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/MediaTypeHandlerConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/Mount.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/QueryProcessorConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RegistryConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RegistryConfigurationProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RegistryConfigurationProcessor.HandlerDefinitionObject.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RegistryContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RegistryContext.RegURLSupplier.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/RemoteConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/StaticConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/RegistryProvider.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/RegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/SimulationService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/TenantRegistryLoader.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/GhostRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/DatabaseConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/DumpConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/EmbeddedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/EmbeddedRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/InMemoryEmbeddedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/InMemoryEmbeddedRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/RecursionRepository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/Repository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/VersionRepository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/DumpReader.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/DumpWriter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/RegistryDataSource.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/ResourceVersionHolder.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/ServiceConfigUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/Transaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/VersionInputStream.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/VersionRetriever.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/CommentDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/PropertyDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/RatingDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/ResourceDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/TagDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/TaggingDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCClusterLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCDAOManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCDataAccessManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCDatabaseTransaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCDatabaseTransaction.ManagedRegistryConnection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/JDBCTransactionManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/SQLQueryProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/TenantAwareSQLTransformer.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/CustomEditManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/EditProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/Handler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/HandlerLifecycleManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/HandlerManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/RequestContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/TextEditProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/UIEnabledHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/UserDefinedHandlerManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/XSLTBasedUIEnabledHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/CommentCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/CommentURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/MountHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/OperationStatisticsHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/RatingCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/RatingURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/RegexBaseRestrictionHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/SimulationHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/SQLQueryHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/SymLinkHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/TagCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/TagURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/Filter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/MediaTypeMatcher.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/SimulationFilter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/URLMatcher.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/QueryProcessorManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/InMemoryRealmService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/RegistryAuthorizationManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/RegistryRealm.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/RegistryUserStoreManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCAssociationDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCCommentsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCCommentsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCLogsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCPathCache.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCRatingsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCRatingsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCResourceDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCResourceVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCTagsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/JDBCTagsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/ConcurrentModificationException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/RegistryException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/ResourceNotFoundException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/overview-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/package-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/package-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/package-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/constant-values.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/serialized-form.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/StringResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RegistryAdapter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/PropertyExtensionFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/APPConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RemoteRegistryFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RegistryResolver.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/CachedResources.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RegistryRequestProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/StackTraceResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RegistryProvider.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RemoteRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/ResourceServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/Properties.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/PropertyValue.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/PropertyName.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/OMElementResponseContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RemoteResourceImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/RemoteRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/class-use/Property.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/class-use/ResponseTarget.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/class-use/ResourceTarget.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/class-use/SynchronizationException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/class-use/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/class-use/UserInputCallback.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/class-use/SynchronizationConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/class-use/RegistrySynchronizer.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/class-use/Message.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/class-use/MessageCode.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/class-use/UpdateCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/class-use/CheckOutCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/class-use/CheckInCommand.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/class-use/NodeGroupLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Resource.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/ActionConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Registry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/LogEntryCollection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/TaggedResourcePath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/CollectionImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/RegistryConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Collection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Association.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/RegistryFactory.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/LogEntry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Aspect.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Comment.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/ResourcePath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/ResourceIDImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/Tag.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/ResourceImporter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/CoreRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/ResourceImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/class-use/CollectionVersionImpl.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/RegistryClientUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/LogRecord.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/UUIDGenerator.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/LogWriter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/MediaTypesUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/LogQueue.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/VersionedPath.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/AccessControlConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/RegistryUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/class-use/AuthorizationUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/class-use/AuthorizeRoleListener.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/class-use/AuthorizationFailedException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/class-use/RegistryUMConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/ClusterLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/DataAccessManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/DAOManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/QueryProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/TransactionManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/class-use/DatabaseTransaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/class-use/Utils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/class-use/UserUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/class-use/UDDIServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/class-use/FileUploadUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/class-use/ResourceRequestProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/class-use/RegistryServlet.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/class-use/ChrootWrapper.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/class-use/UserRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/class-use/CurrentSession.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/class-use/RegistryCoreServiceComponent.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/class-use/RegistryCoreServiceComponent.DefaultSimulationService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/class-use/RegistryDataHolder.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/class-use/RegistryCacheKey.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/class-use/CachingHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/class-use/RegistryCacheEntry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/class-use/PathCache.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/class-use/CacheBackedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/class-use/PageCountHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/class-use/PaginationContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/class-use/Paginate.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/class-use/PaginationConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/class-use/PaginationUtils.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/class-use/StatisticsLog.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/class-use/StatisticsCollector.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/class-use/DBQueryStatisticsLog.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/class-use/StatisticsRecord.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/TagsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/CommentsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/AssociationDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/ResourceVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/LogsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/RatingsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/class-use/ResourceDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RegistryContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RegistryContext.RegURLSupplier.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/HandlerConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/StaticConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RegistryConfigurationProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RegistryConfigurationProcessor.HandlerDefinitionObject.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RegistryConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/QueryProcessorConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/Mount.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/DataBaseConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/MediaTypeHandlerConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/class-use/RemoteConfiguration.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/class-use/TenantRegistryLoader.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/class-use/RegistryProvider.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/class-use/RegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/class-use/SimulationService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/class-use/GhostRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/DatabaseConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/InMemoryEmbeddedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/RecursionRepository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/VersionRepository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/EmbeddedRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/DumpConstants.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/EmbeddedRegistry.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/Repository.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/class-use/InMemoryEmbeddedRegistryService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/VersionInputStream.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/DumpWriter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/ServiceConfigUtil.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/Transaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/RegistryDataSource.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/DumpReader.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/VersionRetriever.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/class-use/ResourceVersionHolder.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/TaggingDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/ResourceDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/CommentDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/PropertyDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/RatingDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/class-use/TagDO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCDatabaseTransaction.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCDatabaseTransaction.ManagedRegistryConnection.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCTransactionManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCDataAccessManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCDAOManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/SQLQueryProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/TenantAwareSQLTransformer.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/class-use/JDBCClusterLock.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/TextEditProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/RequestContext.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/HandlerLifecycleManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/UserDefinedHandlerManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/HandlerManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/XSLTBasedUIEnabledHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/Handler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/CustomEditManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/UIEnabledHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/class-use/EditProcessor.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/CommentCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/SymLinkHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/TagURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/SimulationHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/RegexBaseRestrictionHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/RatingURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/OperationStatisticsHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/RatingCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/SQLQueryHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/TagCollectionURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/CommentURLHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/class-use/MountHandler.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/class-use/MediaTypeMatcher.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/class-use/SimulationFilter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/class-use/URLMatcher.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/class-use/Filter.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/class-use/QueryProcessorManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/class-use/RegistryRealm.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/class-use/RegistryUserStoreManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/class-use/InMemoryRealmService.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/class-use/RegistryAuthorizationManager.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCCommentsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCRatingsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCPathCache.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCCommentsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCResourceVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCTagsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCTagsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCResourceDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCRatingsVersionDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCAssociationDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/class-use/JDBCLogsDAO.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/class-use/ConcurrentModificationException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/class-use/RegistryException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/class-use/ResourceNotFoundException.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/app/targets/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/caching/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/clustering/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/config/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dao/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/dataaccess/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/exceptions/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/ghostregistry/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/internal/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dao/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataaccess/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/dataobjects/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/builtin/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/handlers/filters/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/queries/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/realm/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/jdbc/utils/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/pagination/handler/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/secure/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/service/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/servlet/utils/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/session/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/statistics/query/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/core/utils/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/message/package-use.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/org/wso2/carbon/registry/synchronization/operation/package-use.html...
+Building index for all the packages and classes...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/overview-tree.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/index-all.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/allclasses-frame.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/allclasses-noframe.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/index.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/overview-summary.html...
+Generating /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/site/apidocs/help-doc.html...
+17 warnings
+[WARNING] Javadoc Warnings
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/synchronization/Utils.java:1419: warning - @return tag has no arguments.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/synchronization/Utils.java:1431: warning - @return tag has no arguments.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/Registry.java:577: warning - @param argument "version" is not a parameter name.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.java:88: warning - @scr.component is an unknown tag.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.java:88: warning - @scr.reference is an unknown tag.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.java:88: warning - @scr.reference is an unknown tag.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/internal/RegistryCoreServiceComponent.java:88: warning - @scr.reference is an unknown tag.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/jdbc/dataaccess/SQLQueryProcessor.java:425: warning - @return tag has no arguments.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/jdbc/dataaccess/TenantAwareSQLTransformer.java:175: warning - @return tag has no arguments.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:27: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:34: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:27: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:27: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:34: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:34: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:27: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[WARNING] /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/src/main/java/org/wso2/carbon/registry/core/exceptions/RegistryException.java:34: warning - Tag @inheritDoc cannot be used in constructor documentation.  It can only be used in the following types of documentation: method, inline text.
+[INFO] Generating "Project Summary" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Project License" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Project Team" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Mailing Lists" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Continuous Integration" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Issue Tracking" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "Source Repository" report    --- maven-project-info-reports-plugin:2.4
+[INFO] Generating "About" report    --- maven-project-info-reports-plugin:2.4
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:attached (dist) @ org.wso2.carbon.registry.core ---
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/2.2/plexus-archiver-2.2.pom
+4/4 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/2.2/plexus-archiver-2.2.pom (4 KB at 241.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.20/plexus-components-1.1.20.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-components/1.1.20/plexus-components-1.1.20.pom (3 KB at 368.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.pom (3 KB at 350.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/file-management/1.1/file-management-1.1.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/file-management/1.1/file-management-1.1.pom (3 KB at 370.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/4/maven-shared-components-4.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/4/maven-shared-components-4.pom (3 KB at 308.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom (3 KB at 422.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+588/588 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 82.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+4/7 KB      7/7 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (7 KB at 893.4 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4 KB at 495.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (3 KB at 308.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom (4 KB at 438.3 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-repository-builder/1.0-alpha-2/maven-repository-builder-1.0-alpha-2.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-repository-builder/1.0-alpha-2/maven-repository-builder-1.0-alpha-2.pom (4 KB at 394.2 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom (3 KB at 362.6 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.pom
+765/765 B               Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.pom (765 B at 83.0 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.4/maven-2.0.4.pom
+4/12 KB     7/12 KB   11/12 KB   12/12 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven/2.0.4/maven-2.0.4.pom (12 KB at 1439.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom
+2/2 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom (2 KB at 165.8 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.4/maven-repository-metadata-2.0.4.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-repository-metadata/2.0.4/maven-repository-metadata-2.0.4.pom (2 KB at 181.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom
+2/2 KB   2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom (2 KB at 224.9 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom (2 KB at 198.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom
+3/3 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom (3 KB at 294.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom (2 KB at 197.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-common-artifact-filters/1.0-alpha-1/maven-common-artifact-filters-1.0-alpha-1.pom
+2/2 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-common-artifact-filters/1.0-alpha-1/maven-common-artifact-filters-1.0-alpha-1.pom (2 KB at 219.7 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/6/maven-shared-components-6.pom
+4/4 KB            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-components/6/maven-shared-components-6.pom (4 KB at 505.5 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/2.2/plexus-archiver-2.2.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/file-management/1.1/file-management-1.1.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+4/31 KB   8/31 KB   12/31 KB   16/31 KB   17/31 KB   21/31 KB   25/31 KB   29/31 KB   31/31 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/file-management/1.1/file-management-1.1.jar (31 KB at 3382.1 KB/sec)
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-repository-builder/1.0-alpha-2/maven-repository-builder-1.0-alpha-2.jar
+4/181 KB   4/227 KB   4/181 KB   4/227 KB   8/181 KB   8/227 KB   8/181 KB   8/227 KB   12/181 KB   12/227 KB   12/181 KB   13/227 KB   13/181 KB   13/227 KB   13/181 KB   13/227 KB   13/181 KB   4/57 KB   13/227 KB   13/181 KB   8/57 KB   13/227 KB   13/181 KB   12/57 KB   13/227 KB   13/181 KB   13/57 KB   13/227 KB   13/181 KB   17/57 KB   13/227 KB   13/181 KB   21/57 KB   13/227 KB   15/181 KB   25/57 KB   13/227 KB   15/181 KB   25/57 KB   13/227 KB   15/181 KB   29/57 KB   13/227 KB   15/181 KB   33/57 KB   13/227 KB   15/181 KB   35/57 KB   17/227 KB   15/181 KB   35/57 KB   21/227 KB   15/181 KB   35/57 KB   24/227 KB   15/181 KB   35/57 KB   24/227 KB   15/181 KB   35/57 KB   4/39 KB   28/227 KB   15/181 KB   35/57 KB   4/39 KB   28/227 KB   19/181 KB   35/57 KB   4/39 KB   32/227 KB   19/181 KB   35/57 KB   4/39 KB   32/227 KB   23/181 KB   35/57 KB   4/39 KB   36/227 KB   23/181 KB   35/57 KB   4/39 KB   36/227 KB   27/181 KB   35/57 KB   4/39 KB   36/227 KB   27/181 KB   35/57 KB   4/39 KB   36/227 KB   29/181 KB   35/57 KB   4/39 KB   36/227 KB   29/181 KB   35/57 KB   8/39 KB   36/227 KB   29/181 KB   35/57 KB   12/39 KB   36/227 KB   29/181 KB   35/57 KB   13/39 KB   36/227 KB   29/181 KB   39/57 KB   13/39 KB   36/227 KB   29/181 KB   43/57 KB   13/39 KB   36/227 KB   29/181 KB   47/57 KB   13/39 KB   36/227 KB   29/181 KB   51/57 KB   13/39 KB   36/227 KB   29/181 KB   55/57 KB   4/23 KB   13/39 KB   36/227 KB   29/181 KB   55/57 KB   4/23 KB   13/39 KB   36/227 KB   33/181 KB   55/57 KB   4/23 KB   13/39 KB   40/227 KB   33/181 KB   57/57 KB   4/23 KB   13/39 KB   40/227 KB   37/181 KB   57/57 KB   4/23 KB   13/39 KB   44/227 KB   37/181 KB   57/57 KB   4/23 KB   13/39 KB   44/227 KB   37/181 KB   57/57 KB   8/23 KB   13/39 KB   48/227 KB   37/181 KB   57/57 KB   8/23 KB   13/39 KB   48/227 KB   41/181 KB   57/57 KB   8/23 KB   13/39 KB   52/227 KB   41/181 KB   57/57 KB   12/23 KB   13/39 KB   53/227 KB   41/181 KB   57/57 KB   12/23 KB   13/39 KB   53/227 KB   45/181 KB   57/57 KB   12/23 KB   13/39 KB   36/227 KB   33/181 KB   57/57 KB   4/23 KB   13/39 KB   48/227 KB   41/181 KB   57/57 KB   12/23 KB   13/39 KB   53/227 KB   48/181 KB   57/57 KB   12/23 KB   13/39 KB   53/227 KB   48/181 KB   57/57 KB   13/23 KB   13/39 KB   53/227 KB   48/181 KB   57/57 KB   13/23 KB   17/39 KB                                                            53/227 KB   48/181 KB   13/23 KB   21/39 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (57 KB at 2011.3 KB/sec)
+53/227 KB   48/181 KB   13/23 KB   25/39 KB   53/227 KB   48/181 KB   13/23 KB   29/39 KB   53/227 KB   48/181 KB   13/23 KB   33/39 KB   53/227 KB   48/181 KB   13/23 KB   36/39 KB   53/227 KB   48/181 KB   17/23 KB   36/39 KB   57/227 KB   49/181 KB   17/23 KB   36/39 KB   57/227 KB   48/181 KB   17/23 KB   36/39 KB   57/227 KB   49/181 KB   17/23 KB   39/39 KB   57/227 KB   49/181 KB   21/23 KB   39/39 KB   61/227 KB   49/181 KB   21/23 KB   39/39 KB   61/227 KB   49/181 KB   23/23 KB   39/39 KB   65/227 KB   49/181 KB   23/23 KB   39/39 KB   65/227 KB   49/181 KB   23/23 KB                                                            Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 KB at 1243.7 KB/sec)
+                                   Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-repository-builder/1.0-alpha-2/maven-repository-builder-1.0-alpha-2.jar (23 KB at 983.1 KB/sec)
+65/227 KB   53/181 KB              65/227 KB   57/181 KB   65/227 KB   61/181 KB   65/227 KB   65/181 KB   65/227 KB   69/181 KB   65/227 KB   73/181 KB   65/227 KB   73/181 KB   69/227 KB   73/181 KB   73/227 KB   73/181 KB   77/227 KB   73/181 KB   80/227 KB   73/181 KB   80/227 KB   77/181 KB   80/227 KB   81/181 KB   80/227 KB   85/181 KB   80/227 KB   87/181 KB   84/227 KB   87/181 KB   88/227 KB   87/181 KB   89/227 KB   87/181 KB   89/227 KB   91/181 KB   89/227 KB   95/181 KB   89/227 KB   96/181 KB   93/227 KB   96/181 KB   97/227 KB   96/181 KB   101/227 KB   96/181 KB   105/227 KB   96/181 KB   108/227 KB   96/181 KB   108/227 KB   100/181 KB   108/227 KB   104/181 KB   108/227 KB   108/181 KB   108/227 KB   112/181 KB   108/227 KB   116/181 KB   108/227 KB   120/181 KB   108/227 KB   124/181 KB   108/227 KB   126/181 KB   112/227 KB   126/181 KB   116/227 KB   126/181 KB   120/227 KB   126/181 KB   124/227 KB   126/181 KB   128/227 KB   126/181 KB   130/227 KB   126/181 KB   130/227 KB   130/181 KB   130/227 KB   134/181 KB   130/227 KB   138/181 KB   130/227 KB   142/181 KB   130/227 KB   146/181 KB   130/227 KB   150/181 KB   130/227 KB   154/181 KB   130/227 KB   158/181 KB   130/227 KB   158/181 KB   134/227 KB   158/181 KB   138/227 KB   158/181 KB   142/227 KB   158/181 KB   142/227 KB   158/181 KB   142/227 KB   162/181 KB   142/227 KB   166/181 KB   142/227 KB   170/181 KB   142/227 KB   174/181 KB   142/227 KB   178/181 KB   142/227 KB   181/181 KB                             Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-archiver/2.2/plexus-archiver-2.2.jar (181 KB at 4405.9 KB/sec)
+146/227 KB                150/227 KB   154/227 KB   158/227 KB   160/227 KB   164/227 KB   168/227 KB   172/227 KB   176/227 KB   180/227 KB   184/227 KB   188/227 KB   188/227 KB   190/227 KB   194/227 KB   198/227 KB   202/227 KB   206/227 KB   210/227 KB   214/227 KB   218/227 KB   222/227 KB   226/227 KB   227/227 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar (227 KB at 5264.9 KB/sec)
+[INFO] Reading assembly descriptor: src/main/assembly/docs.xml
+[INFO] Building zip: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/org.wso2.carbon.registry.core-4.4.6-SNAPSHOT-docs.zip
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (test-set0) @ org.wso2.carbon.registry.core ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/surefire-reports-0
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.registry.synchronization.test.UtilitiesTest
+log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
+log4j:WARN Please initialize the log4j system properly.
+Jun 08, 2016 2:33:51 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
