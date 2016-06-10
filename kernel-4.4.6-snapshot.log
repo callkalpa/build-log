@@ -4662,3 +4662,35 @@ log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.inter
 log4j:WARN Please initialize the log4j system properly.
 Jun 10, 2016 11:05:07 PM org.apache.tomcat.jdbc.pool.ConnectionPool init
 WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
+Jun 10, 2016 11:47:27 PM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 80
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,541.999 sec - in org.wso2.carbon.registry.core.test.jdbc.PathCacheTest
+Running org.wso2.carbon.registry.core.test.jdbc.DumpReaderTest
+total read: 18143
+total buffered: 6173
+maximum buffer size: 3406
+total buffer read size: 6607
+log4j:WARN No appenders could be found for logger (org.apache.axiom.om.impl.MTOMXMLStreamWriter).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 sec - in org.wso2.carbon.registry.core.test.jdbc.DumpReaderTest
+
+Results :
+
+
+
+
+Tests run: 198, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (test-set1) @ org.wso2.carbon.registry.core ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/surefire-reports-1
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.registry.synchronization.test.UtilitiesTest
+log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
+log4j:WARN Please initialize the log4j system properly.
+Jun 10, 2016 11:47:31 PM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
