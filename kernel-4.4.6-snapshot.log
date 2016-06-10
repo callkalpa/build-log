@@ -4420,3 +4420,17 @@ Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus
 4/23 KB      8/23 KB   12/23 KB   16/23 KB   20/23 KB   23/23 KB              Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/apache/maven/shared/maven-repository-builder/1.0-alpha-2/maven-repository-builder-1.0-alpha-2.jar (23 KB at 2826.4 KB/sec)
 4/227 KB   8/227 KB   12/227 KB   16/227 KB   20/227 KB   24/227 KB   28/227 KB   32/227 KB   36/227 KB   40/227 KB   44/227 KB   48/227 KB   52/227 KB   56/227 KB   60/227 KB   64/227 KB   68/227 KB   72/227 KB   76/227 KB   80/227 KB   84/227 KB   88/227 KB   92/227 KB   96/227 KB   100/227 KB   104/227 KB   108/227 KB   112/227 KB   116/227 KB   120/227 KB   124/227 KB   128/227 KB   132/227 KB   136/227 KB   140/227 KB   141/227 KB   145/227 KB   149/227 KB   153/227 KB   157/227 KB   161/227 KB   165/227 KB   169/227 KB   170/227 KB   174/227 KB   178/227 KB   182/227 KB   186/227 KB   190/227 KB   194/227 KB   198/227 KB   202/227 KB   206/227 KB   210/227 KB   214/227 KB   218/227 KB   222/227 KB   226/227 KB   227/227 KB                Downloaded: http://maven.wso2.org/nexus/content/groups/wso2-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar (227 KB at 7806.5 KB/sec)
 [INFO] Reading assembly descriptor: src/main/assembly/docs.xml
+[INFO] Building zip: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/org.wso2.carbon.registry.core-4.4.6-docs.zip
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (test-set0) @ org.wso2.carbon.registry.core ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /home/wso2/carbon-kernel/core/org.wso2.carbon.registry.core/target/surefire-reports-0
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.registry.synchronization.test.UtilitiesTest
+log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
+log4j:WARN Please initialize the log4j system properly.
+Jun 10, 2016 2:23:44 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
