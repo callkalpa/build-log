@@ -9163,3 +9163,29 @@ INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - ==
 INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.mgt.WebappAdminTestCase.testSessionExpirationByAge ===================
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:14:28,728]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
 WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:28,739]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:28,749]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.webapp.mgt.WebappAdminTestCase.testSessionExpirationByAge ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:28,940]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:28,946]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:15:28,945+0000]
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment example
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:29,230]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - example Web Application deployed in 0 millis
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.async.AsyncServletTestCase.testAsyncServlet ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:29,278]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:29,343]  INFO {async.Async0$1} -  Putting AsyncThread to sleep
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:31,344]  INFO {async.Async0$1} -  Dispatching
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:31,348]  INFO {async.Async0} -  Received dispatch, completing on the worker thread.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:31,349]  INFO {async.Async0} -  After complete called started:false
+INFO  [org.wso2.appserver.integration.tests.webapp.async.AsyncServletTestCase] - Response - Async dispatch worked:+1465622131349
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:31,375]  INFO {async.Async1$1} -  Putting AsyncThread to sleep
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:33,425]  INFO {async.Async1$1} -  Dispatching to /jsp/async/async1.jsp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Inside Async 1
+INFO  [org.wso2.appserver.integration.tests.webapp.async.AsyncServletTestCase] - Response - Output from async1.jspType is ASYNCCompleted async request at 2016-06-11
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:33,571]  INFO {async.Async2$1} -  Putting AsyncThread to sleep
+INFO  [org.wso2.appserver.integration.tests.webapp.async.AsyncServletTestCase] - Response - Output from background thread. Time:1465622135576
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:15:35,575]  INFO {async.Async2$1} -  Writing data.
+INFO  [org.wso2.appserver.integration.tests.webapp.async.AsyncServletTestCase] - Response - Output from async3.jspType is ASYNCCompleted async 3 request at 2016-06-11
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - AsyncStockServlet created
