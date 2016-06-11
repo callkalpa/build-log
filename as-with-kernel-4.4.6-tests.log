@@ -3,196 +3,175 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] Building WSO2 AppServer - Integration Test Module 5.3.1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
-817/817 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml (817 B at 4.4 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
-                        610/610 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml (610 B at 16.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
-                        619/619 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml (619 B at 9.9 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
-            619/619 B                           Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml (619 B at 11.4 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
-                        819/819 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml (819 B at 20.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
-                        1011/1011 B                 Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml (1011 B at 20.6 KB/sec)
-              Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-                            627/627 B                 Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml (627 B at 14.2 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
-            620/620 B                           Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml (620 B at 13.8 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 20.7 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-                        614/614 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml (614 B at 12.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
-                        605/605 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml (605 B at 11.4 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
-                        615/615 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml (615 B at 7.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 31.3 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-                        809/809 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml (809 B at 18.8 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
-                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 16.0 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 16.7 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 21.8 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
-                        614/614 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml (614 B at 10.9 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 18.2 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
-                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 27.1 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
-                        809/809 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml (809 B at 24.7 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
-                        791/791 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml (791 B at 18.4 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 17.0 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
-            Downloading: http://download.java.net/maven/2/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
-            618/618 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml (618 B at 12.3 KB/sec)
-                        Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        797/797 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (797 B at 16.9 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
-                        606/606 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml (606 B at 12.9 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        801/801 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (801 B at 23.7 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        799/799 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (799 B at 22.9 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        800/800 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (800 B at 23.0 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        794/794 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (794 B at 29.8 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
-                        788/788 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml (788 B at 26.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
-                        781/781 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml (781 B at 13.4 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
-                        787/787 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml (787 B at 25.6 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
-                        786/786 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml (786 B at 26.5 KB/sec)
-            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
-Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
-                        792/792 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml (792 B at 20.9 KB/sec)
-            [INFO] 
+[INFO] 
 [INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.appserver.integration.tests ---
 [INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-integration/tests/target
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1:03.609s
-[INFO] Finished at: Sat Jun 11 04:29:19 UTC 2016
-[INFO] Final Memory: 26M/143M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean) on project org.wso2.appserver.integration.tests: Failed to clean project: Failed to delete /home/ubuntu/product-as/modules/integration/tests-integration/tests/target -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.appserver.integration.tests ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-integration/tests/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.appserver.integration.tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.appserver.integration.tests ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-jacoco-dependencies) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying org.jacoco.agent-0.7.5.201505241946.jar to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/org.jacoco.agent-0.7.5.201505241946.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-secVerifier) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying SecVerifier-4.4.6.aar to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/security-verifier/SecVerifier.aar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:unpack (unpack-mar-jks) @ org.wso2.appserver.integration.tests ---
+[INFO] Configured Artifact: org.wso2.appserver:wso2as:5.3.1-SNAPSHOT:zip
+[INFO] Unpacking /home/ubuntu/product-as/modules/integration/tests-integration/tests/../../../../../repo-new/org/wso2/appserver/wso2as/5.3.1-SNAPSHOT/wso2as-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/tobeCopied with includes "**/*.jks,**/*.mar,**/axis2_client.xml" and excludes ""
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-spring3-restful) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying spring3-restful-jndi-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring3-restful-jndi-service.war
+[INFO] Copying spring4-restful-faulty-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring4-restful-faulty-service.war
+[INFO] Copying spring3-restful-webapp-classloading-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring3-restful-webapp-classloading.war
+[INFO] Copying spring4-restful-webapp-classloading-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring4-restful-webapp-classloading.war
+[INFO] Copying spring4-restful-jndi-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring4-restful-jndi-service.war
+[INFO] Copying spring3-restful-faulty-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring3-restful-faulty-service.war
+[INFO] Copying spring3-restful-simple-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring3-restful-simple-service.war
+[INFO] Copying spring4-restful-simple-service-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring/spring4-restful-simple-service.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:unpack (unpack-spring3-restful-runtime-libs) @ org.wso2.appserver.integration.tests ---
+[INFO] Configured Artifact: org.wso2.appserver:spring3-restful-runtime-libs:?:zip
+[INFO] Unpacking /home/ubuntu/product-as/modules/integration/tests-integration/tests/../../../../../repo-new/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/spring3-restful-runtime-libs-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/spring with includes "**/*.jar" and excludes ""
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-jaxrs-restful) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/jaxrs/client/jaxrs-client-api-test-webapp.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-hibernate-war) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying hibernate-example-1.0.2-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/hibernate/hibernate-example.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-logging-artifacts) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying access-logs-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/access-logs-test-webapp.war
+[INFO] Copying jul-logs-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/jul-logs-test-webapp.war
+[INFO] Copying commons-logging-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/commons-logging-test-webapp.war
+[INFO] Copying slf4j-logging-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/slf4j-logging-test-webapp.war
+[INFO] Copying carbon-logging-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/carbon-logging-test-webapp.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-carbon-context-app) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying carbon-context-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/carbon-context.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-example-webapp) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying example-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/example.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-CarbonSaaS-webapp) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying CarbonSaasApp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/CarbonSaasApp.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-carbon-cache-webapp) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying carbon-cache-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/carbon-cache.war
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-HibernateJNDI-webapp) @ org.wso2.appserver.integration.tests ---
+[INFO] Copying hibernate-jndi-sample-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/resources/artifacts/AS/war/hibernate-jndi-sample.war
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-jks) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-stratos-jks) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-axis2files) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-mar) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.wso2.appserver.integration.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 158 resources
+[INFO] Copying 36 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.appserver.integration.tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 155 source files to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/test-classes
+[INFO] /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/java/org/wso2/appserver/integration/tests/webappsampleservice/WebAppSampleTestCase.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/java/org/wso2/appserver/integration/tests/webappsampleservice/WebAppSampleTestCase.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/java/org/wso2/appserver/integration/tests/server/mgt/OSGIServerBundleStatusTestCase.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/java/org/wso2/appserver/integration/tests/server/mgt/OSGIServerBundleStatusTestCase.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.appserver.integration.tests ---
+[INFO] Surefire report directory: /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Extracting carbon zip file.. 
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Building jar list for Jacoco coverage inclusion...
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - File wso2server.sh has been modified and inserted new line after -Dwso2.server.standalone=true
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - New line inserted into : wso2server.sh
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Content of the line inserted : -javaagent:/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/agent/jacocoagent.jar=destfile=/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465619690244.exec,append=true,includes=org.wso2.carbon.deployment.synchronizer.subversion*:org.wso2.carbon.deployment.synchronizer*:org.wso2.carbon.feature.mgt.core*:org.wso2.carbon.feature.mgt.services*:org.wso2.carbon.framework.exporter*:org.wso2.carbon.i18n*:org.wso2.carbon.identity.application.authentication.framework*:org.wso2.carbon.identity.application.common*:org.wso2.carbon.identity.application.mgt*:org.wso2.carbon.identity.authenticator.saml2.sso.common*:org.wso2.carbon.identity.authenticator.saml2.sso*:org.wso2.carbon.identity.base*:org.wso2.carbon.identity.core*:org.wso2.carbon.identity.entitlement.filter*:org.wso2.carbon.identity.entitlement.proxy*:org.wso2.carbon.identity.sso.agent*:org.wso2.carbon.identity.user.profile*:org.wso2.carbon.identity.user.store.configuration.deployer*:org.wso2.carbon.identity.user.store.configuration*:org.wso2.carbon.idp.mgt*:org.wso2.carbon.javaee.tomee.patch*:org.wso2.carbon.javaee.tomee*:org.wso2.carbon.logging.service*:org.wso2.carbon.logging*:org.wso2.carbon.messageflows*:org.wso2.carbon.ndatasource.common*:org.wso2.carbon.ndatasource.core*:org.wso2.carbon.ndatasource.datasources*:org.wso2.carbon.ndatasource.rdbms*:org.wso2.carbon.ntask.common*:org.wso2.carbon.ntask.core*:org.wso2.carbon.ntask.solutions*:org.wso2.carbon.osgi.security*:org.wso2.carbon.p2.touchpoint*:org.wso2.carbon.queuing*:org.wso2.carbon.registry.admin.api*:org.wso2.carbon.registry.api*:org.wso2.carbon.registry.common*:org.wso2.carbon.registry.core*:org.wso2.carbon.registry.indexing*:org.wso2.carbon.registry.properties*:org.wso2.carbon.registry.resource*:org.wso2.carbon.registry.search*:org.wso2.carbon.registry.server*:org.wso2.carbon.registry.servlet*:org.wso2.carbon.repomanager.axis2*:org.wso2.carbon.roles.mgt*:org.wso2.carbon.securevault*:org.wso2.carbon.security.mgt*:org.wso2.carbon.server.admin.common*:org.wso2.carbon.server.admin*:org.wso2.carbon.statistics*:org.wso2.carbon.tenant.common*:org.wso2.carbon.tenant.deployment*:org.wso2.carbon.tenant.dispatcher*:org.wso2.carbon.tenant.keystore.mgt*:org.wso2.carbon.tenant.mgt.core*:org.wso2.carbon.tenant.mgt*:org.wso2.carbon.tenant.redirector.servlet*:org.wso2.carbon.tenant.theme.mgt*:org.wso2.carbon.tenant.throttling.agent*:org.wso2.carbon.tenant.usage.agent*:org.wso2.carbon.tomcat.ext*:org.wso2.carbon.tomcat.patch*:org.wso2.carbon.tomcat*:org.jaggeryjs.hostobjects.db*:org.jaggeryjs.hostobjects.feed*:org.jaggeryjs.hostobjects.file*:org.jaggeryjs.hostobjects.jaggeryparser*:org.jaggeryjs.hostobjects.log*:org.jaggeryjs.hostobjects.registry*:org.jaggeryjs.hostobjects.stream*:org.jaggeryjs.hostobjects.uri*:org.jaggeryjs.hostobjects.web*:org.jaggeryjs.hostobjects.xhr*:org.jaggeryjs.hostobjects.xslt*:org.jaggeryjs.jaggery.app.mgt*:org.jaggeryjs.jaggery.core*:org.jaggeryjs.jaggery.deployer*:org.jaggeryjs.jaggery.tools*:org.jaggeryjs.modules.email*:org.jaggeryjs.modules.oauth*:org.jaggeryjs.modules.process*:org.jaggeryjs.modules.uuid*:org.jaggeryjs.modules.ws*:org.jaggeryjs.scriptengine*:org.wso2.securevault_*:org.wso2.carbon.addressing*:org.wso2.carbon.application.deployer.webapp*:org.wso2.carbon.application.deployer*:org.wso2.carbon.application.mgt.webapp*:org.wso2.carbon.application.mgt*:org.wso2.carbon.application.upload*:org.wso2.carbon.authenticator.proxy*:org.wso2.carbon.base*:org.wso2.carbon.claim.mgt*:org.wso2.carbon.cluster.mgt.core*:org.wso2.carbon.core.bootup.validator*:org.wso2.carbon.core.common*:org.wso2.carbon.core.services*:org.wso2.carbon.core*:org.wso2.carbon.databridge.agent.thrift*:org.wso2.carbon.databridge.commons.thrift*:org.wso2.carbon.databridge.commons*:org.wso2.carbon.deployment.synchronizer.git*:org.wso2.carbon.tracer*:org.wso2.carbon.transaction.manager*:org.wso2.carbon.tryit*:org.wso2.carbon.user.api*:org.wso2.carbon.user.core*:org.wso2.carbon.user.mgt.common*:org.wso2.carbon.user.mgt*:org.wso2.carbon.utils*:org.wso2.carbon.webapp.deployer*:org.wso2.carbon.webapp.mgt*:*org.wso2.carbon.context* \
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.TestServerManager] - Carbon Home - /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9863 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9543 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Starting carbon server............. 
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - JAVA_HOME environment variable is set to /home/ubuntu/dev-tools/jdk1.7.0_75
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - CARBON_HOME environment variable is set to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Using Java memory options: -Xms256m -Xmx1024m -XX:MaxPermSize=256m
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,950]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,951]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-36-generic, amd64
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,951]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/ubuntu/dev-tools/jdk1.7.0_75/jre
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,951]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_75
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,951]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 24.75-b04,Oracle Corporation
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,952]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,952]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/tmp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:55,952]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : ubuntu, en-US, Etc/UTC
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:56,129]  WARN {org.wso2.carbon.core.bootup.validator.SystemValidator} -  Could not validate the system for configuration parameter : CPU
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:56,131]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:56,131]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Swap Memory size (MB): 0 of the system is below the recommended minimum size :2047
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:56,220]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created !
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:34:56,256]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:00,494]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 648ms
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:01,093]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:05,428]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:06,018]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:11,487]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:12,935]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:12,935]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:15,637]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:15,677]  INFO {org.wso2.carbon.bam.webapp.stat.publisher.internal.WebappStatisticsServiceComponent} -  BAM Web Apps Statistics Publishing is disabled
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:15,709]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:15,738]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:16,128]  INFO {org.wso2.carbon.bam.service.data.publisher.internal.StatisticsServiceComponent} -  BAM Service Stat Publishing is disabled
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:16,458]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:16,458]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9863
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:16,486]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant}
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:16,503]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant}
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:17,202]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/example].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/example.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:17,238]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  ------------------------- localhost -> /javaee-examples
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:17,703]  INFO {org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource} -  Disabling testOnBorrow since no validation query is provided
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:17,742]  INFO {org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource} -  Disabling testOnBorrow since no validation query is provided
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:18,645]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  using context file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/javaee-examples/META-INF/context.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:19,193]  INFO {org.apache.openejb.server.webservices.WsService} -  Webservice(wsdl=http://localhost:9763/javaee-examples/webservices/HelloEjbService, qname={http://examples.org/wsdl}HelloEjbService) --> Ejb(id=HelloEjbService)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:20,312]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:20,461]  INFO {org.apache.openejb.server.webservices.WsService} -  Webservice(wsdl=http://localhost:9763//javaee-examples/hello, qname={http://examples.org/wsdl}HelloPojoService) --> Pojo(id=localhost.javaee-examples.HelloPojoService)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:20,486]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaee-examples].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/javaee-examples.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:21,773]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Refreshing Root WebApplicationContext: startup date [Sat Jun 11 04:35:21 UTC 2016]; root of context hierarchy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:21,829]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:21,924]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from URL [jndi:/localhost/jaxrs_basic/WEB-INF/cxf-servlet.xml]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:22,040]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68ab6bf4: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,customerService,serviceBean]; root of factory hierarchy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:22,543]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs_basic].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jaxrs_basic.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:23,427]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/jaggeryapps/docs]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:23,448]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:23,979]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:24,944]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11211/jndi/rmi://localhost:10099/jmxrmi
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:24,944]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  Application Server-5.3.0
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:24,945]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 34 sec
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:25,233]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://172.17.0.1:9543/carbon/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Waiting for user login...
+WARN  [org.apache.axiom.util.stax.dialect.StAXDialectDetector] - Unable to determine dialect of the StAX implementation at jar:file:/home/ubuntu/product-as/modules/integration/tests-integration/tests/../../../../../repo-new/org/apache/ws/commons/axiom/wso2/axiom/1.2.11.wso2v11/axiom-1.2.11.wso2v11.jar!/
