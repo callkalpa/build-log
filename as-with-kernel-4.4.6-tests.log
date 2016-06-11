@@ -18354,3 +18354,56 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:06,239]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Swap Memory size (MB): 0 of the system is below the recommended minimum size :2047
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:06,476]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created !
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:06,600]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:15,273]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 685ms
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:15,465]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:25,365]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:26,195]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - ***** Result from invoking the SPI consume via library: Doing it!
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:32,981]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:35,717]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:35,718]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:41,098]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:41,206]  INFO {org.wso2.carbon.bam.webapp.stat.publisher.internal.WebappStatisticsServiceComponent} -  BAM Web Apps Statistics Publishing is disabled
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:41,261]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Switching to default mode : Tenant lazy loading mechanism has been activated...
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:41,294]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:41,796]  INFO {org.wso2.carbon.bam.service.data.publisher.internal.StatisticsServiceComponent} -  BAM Service Stat Publishing is disabled
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:42,831]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:42,831]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9863
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,065]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HelloWorldWebapp].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/HelloWorldWebapp.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,155]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/example].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/example.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,227]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaee-examples].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/javaee-examples.war]
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,304]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs-client-api-test-webapp].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jaxrs-client-api-test-webapp.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,396]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs_basic].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jaxrs_basic.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,472]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs_starbucks_service].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jaxrs_starbucks_service.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,551]  INFO {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Deploying Ghost webapp : StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/jaggeryapps/docs]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,558]  INFO {org.wso2.carbon.utils.deployment.GhostDeployerUtils} -  Deploying Ghost Axis2 Service: echo
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,564]  INFO {org.wso2.carbon.utils.deployment.GhostDeployerUtils} -  Deploying Ghost Axis2 Service: Version
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,606]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:47:43,870]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Successfully connected to the server on port 9543
