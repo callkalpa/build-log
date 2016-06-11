@@ -3768,3 +3768,63 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:33,504]  INFO {org.wso2.carbon.base.CarbonContextHolderBase} -  Completed unloading tenant
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:33,519]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Starting a new Carbon instance. Current instance will be shutdown
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:33,519]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,842]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,855]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-36-generic, amd64
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/ubuntu/dev-tools/jdk1.7.0_75/jre
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_75
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 24.75-b04,Oracle Corporation
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/tmp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:41,856]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : ubuntu, en-US, Etc/UTC
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:42,158]  WARN {org.wso2.carbon.core.bootup.validator.SystemValidator} -  Could not validate the system for configuration parameter : CPU
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:42,160]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:42,160]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Swap Memory size (MB): 0 of the system is below the recommended minimum size :2047
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:42,357]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created !
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:42,432]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:46,193] ERROR {org.apache.catalina.mbeans.GlobalResourcesLifecycleListener} -  No global naming context defined for server
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:51,118]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 783ms
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:51,485]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:57,338]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:46:58,030]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:03,361]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:05,779]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:05,781]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:10,094]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:10,184]  INFO {org.wso2.carbon.bam.webapp.stat.publisher.internal.WebappStatisticsServiceComponent} -  BAM Web Apps Statistics Publishing is disabled
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:10,237]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:10,264]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:10,701]  INFO {org.wso2.carbon.bam.service.data.publisher.internal.StatisticsServiceComponent} -  BAM Service Stat Publishing is disabled
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:11,589]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:11,589]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9863
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:11,677]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant}
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:11,703]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant}
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:12,478]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/example].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/example.war]
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:12,504]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  ------------------------- localhost -> /javaee-examples
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:13,333]  INFO {org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource} -  Disabling testOnBorrow since no validation query is provided
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:13,400]  INFO {org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource} -  Disabling testOnBorrow since no validation query is provided
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:14,871]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  using context file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/javaee-examples/META-INF/context.xml
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:47:15,805]  INFO {org.apache.openejb.server.webservices.WsService} -  Webservice(wsdl=http://localhost:9763/javaee-examples/webservices/HelloEjbService, qname={http://examples.org/wsdl}HelloEjbService) --> Ejb(id=HelloEjbService)
