@@ -1965,3 +1965,306 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:26,155]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:26,684]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:26,712]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:27,292]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:27,318]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:27,853]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:27,884]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:28,408]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:28,428]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:28,939]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:28,950]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,121]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SimpleServlet].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/SimpleServlet.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,462]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - SimpleServlet Web Application deployed in 7913 millis
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.webapp.concurrency.SingleWebAppUploaderTestCase.testWebApplicationDeployment ===================
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.concurrency.SingleWebAppUploaderTestCase.testInvokeWebapps ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,491]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.webapp.concurrency.SingleWebAppUploaderTestCase.testInvokeWebapps ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,523]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,639]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SimpleServlet]
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,654]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,661]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for webApp undeployment SimpleServlet
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,783]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,958]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:29,963]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 04:41:29,963+0000]
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase.faultyWebAppDeployment ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:30,299]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment appServer-invalied-deploymant-1.0.0
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:30,600]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:30,609]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:31,149]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:31,158]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:31,675]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:31,683]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:32,193]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:32,201]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:32,710]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:32,719]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:33,228]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:33,236]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:33,746]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:33,754]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:34,263]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:34,271]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:34,781]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:34,789]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:35,300]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:35,314]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:35,825]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:35,834]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:36,345]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:36,354]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:36,864]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:36,872]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:37,381]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:37,389]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:37,900]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:37,908]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:38,419]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:38,426]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:38,936]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:38,944]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:39,453]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:39,462]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:39,971]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:39,979]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:40,488]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:40,497]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:41,006]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:41,014]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:41,524]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:41,533]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:42,043]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:42,052]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:42,562]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:42,571]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:43,082]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:43,097]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:43,614]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:43,623]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,133]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,141]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,404] ERROR {org.apache.catalina.core.StandardContext} -  Error configuring application listener of class org.springframework.web.context.ContextLoaderListener
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.loader.CarbonWebappClassLoader.loadClass(CarbonWebappClassLoader.java:154)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1701)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:504)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:486)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:113)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4984)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:290)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:198)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWebappDeployment(TomcatGenericWebappsDeployer.java:310)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWarWebappDeployment(TomcatGenericWebappsDeployer.java:210)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleHotDeployment(TomcatGenericWebappsDeployer.java:179)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.deploy(TomcatGenericWebappsDeployer.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deployThisWebApp(AbstractWebappDeployer.java:224)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deploy(AbstractWebappDeployer.java:114)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.deployer.WebappDeployer.deploy(WebappDeployer.java:42)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.startListener(RepositoryListener.java:371)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.checkRepository(SchedulerTask.java:59)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.run(SchedulerTask.java:67)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.runAxisDeployment(CarbonDeploymentSchedulerTask.java:93)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.run(CarbonDeploymentSchedulerTask.java:138)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,405] ERROR {org.apache.catalina.core.StandardContext} -  Skipped installing application listeners due to previous error(s)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,406] ERROR {org.apache.catalina.core.StandardContext} -  One or more listeners failed to start. Full details will be found in the appropriate container log file
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,406] ERROR {org.apache.catalina.core.StandardContext} -  Context [/appServer-invalied-deploymant-1.0.0] startup failed due to previous errors
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,433] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  Cannot stop context 
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/appServer-invalied-deploymant-1.0.0]] in state [DESTROYED]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:401)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:211)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:308)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:198)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWebappDeployment(TomcatGenericWebappsDeployer.java:310)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWarWebappDeployment(TomcatGenericWebappsDeployer.java:210)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleHotDeployment(TomcatGenericWebappsDeployer.java:179)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.deploy(TomcatGenericWebappsDeployer.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deployThisWebApp(AbstractWebappDeployer.java:224)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deploy(AbstractWebappDeployer.java:114)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.deployer.WebappDeployer.deploy(WebappDeployer.java:42)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.startListener(RepositoryListener.java:371)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.checkRepository(SchedulerTask.java:59)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.run(SchedulerTask.java:67)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.runAxisDeployment(CarbonDeploymentSchedulerTask.java:93)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.run(CarbonDeploymentSchedulerTask.java:138)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,434] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  Webapp StandardEngine[Catalina].StandardHost[localhost].StandardContext[/appServer-invalied-deploymant-1.0.0] failed to deploy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,434] ERROR {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Error while deploying webapp: StandardContext[appServer-invalied-deploymant-1.0.0.war].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/appServer-invalied-deploymant-1.0.0.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - org.wso2.carbon.tomcat.CarbonTomcatException: Webapp failed to deploy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:302)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:198)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWebappDeployment(TomcatGenericWebappsDeployer.java:310)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWarWebappDeployment(TomcatGenericWebappsDeployer.java:210)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleHotDeployment(TomcatGenericWebappsDeployer.java:179)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.deploy(TomcatGenericWebappsDeployer.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deployThisWebApp(AbstractWebappDeployer.java:224)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deploy(AbstractWebappDeployer.java:114)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.deployer.WebappDeployer.deploy(WebappDeployer.java:42)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.startListener(RepositoryListener.java:371)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.checkRepository(SchedulerTask.java:59)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.run(SchedulerTask.java:67)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.runAxisDeployment(CarbonDeploymentSchedulerTask.java:93)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.run(CarbonDeploymentSchedulerTask.java:138)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Caused by: java.lang.Exception: Webapp failed to deploy, Lifecycle state is STOPPED
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:294)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	... 25 more
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,435] ERROR {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Error occurred while deploying webapp : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/appServer-invalied-deploymant-1.0.0.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - org.wso2.carbon.CarbonException: Error while deploying webapp: StandardContext[appServer-invalied-deploymant-1.0.0.war].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/appServer-invalied-deploymant-1.0.0.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWebappDeployment(TomcatGenericWebappsDeployer.java:408)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWarWebappDeployment(TomcatGenericWebappsDeployer.java:210)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleHotDeployment(TomcatGenericWebappsDeployer.java:179)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.deploy(TomcatGenericWebappsDeployer.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deployThisWebApp(AbstractWebappDeployer.java:224)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.deploy(AbstractWebappDeployer.java:114)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.deployer.WebappDeployer.deploy(WebappDeployer.java:42)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.RepositoryListener.startListener(RepositoryListener.java:371)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.checkRepository(SchedulerTask.java:59)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.apache.axis2.deployment.scheduler.SchedulerTask.run(SchedulerTask.java:67)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.runAxisDeployment(CarbonDeploymentSchedulerTask.java:93)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.run(CarbonDeploymentSchedulerTask.java:138)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Caused by: org.wso2.carbon.tomcat.CarbonTomcatException: Webapp failed to deploy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:302)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:198)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.handleWebappDeployment(TomcatGenericWebappsDeployer.java:310)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	... 23 more
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Caused by: java.lang.Exception: Webapp failed to deploy, Lifecycle state is STOPPED
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	at org.wso2.carbon.tomcat.internal.CarbonTomcat.addWebApp(CarbonTomcat.java:294)
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - 	... 25 more
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,662]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,672]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - appServer-invalied-deploymant-1.0.0- Web Application is faulty
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,694]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase.faultyWebAppDeployment ===================
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase.faultyWebAppRemoval ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,714]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,729]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase] - Faulty web appServer-invalied-deploymant-1.0.0.war deleted
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase.faultyWebAppRemoval ===================
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.webapp.faultywebapp.FaultyWebAppScenarioTestCase.nonWarUpload ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,738]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment AxisCApp-1.0.0
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,753]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,966]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:44,974]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:45,485]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:45,496]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:46,005]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:46,013]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:46,523]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:46,531]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:47,041]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:47,049]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:47,558]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:47,566]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:48,075]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:48,083]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:48,591]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:48,599]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:49,109]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:49,117]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:49,626]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:49,634]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:50,145]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:50,155]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:50,668]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:50,676]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:51,185]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:51,193]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:51,705]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:51,713]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:52,224]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:52,232]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:52,742]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:52,750]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:53,258]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:53,267]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:53,776]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:53,784]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:54,293]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:54,300]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:54,809]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:54,817]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:55,326]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:55,334]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:55,844]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:55,852]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:56,361]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:56,369]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:56,879]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:56,887]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:57,396]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:57,404]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:57,914]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:57,921]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:58,431]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:58,439]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:58,949]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:58,958]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:59,469]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:59,478]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:59,988]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:41:59,996]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:00,506]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:00,515]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:01,024]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:01,033]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:01,542]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:42:01,550]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
