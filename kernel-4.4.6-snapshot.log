@@ -4728,3 +4728,5 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,603.491 sec - 
 Running org.wso2.carbon.registry.core.test.jdbc.TransactionsTest
 log4j:WARN No appenders could be found for logger (org.wso2.carbon.context.internal.CarbonContextDataHolder).
 log4j:WARN Please initialize the log4j system properly.
+Jun 11, 2016 3:17:15 AM org.apache.tomcat.jdbc.pool.ConnectionPool init
+WARNING: maxIdle is larger than maxActive, setting maxIdle to: 50
