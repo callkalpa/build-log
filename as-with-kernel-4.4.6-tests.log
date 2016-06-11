@@ -1511,3 +1511,21 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:17,842]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Swap Memory size (MB): 0 of the system is below the recommended minimum size :2047
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:18,002]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created !
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:18,068]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:26,125]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 539ms
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:26,449]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:30,621]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:31,340]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:36,890]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:38,912]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:39:38,912]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
+INFO  [org.wso2.carbon.integration.common.utils.ClientConnectionUtil] - Waiting until server starts on port 9543
