@@ -15097,3 +15097,64 @@ INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfEjbTestCase] - getResp
     <h2>Hi, this is the Greetings JSF EJB sample</h2><form id="j_id_4" name="j_id_4" method="post" action="/t/wso2.com/webapps/jsf-greeting/index.jsf;jsessionid=98A0C8D83576E6EBF10A62540A093D579E966AE032E52937F5FA6C279CF1C19C8A4689022853F7FBC95C1BF64E13C988BFAA9FE986863358FA299EB8B65FA1BFD706DF45521D7F8B75CEF3CBF55ED97D3929579AAD56BA5C60B882A4C072521349B88E3F0FB56D3525E783F9A6E5FC05A4A1BC17D220BF7DF7AC3687318F0F67" enctype="application/x-www-form-urlencoded"><label>Enter your name</label><input id="j_id_4:j_id_6" name="j_id_4:j_id_6" type="text" value="" /><input id="j_id_4:j_id_7" name="j_id_4:j_id_7" type="submit" value="Enter" /><input type="hidden" name="j_id_4_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="zZIQE8zlhCg8QIrMYDO8BQ9Q5Bqxk0Z3WYVe/xZfc5VgPlT1
 " /></form>
 </html>
+INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfEjbTestCase] - postResponse - <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+  ~
+  ~ WSO2 Inc. licenses this file to you under the Apache License,
+  ~ Version 2.0 (the "License"); you may not use this file except
+  ~ in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml"><form id="j_id_3" name="j_id_3" method="post" action="/t/wso2.com/webapps/jsf-greeting/welcome.jsf" enctype="application/x-www-form-urlencoded">
+        <h2>Welcome John Doe</h2>
+
+        <h3>Distinct characters in the name: j, o, h, n, d, e</h3>
+
+        <h3>Visitor no: 1</h3><input id="j_id_3:j_id_5" name="j_id_3:j_id_5" type="submit" value="Exit" /><input type="hidden" name="j_id_3_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="XLQXcIWVytY8QIrMYDO8BVPH4UKs+MYQEI9Xszw98VJDYJ+Y
+" /></form>
+</html>
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.javaee.jsf.JsfEjbTestCase.testJsfEjb ===================
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - UnDeploying web application : jsf-greeting.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:05,708] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:06,881] testuser11@wso2.com [1] [AS] INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/t/wso2.com/webapps/jsf-greeting]
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for webApp undeployment jsf-greeting
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:07,181] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:07,561]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:07,565]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:34:07,565+0000]
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - Deploying web application : /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/resources/artifacts/AS/javaee/cdi/cdi-alternatives.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:08,069]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment cdi-alternatives
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:08,302]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:08,309]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:08,818]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:08,824]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:09,331]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:09,337]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:09,845]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:09,858]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:10,368]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:10,383]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:10,892]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:10,904]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:11,411]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:11,418]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:11,925]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:11,932]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:12,440]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:12,446]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:12,954]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:12,960]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:13,468]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:34:13,475]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
