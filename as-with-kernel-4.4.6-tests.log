@@ -1,0 +1,198 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Test Module 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml
+817/817 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/maven-metadata.xml (817 B at 4.4 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml
+                        610/610 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/maven-metadata.xml (610 B at 16.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml
+                        619/619 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/integration-appSever/5.3.1-SNAPSHOT/maven-metadata.xml (619 B at 9.9 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml
+            619/619 B                           Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-parent/5.3.1-SNAPSHOT/maven-metadata.xml (619 B at 11.4 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml
+                        819/819 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/maven-metadata.xml (819 B at 20.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml
+                        1011/1011 B                 Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jpa-contacts-database/5.3.1-SNAPSHOT/maven-metadata.xml (1011 B at 20.6 KB/sec)
+              Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+                            627/627 B                 Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-javaee-samples/5.3.1-SNAPSHOT/maven-metadata.xml (627 B at 14.2 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml
+            620/620 B                           Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/wso2appserver-samples/5.3.1-SNAPSHOT/maven-metadata.xml (620 B at 13.8 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 20.7 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+                        614/614 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/maven-metadata.xml (614 B at 12.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml
+                        605/605 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring/5.3.1-SNAPSHOT/maven-metadata.xml (605 B at 11.4 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml
+                        615/615 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/maven-metadata.xml (615 B at 7.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 31.3 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+                        809/809 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml (809 B at 18.8 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml
+                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 16.0 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 16.7 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 21.8 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml
+                        614/614 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/maven-metadata.xml (614 B at 10.9 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 18.2 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml
+                        804/804 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/maven-metadata.xml (804 B at 27.1 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml
+                        809/809 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/maven-metadata.xml (809 B at 24.7 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml
+                        791/791 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/maven-metadata.xml (791 B at 18.4 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        802/802 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (802 B at 17.0 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
+            Downloading: http://download.java.net/maven/2/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml
+            618/618 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/maven-metadata.xml (618 B at 12.3 KB/sec)
+                        Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        797/797 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/access-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (797 B at 16.9 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml
+                        606/606 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/logging/5.3.1-SNAPSHOT/maven-metadata.xml (606 B at 12.9 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        801/801 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/commons-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (801 B at 23.7 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        799/799 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/slf4j-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (799 B at 22.9 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        800/800 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-logging-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (800 B at 23.0 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        794/794 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/jul-logs-test-webapp/5.3.1-SNAPSHOT/maven-metadata.xml (794 B at 29.8 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml
+                        788/788 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-context/5.3.1-SNAPSHOT/maven-metadata.xml (788 B at 26.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml
+                        781/781 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/example/5.3.1-SNAPSHOT/maven-metadata.xml (781 B at 13.4 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml
+                        787/787 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/CarbonSaasApp/5.3.1-SNAPSHOT/maven-metadata.xml (787 B at 25.6 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml
+                        786/786 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/carbon-cache/5.3.1-SNAPSHOT/maven-metadata.xml (786 B at 26.5 KB/sec)
+            Downloading: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1023/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.wso2.org/nexus/content/repositories/releases/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml
+                        792/792 B               Downloaded: http://maven.wso2.org/nexus/content/repositories/snapshots/org/wso2/appserver/hibernate-jndi-sample/5.3.1-SNAPSHOT/maven-metadata.xml (792 B at 20.9 KB/sec)
+            [INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.appserver.integration.tests ---
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-integration/tests/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:03.609s
+[INFO] Finished at: Sat Jun 11 04:29:19 UTC 2016
+[INFO] Final Memory: 26M/143M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean) on project org.wso2.appserver.integration.tests: Failed to clean project: Failed to delete /home/ubuntu/product-as/modules/integration/tests-integration/tests/target -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
