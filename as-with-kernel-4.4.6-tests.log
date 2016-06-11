@@ -175,3 +175,654 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:25,233]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://172.17.0.1:9543/carbon/
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Waiting for user login...
 WARN  [org.apache.axiom.util.stax.dialect.StAXDialectDetector] - Unable to determine dialect of the StAX implementation at jar:file:/home/ubuntu/product-as/modules/integration/tests-integration/tests/../../../../../repo-new/org/apache/ws/commons/axiom/wso2/axiom/1.2.11.wso2v11/axiom-1.2.11.wso2v11.jar!/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - https://localhost:9543/services
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:27,724]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:27,815]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 04:35:27,815+0000]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Login was successful..
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - JSESSIONID=6CCF79490F0E2266B203A59B293F759C; Path=/; Secure=null; HttpOnly=null
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Server started successfully.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,198]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,207]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 04:35:28,207+0000]
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,696]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,799]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role rolenonadmin with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,819]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,837]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role testrole with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,864]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,882]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey1 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,905]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,918]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey2 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,931]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,944]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey3 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:28,977]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:29,001]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.UserManagementClient] - Role name rolenonadmin already exists
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:29,017]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey4 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:29,059]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:29,091]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,411]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.integration.common.admin.client.TenantManagementServiceClient] - Tenant domain wso2.com created and activated successfully
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added new tenant : wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,581]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,592] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@wso2.com [1]' logged in at [2016-06-11 04:35:30,592+0000]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,604] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} -  Creating tenant AxisConfiguration for tenant: wso2.com[1]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,644] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,645] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,732] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant 1
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,735] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} -  Loaded tenant wso2.com in 140 ms
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,895] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,910] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role rolenonadmin with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,920] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,935] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role testrole with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,948] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,963] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user1 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,975] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,987] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user2 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:30,999] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:31,010] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.UserManagementClient] - Role name rolenonadmin already exists
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:31,024] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user3 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestExecutionListener] - Inside Test Execution Listener - On Execution
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testOSGIUnsatisfiedComponents
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testVerifyLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  stopServers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  initialize
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLogViewerWithFileAppender
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDownloadArchivedLogFilesErrorCase2
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetApplicationLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetApplicationLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetLocalLogFiles
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDownloadArchivedLogFiles
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDownloadArchivedLogFilesErrorCase1
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetPaginatedLogEvents
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webApplicationDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetLocalLogFiles
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetPaginatedLogEvents
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for faultyWebAppDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeJSP2Samples
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAsyncServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for webApplicationDeploymentTest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadNotWarFile
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationStop
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeJSPSamples
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationReloading
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationExplodedDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadWebappDefaultHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationRedeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebAppDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCheckTenantSpace
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringWARUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplication1Deployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringWARUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryPathDeleteUsageDemo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeEchoSample
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeployFaultyWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringRequestScope
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webApplicationDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for faultyWebAppRemoval
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for nonWarUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for alreadyUploadedWarFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for faultyWebAppErrorRectifiedRedeploy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplicationNameInResponse
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  clean
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadFaultyWebapp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadFaultyWebappFollowedByFixedWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadWebappTwiceforDuplicates
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  revertVirtualHostConfiguration
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationWithoutHostHeader
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationWithDifferentVirtualHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationsInDifferentVirtualHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationDeploymentInDefaultHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationInDefaultHostWithoutHostHeader
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationInDefaultHostWithLocalhost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationInDefaultHostWithNonExistingHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplicationInDefaultHostWithOtherExistingHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplicationInDefaultHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testVirtualHostDeletionAfterWebappDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebapps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testCleanup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testWebApplicationDeploymentAndAccessibility
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationStart
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testWebApplicationDeploymentAndAccessibility
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJSPTagPlugins
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationReloading
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationStop
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationStart
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationRedeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFaultyWebApplicationDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationExplodedDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeployModifiedWAROverExplodedWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationHotDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testContextReloadServlets
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testContextReloadingJSPs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  restoreConfig
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUploadWebappVirtualHost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testWebApplicationDeploymentAndAccessibility
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebapps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testCleanup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSystemClassLoadingWebapp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCheckSuperTenantSpace
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testWebApplicationDeploymentAndAccessibility
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeployWebAppAsTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebapps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testCleanup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  restoreServer
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationHotDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  revertVirtualhostConfiguration
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplication2Deployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApplications
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplications
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCarbonCachingDemo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testBasicAuth
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUserManagerAndAuthenticationDemo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginWebappWithCorrectPermission
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUserLogout
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginWebappWithoutCorrectPermission
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryUsageDemo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryCollectionUsageDemo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  delete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testPutOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testTenantWebappUnpack
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  deteleteWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testStartStopWebapp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReloadWebapp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebAppSessionExpiration
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionExpirationByAge
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebAppDownload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebApplicationExplodedDeployment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  deteleteWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringSessionScope
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJsfEjb
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJtaServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJpaWsGet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJsfBVal
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCdiServlet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJpaRsGet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJpaServletCdi
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanupWebApps
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebAppUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testMemoryAppenderTenantLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCarbonFrameworkLoggingMemoryAppender
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWebAppResponse
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReadAccessLogFiles
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAccessLogForGetRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAccessLogForPostRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetRequestHeaders
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testPostRequestHeaders
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetResponseHeaders
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  restoreServer
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testPostResponseHeaders
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoggingVariables
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAuditLogFile
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCarbonLogFile
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webApplicationDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCarbonFrameworkLoggingCarbonFileAppender
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCommonsLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSlf4jLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJavaUtilLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for carApplicationUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for verifyIndicatorWebappCApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for verifyAppList
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for carAppDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testVerifyWebApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for carAppReDeploy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for verifyIndicatorAxis2ServiceCApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  removeCApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for webApplicationUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJaxrsClientAPIWARUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webApplicationDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for sendGETRequestToJAXRSSample02
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for sendTextXMLPOSTRequestToJAXRSSample02
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for sendApplicationJSONPUTRequestToJAXRSSample02
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokePOSTMethodUsingJAXRSClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeGETMethodUsingJAXRSClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokePUTMethodUsingJAXRSClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeDELETEMethodUsingJAXRSClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokePOSTMethodUsingCXFClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeGETMethodUsingCXFClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokePUTMethodUsingCXFClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeDELETEMethodUsingCXFClient
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeed
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for collectionHostObjectExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReadResponse
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeed
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDBExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for metaDataExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testXMLHTTPRequestExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for resourcesMembers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInclude
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testURI
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWSRequestExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientPost
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLogExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSession
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testEmailJaggery
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFileExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeedXML
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testWSRequestOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReadResponseOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReadResponseRedirect
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testResponse
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeedMembers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeedToString
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFeedXML
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientPostParameters
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientPut
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientPutParameters
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientDel
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientDelParameters
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientGet
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHttpClientGetParameters
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testReadRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionMembers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionTimeOperation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for metaDataOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for metaDataExistsOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for metaDataRemoveOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFileWrite
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFileOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testFileReadChars
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHtmlTestFileExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testXMLHTTPRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testXMLHTTPRequestOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testXMLHTTPRequestAsyncOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for resourcesRemoveOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for resourcesEditOperations
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for resourcesHostObjectExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jaggeryFileUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testURIUrlMappingsConfig
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testURIOperationsDir
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetApplicationLogs
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for checkAvailability
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionWebappAvailable
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for addSessionAttribute
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for checkPersistedSession
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  resetServer
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  restoreServer
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionPersistenceGhostDisabled
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSessionPersistenceGhostEnabled
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for checkDeployedModules
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for login
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for blockingClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for webAppsDeploymentTest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for LibraryServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  chadDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for chadServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for addAdminUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for listAdminUsers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for createPoll
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for servicesUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for singleChannelNonBlockingClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  serviceDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for rpcClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for DualChannelNonBlockingClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for dynamicBlockingClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for fireAndForgetClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for sendRobustClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for sampleOperationClientRun
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webAppDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJNDIResourcesLookup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testJDBCDataSourceServiceInvoke
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  LibraryServiceDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for addBookToLibrary
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for getBookDetails
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webAppDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for webAppsDeploymentTest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  webAppDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for webAppsDeploymentTest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for carApplicationUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for verifyAppList
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  carAppDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testComQuoSerUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testToEngageModuleToService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testMtomSample
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for jarServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testInvokeSpringService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testTenantIsolation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetQuoteRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testHelloServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  comQuoServiceDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetQuoteRequest
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  cleanAfterClass
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for arrServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testEnableMTOM
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRestartGracefully
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testCleanup
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSpringServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for serviceInvoke
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jarServiceDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for invokeMtomService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  destroy
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for InvokeSerWithoutSec
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for InvokeSerWithSec
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  jsonServiceDelete
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for jasonServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetQuoteRequestTwo
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAarServiceUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginWithNewUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginWithNewUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateRoleName
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRemoveRoleFromUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateExistingUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateExistingRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetPermissionsOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testListAllUsers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testChangePasswordOfCurrentUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testChangePasswordByUsername
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddRemoveUsersOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testBulkUserUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetRolesOfCurrentUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateUsersOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddNewInternalRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testIsSharedRolesEnable
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateRolesOfUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUserExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateNewRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateNewUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddRoleToUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateRoleName
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRemoveRoleFromUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateExistingUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateExistingRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetPermissionsOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testListAllUsers
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAllUIGetPermissions
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddCreateNewRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetAllSharedRoles
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testIsSharedRolesAvailable
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testChangePasswordByUsername
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddRemoveUsersOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testDeleteRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testBulkUserUpload
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetRolesOfCurrentUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateUsersOfRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUserExist
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateNewRole
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCreateNewUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddRoleToUser
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryResourceAddUsage
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryCollectionAddUsage
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryResourceDeleteUsage
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testIsTenantCanAccessSuperTenantResource
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryCollectionDeleteUsage
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantIdWithoutResolveDomain
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testRegistryOperationsInSaaSTestApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantIdWithResolveDomain
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantIdAndGetDomainWithResolve
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantDomainWithoutResolveId
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantDomainWithResolveId
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetTenantDomainAndGetIdWithResolve
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetOSGiService
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetOSGiServiceFromPrivilegeCarbonCOntext
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetApplicationName
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testSetUsername
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testGetRegistry
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  setEnvironment
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCacheOperationsInSaaSTestApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAccessCacheFromSeparateApp
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCacheHit
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testCacheMiss
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  testDeleteWebApplication
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testTenantIDPreservationOfANewTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testTenantLogin
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testProvidingAnExistingTenantID
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  clean
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddingDuplicateTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testTenantDeactivation
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAccessWebappOfDeactivatedTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginToUnloadedDeactivatedTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testLoginToReActivatedTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testUpdateTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Test method Transform manager for testAddingTenantFromDifferentTenant
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  deleteTenants
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener] - Started Configuration Transform manager  init
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestSuiteListener] - Inside Test Suite Listener - On Start
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.server.mgt.ASServerStartupTestCase.testVerifyLogs ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:41,295]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/LogViewer
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 04:35:41,301]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 04:35:41,301+0000]
+INFO  [org.wso2.carbon.integration.common.tests.ServerStartupBaseTest] - Server stopped message found - Mgt Console URL  : https://172.17.0.1:9543/carbon/
+INFO  [org.wso2.carbon.integration.common.tests.ServerStartupBaseTest] - Server started message found - Starting WSO2 Carbon...
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.server.mgt.ASServerStartupTestCase.testVerifyLogs ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Extracting carbon zip file.. 
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Building jar list for Jacoco coverage inclusion...
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - File wso2server.sh has been modified and inserted new line after -Dwso2.server.standalone=true
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - New line inserted into : wso2server.sh
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Content of the line inserted : -javaagent:/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/agent/jacocoagent.jar=destfile=/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465619744411.exec,append=true,includes=org.wso2.carbon.deployment.synchronizer.subversion*:org.wso2.carbon.deployment.synchronizer*:org.wso2.carbon.feature.mgt.core*:org.wso2.carbon.feature.mgt.services*:org.wso2.carbon.framework.exporter*:org.wso2.carbon.i18n*:org.wso2.carbon.identity.application.authentication.framework*:org.wso2.carbon.identity.application.common*:org.wso2.carbon.identity.application.mgt*:org.wso2.carbon.identity.authenticator.saml2.sso.common*:org.wso2.carbon.identity.authenticator.saml2.sso*:org.wso2.carbon.identity.base*:org.wso2.carbon.identity.core*:org.wso2.carbon.identity.entitlement.filter*:org.wso2.carbon.identity.entitlement.proxy*:org.wso2.carbon.identity.sso.agent*:org.wso2.carbon.identity.user.profile*:org.wso2.carbon.identity.user.store.configuration.deployer*:org.wso2.carbon.identity.user.store.configuration*:org.wso2.carbon.idp.mgt*:org.wso2.carbon.javaee.tomee.patch*:org.wso2.carbon.javaee.tomee*:org.wso2.carbon.logging.service*:org.wso2.carbon.logging*:org.wso2.carbon.messageflows*:org.wso2.carbon.ndatasource.common*:org.wso2.carbon.ndatasource.core*:org.wso2.carbon.ndatasource.datasources*:org.wso2.carbon.ndatasource.rdbms*:org.wso2.carbon.ntask.common*:org.wso2.carbon.ntask.core*:org.wso2.carbon.ntask.solutions*:org.wso2.carbon.osgi.security*:org.wso2.carbon.p2.touchpoint*:org.wso2.carbon.queuing*:org.wso2.carbon.registry.admin.api*:org.wso2.carbon.registry.api*:org.wso2.carbon.registry.common*:org.wso2.carbon.registry.core*:org.wso2.carbon.registry.indexing*:org.wso2.carbon.registry.properties*:org.wso2.carbon.registry.resource*:org.wso2.carbon.registry.search*:org.wso2.carbon.registry.server*:org.wso2.carbon.registry.servlet*:org.wso2.carbon.repomanager.axis2*:org.wso2.carbon.roles.mgt*:org.wso2.carbon.securevault*:org.wso2.carbon.security.mgt*:org.wso2.carbon.server.admin.common*:org.wso2.carbon.server.admin*:org.wso2.carbon.statistics*:org.wso2.carbon.tenant.common*:org.wso2.carbon.tenant.deployment*:org.wso2.carbon.tenant.dispatcher*:org.wso2.carbon.tenant.keystore.mgt*:org.wso2.carbon.tenant.mgt.core*:org.wso2.carbon.tenant.mgt*:org.wso2.carbon.tenant.redirector.servlet*:org.wso2.carbon.tenant.theme.mgt*:org.wso2.carbon.tenant.throttling.agent*:org.wso2.carbon.tenant.usage.agent*:org.wso2.carbon.tomcat.ext*:org.wso2.carbon.tomcat.patch*:org.wso2.carbon.tomcat*:org.jaggeryjs.hostobjects.db*:org.jaggeryjs.hostobjects.feed*:org.jaggeryjs.hostobjects.file*:org.jaggeryjs.hostobjects.jaggeryparser*:org.jaggeryjs.hostobjects.log*:org.jaggeryjs.hostobjects.registry*:org.jaggeryjs.hostobjects.stream*:org.jaggeryjs.hostobjects.uri*:org.jaggeryjs.hostobjects.web*:org.jaggeryjs.hostobjects.xhr*:org.jaggeryjs.hostobjects.xslt*:org.jaggeryjs.jaggery.app.mgt*:org.jaggeryjs.jaggery.core*:org.jaggeryjs.jaggery.deployer*:org.jaggeryjs.jaggery.tools*:org.jaggeryjs.modules.email*:org.jaggeryjs.modules.oauth*:org.jaggeryjs.modules.process*:org.jaggeryjs.modules.uuid*:org.jaggeryjs.modules.ws*:org.jaggeryjs.scriptengine*:org.wso2.securevault_*:org.wso2.carbon.addressing*:org.wso2.carbon.application.deployer.webapp*:org.wso2.carbon.application.deployer*:org.wso2.carbon.application.mgt.webapp*:org.wso2.carbon.application.mgt*:org.wso2.carbon.application.upload*:org.wso2.carbon.authenticator.proxy*:org.wso2.carbon.base*:org.wso2.carbon.claim.mgt*:org.wso2.carbon.cluster.mgt.core*:org.wso2.carbon.core.bootup.validator*:org.wso2.carbon.core.common*:org.wso2.carbon.core.services*:org.wso2.carbon.core*:org.wso2.carbon.databridge.agent.thrift*:org.wso2.carbon.databridge.commons.thrift*:org.wso2.carbon.databridge.commons*:org.wso2.carbon.deployment.synchronizer.git*:org.wso2.carbon.tracer*:org.wso2.carbon.transaction.manager*:org.wso2.carbon.tryit*:org.wso2.carbon.user.api*:org.wso2.carbon.user.core*:org.wso2.carbon.user.mgt.common*:org.wso2.carbon.user.mgt*:org.wso2.carbon.utils*:org.wso2.carbon.webapp.deployer*:org.wso2.carbon.webapp.mgt*:*org.wso2.carbon.context* \
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.TestServerManager] - Carbon Home - /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619741601/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9868 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9548 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Starting carbon server............. 
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - JAVA_HOME environment variable is set to /home/ubuntu/dev-tools/jdk1.7.0_75
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - CARBON_HOME environment variable is set to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619741601/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Using Java memory options: -Xms256m -Xmx1024m -XX:MaxPermSize=256m
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - OSGi console has been enabled with options: -console 2000
