@@ -13956,3 +13956,90 @@ INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase] - getRes
 </table><input id="j_id_4:j_id_c" name="j_id_4:j_id_c" type="submit" value="Calculate" /><input type="hidden" name="j_id_4_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="WUBnHGO2Z+CEeQHkH7p0ORqR0ndK1x3VuqR/i/z3c7Mtg9XX
 " /></form>
 </html>
+INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase] - postResponse - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <h2>Marks org.wso2.appserver.sample.ee.jsf.bval.Calculator - Results</h2><table cellspacing="10"><tbody>
+<tr><td>Subject 1 marks:</td><td>
+        88
+        </td></tr>
+<tr><td>Subject 2 marks:</td><td>
+        99
+        </td></tr>
+<tr><td>Total marks:</td><td>
+        187
+        </td></tr>
+<tr><td>Average marks:</td><td>
+        93.5
+    </td></tr>
+</tbody>
+</table><form id="j_id_h" name="j_id_h" method="post" action="/jsf-marks-calculator/results.jsf" enctype="application/x-www-form-urlencoded"><input id="j_id_h:j_id_i" name="j_id_h:j_id_i" type="submit" value="Back" /><input type="hidden" name="j_id_h_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="rylWcHMjbZCEeQHkH7p0OffjMqvjhDnyKolmVci6TV9G10fs
+" /></form>
+</html>
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase.testJsfBVal ===================
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - UnDeploying web application : jsf-marks-calculator.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:46,101]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:47,382]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-marks-calculator]
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for webApp undeployment jsf-marks-calculator
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:47,536]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:47,849]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:47,855] testuser11@wso2.com [1] [AS] INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'testuser11@wso2.com [1]' logged in at [2016-06-11 05:28:47,855+0000]
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - Deploying web application : /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/resources/artifacts/AS/javaee/jsf/jsf-marks-calculator.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:48,210] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment jsf-marks-calculator
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:48,472] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:48,480] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:48,989] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:48,999] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:49,510] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:49,519] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:50,028] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:50,037] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:50,546] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:50,555] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:51,066] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:51,075] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:51,585] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:51,593] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:52,103] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:52,113] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:52,623] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:52,641] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:53,152] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:53,160] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:53,577] @wso2.com [1] [AS] INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  ------------------------- localhost -> /t/wso2.com/webapps/jsf-marks-calculator
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:53,677] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:53,687] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:54,198] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:54,207] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:54,725] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:54,744] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,225] @wso2.com [1] [AS] INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,255] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,264] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,326] @wso2.com [1] [AS] INFO {org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer} -  Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,340] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.DefaultFacesConfigurationProvider} -  Reading standard config META-INF/standard-faces-config.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,443] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.DefaultFacesConfigurationProvider} -  Reading config /WEB-INF/faces-config.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,523] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.DefaultFacesConfigurationProvider} -  Reading config : bundleresource://369.fwk1173138243:2/META-INF/faces-config.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,524] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.DefaultFacesConfigurationProvider} -  Reading config : bundleresource://369.fwk1173138243:3/META-INF/faces-config.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,534] @wso2.com [1] [AS] INFO {org.apache.myfaces.application.ApplicationImpl} -  Couldn't discover the current project stage, using Production
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,534] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.FacesConfigurator} -  Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,543] @wso2.com [1] [AS] INFO {org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory} -  Using LifecycleProvider org.apache.myfaces.config.annotation.AllAnnotationLifecycleProvider
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,551] @wso2.com [1] [AS] INFO {org.apache.myfaces.webapp.AbstractFacesInitializer} -  ServletContext initialized.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,581] @wso2.com [1] [AS] INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/t/wso2.com/webapps/jsf-marks-calculator].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/tenants/1/webapps/jsf-marks-calculator.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,772] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:28:55,811] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - jsf-marks-calculator Web Application deployed in 7339 millis
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase.testJsfBVal ===================
+INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase] - getResponse - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <h2>Welcome to Marks org.wso2.appserver.sample.ee.jsf.bval.Calculator</h2><form id="j_id_4" name="j_id_4" method="post" action="/t/wso2.com/webapps/jsf-marks-calculator/index.jsf;jsessionid=44B6D370297919ECE450251C03F69ADADF8D82C9B954EDD79FB2B0728AE7757C7D315725726644EEBE75323A29FEBD66655B83172E6B3B01085133D3701EA60B2EC9DC04B940C41725B420D22AF2F23E3DA424D8D6042460F3EE3160FBEC84BC5FF18F47896C1BC0527F6F6EA3F1D90F878E5B64C3E9819446E37D614F3A54FB" enctype="application/x-www-form-urlencoded"><table cellspacing="10"><tbody>
+<tr><td>Subject 1 marks:</td><td><input id="j_id_4:j_id_8" name="j_id_4:j_id_8" type="text" value="0" /></td></tr>
+<tr><td>Subject 2 marks:</td><td><input id="j_id_4:j_id_b" name="j_id_4:j_id_b" type="text" value="0" /></td></tr>
+</tbody>
+</table><input id="j_id_4:j_id_c" name="j_id_4:j_id_c" type="submit" value="Calculate" /><input type="hidden" name="j_id_4_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="whQh7b3sczkULGr9DPOOPFEb1Fucjsjts4+BaXT+4Jg1TvGX
+" /></form>
+</html>
