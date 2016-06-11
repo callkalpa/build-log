@@ -7793,3 +7793,238 @@ INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:26,864]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs_basic].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465621343917/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jaxrs_basic.war]
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:28,751]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465621343917/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/jaggeryapps/docs]
 INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:28,778]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:29,848]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:30,055]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11212/jndi/rmi://localhost:10100/jmxrmi
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:30,055]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  Application Server-5.3.0
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:30,056]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 61 sec
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:30,582]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://172.17.0.1:9544/carbon/
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Waiting for user login...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - https://localhost:9544/services
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:31,223]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:31,448]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:03:31,439+0000]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Login was successful..
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - JSESSIONID=E5FED3DB7CBA530AB084C7E34E34167C; Path=/; Secure=null; HttpOnly=null
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Server started successfully.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:31,853]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:31,869]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:03:31,869+0000]
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:32,735]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:32,847]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role rolenonadmin with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:32,901]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role testrole with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:32,949]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:32,981]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,009]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey1 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,041]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey2 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,068]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,097]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,129]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey3 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,148]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,181]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.UserManagementClient] - Role name rolenonadmin already exists
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,221]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - userKey4 created in tenant domain of  carbon.super
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,317]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:33,372]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,219]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/TenantMgtAdminService
+INFO  [org.wso2.carbon.integration.common.admin.client.TenantManagementServiceClient] - Tenant domain wso2.com created and activated successfully
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added new tenant : wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,602]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,651] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@wso2.com [1]' logged in at [2016-06-11 05:03:36,651+0000]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,692] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} -  Creating tenant AxisConfiguration for tenant: wso2.com[1]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,812] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,812] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:36,986] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant 1
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,011] admin@wso2.com [1] [AS] INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} -  Loaded tenant wso2.com in 348 ms
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,337] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role rolenonadmin with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,364] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,384] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,420] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - Added role testrole with permissions
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,456] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,496] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user1 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,528] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user2 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,560] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,588] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,620] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.wso2.carbon.integration.common.admin.client.UserManagementClient] - Role name rolenonadmin already exists
+INFO  [org.wso2.carbon.integration.common.extensions.usermgt.UserPopulator] - User - user3 created in tenant domain of  wso2.com
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Shutting down server..
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Successfully connected to the server on port 9544
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,645] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/UserAdmin
+INFO  [org.apache.commons.httpclient.auth.AuthChallengeProcessor] - basic authentication scheme selected
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,949]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/ServerAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,953]  WARN {org.wso2.carbon.server.admin.module.handler.AuthenticationHandler} -  Illegal access attempt at [2016-06-11 05:03:37,0953] from IP address 127.0.0.1 while trying to authenticate access to service ServerAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,973]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/ServerAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:37,978]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:03:37,978+0000]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,003]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down Application Server...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,004]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,239]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager...
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,816]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Closing Root WebApplicationContext: startup date [Sat Jun 11 05:03:25 UTC 2016]; root of context hierarchy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,838]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a2cff1e: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,customerService,serviceBean]; root of factory hierarchy
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:39,937]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jaxrs_basic]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:41,032]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javaee-examples]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:41,115]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/example]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:41,186]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:43,577]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:44,951]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:03:44,954]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Server stopped successfully...
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Generating Jacoco code coverage...
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file non empty file size in KB : 18
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Loading execution data file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465621346810.exec
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file non empty file size in KB : 540
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Loading execution data file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465619690244.exec
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+WARN  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Execution data file is empty file size in KB : 0
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Loading execution data file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465619744411.exec
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Writing merged execution data to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco-data-merge.exec
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Building jar list for Jacoco coverage exclusion...
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.CodeCoverageUtils] - Building jar list for Jacoco coverage inclusion...
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.db_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.modules.email_1.2.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.core.services_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.user.store.configuration_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.application.upload_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.usage.agent_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.search_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.modules.uuid_1.2.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.common_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.modules.process_1.2.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.jaggeryparser_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.stream_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tomcat_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.scriptengine_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.ndatasource.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.databridge.commons_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.application.mgt.webapp_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.dispatcher_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.messageflows_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.base_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.cluster.mgt.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.user.api_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.throttling.agent_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.securevault_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.user.mgt.common_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.deployment_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.jaggery.app.mgt_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.jaggery.core_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.keystore.mgt_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.core.common_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.user.mgt_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.registry_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.webapp.mgt_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.securevault_1.0.0.wso2v2.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.mgt_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.ndatasource.datasources_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.utils_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.authenticator.saml2.sso_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.indexing_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.feature.mgt.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.i18n_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.redirector.servlet_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.claim.mgt_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.addressing_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tryit_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.xslt_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.file_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.osgi.security_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.queuing_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.deployment.synchronizer_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.core_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tomcat.patch_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.application.deployer.webapp_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.logging_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.sso.agent_4.5.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tomcat.ext_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.xhr_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.common_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.jaggery.tools_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.base_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.feature.mgt.services_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.log_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.security.mgt_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.application.mgt_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.user.store.configuration.deployer_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.api_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.application.common_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.webapp.deployer_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.framework.exporter_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.mgt.core_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.databridge.agent.thrift_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.authenticator.saml2.sso.common_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.modules.oauth_1.2.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.logging.service_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.application.deployer_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.properties_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.deployment.synchronizer.git_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.transaction.manager_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.modules.ws_1.2.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.deployment.synchronizer.subversion_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.ndatasource.common_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.server.admin.common_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.statistics_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.server_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.resource_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.user.profile_4.5.5.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.jaggery.deployer_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.feed_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.authenticator.proxy_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.roles.mgt_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.entitlement.proxy_4.5.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tenant.theme.mgt_4.4.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.core.bootup.validator_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.ndatasource.rdbms_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.javaee.tomee_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.admin.api_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.identity.entitlement.filter_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.web_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.server.admin_4.4.6.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.javaee.tomee.patch_4.5.3.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.databridge.commons.thrift_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.tracer_4.4.7.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.jaggeryjs.hostobjects.uri_0.11.0.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.registry.servlet_4.4.8.jar
+INFO  [org.wso2.carbon.automation.engine.frameworkutils.ReportGenerator] - Jar file analyzed for coverage : org.wso2.carbon.user.core_4.4.6.jar
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Jacoco coverage dump file path : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/jacoco1465621442919.exec
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Jacoco class file path : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465621343917/wso2as-5.3.1-SNAPSHOT/repository/components/plugins
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Jacoco coverage HTML report path : /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/jacoco/coverage/index.html
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.TestServerManager] - Carbon Home - /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465621343917/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9864 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ClientConnectionUtil] - Port 9544 is closed and available for use
+INFO  [org.wso2.carbon.automation.extensions.servers.carbonserver.CarbonServerManager] - Starting carbon server............. 
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - JAVA_HOME environment variable is set to /home/ubuntu/dev-tools/jdk1.7.0_75
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - CARBON_HOME environment variable is set to /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465621343917/wso2as-5.3.1-SNAPSHOT
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - Using Java memory options: -Xms256m -Xmx1024m -XX:MaxPermSize=256m
