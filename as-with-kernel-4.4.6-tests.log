@@ -14043,3 +14043,142 @@ INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase] - getRes
 </table><input id="j_id_4:j_id_c" name="j_id_4:j_id_c" type="submit" value="Calculate" /><input type="hidden" name="j_id_4_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="whQh7b3sczkULGr9DPOOPFEb1Fucjsjts4+BaXT+4Jg1TvGX
 " /></form>
 </html>
+INFO  [org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase] - postResponse - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <h2>Marks org.wso2.appserver.sample.ee.jsf.bval.Calculator - Results</h2><table cellspacing="10"><tbody>
+<tr><td>Subject 1 marks:</td><td>
+        88
+        </td></tr>
+<tr><td>Subject 2 marks:</td><td>
+        99
+        </td></tr>
+<tr><td>Total marks:</td><td>
+        187
+        </td></tr>
+<tr><td>Average marks:</td><td>
+        93.5
+    </td></tr>
+</tbody>
+</table><form id="j_id_h" name="j_id_h" method="post" action="/t/wso2.com/webapps/jsf-marks-calculator/results.jsf" enctype="application/x-www-form-urlencoded"><input id="j_id_h:j_id_i" name="j_id_h:j_id_i" type="submit" value="Back" /><input type="hidden" name="j_id_h_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="JxopXwkVllAULGr9DPOOPOxm9Dvinv7rOLCTJrTYB1vHefAz
+" /></form>
+</html>
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== On test success org.wso2.appserver.integration.tests.javaee.jsf.JsfBValTestCase.testJsfBVal ===================
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - UnDeploying web application : jsf-marks-calculator.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:29:58,045] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:29:59,263] testuser11@wso2.com [1] [AS] INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/t/wso2.com/webapps/jsf-marks-calculator]
+WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for webApp undeployment jsf-marks-calculator
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:29:59,505] @wso2.com [1] [AS] INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:29:59,841]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/AuthenticationAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:29:59,845]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2016-06-11 05:29:59,845+0000]
+INFO  [org.wso2.carbon.integration.common.admin.client.AuthenticatorClient] - Login Successful
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - Deploying web application : /home/ubuntu/product-as/modules/integration/tests-integration/tests/src/test/resources/artifacts/AS/javaee/jta/jta-money-transfer.war
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:00,237]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - waiting 90000 millis for Service deployment jta-money-transfer
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:00,619]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:00,626]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:01,134]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:01,141]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:01,649]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:01,656]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:02,165]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:02,171]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:02,679]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:02,686]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:03,193]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:03,200]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:03,707]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:03,713]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:04,221]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:04,227]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:04,735]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:04,741]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:05,248]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:05,255]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:05,763]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:05,771]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:06,278]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:06,284]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:06,791]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:06,798]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:07,305]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:07,313]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:07,821]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:07,827]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:08,349]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:08,356]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:08,864]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:08,871]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:09,379]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:09,386]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:09,899]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:09,905]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:10,424]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:10,430]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:10,939]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:10,945]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:11,463]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:11,469]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:11,977]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:11,985]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,041]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  ------------------------- localhost -> /jta-money-transfer
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,221]  INFO {org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource} -  Disabling testOnBorrow since no validation query is provided
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,404]  WARN {openjpa.Runtime} -  Found no persistent property in "org.wso2.appserver.sample.ee.jta.servlet.Account1"
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,441]  WARN {openjpa.Runtime} -  Found no persistent property in "org.wso2.appserver.sample.ee.jta.servlet.Account2"
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,492]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,498]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:12,584]  INFO {org.apache.tomee.catalina.TomcatWebAppBuilder} -  using context file /home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jta-money-transfer/META-INF/context.xml
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,005]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,012]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,513]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,519]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,525]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:13,756]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jta-money-transfer].File[/home/ubuntu/product-as/modules/integration/tests-integration/tests/target/carbontmp1465619687512/wso2as-5.3.1-SNAPSHOT/repository/deployment/server/webapps/jta-money-transfer.war]
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,032]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,044]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/WebappAdmin
+INFO  [org.wso2.appserver.integration.common.utils.WebAppDeploymentUtil] - jta-money-transfer Web Application deployed in 13425 millis
+INFO  [org.wso2.carbon.automation.engine.testlisteners.TestManagerListener] - =================== Running the test method org.wso2.appserver.integration.tests.javaee.jta.JtaServletTestCase.testJtaServlet ===================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,856]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,856]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Sample transaction with commit
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,856]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  ==============================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,856]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Operation: Transferring 100.0 from Account2 to Account 1
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,863]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 1 entry successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,866]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 2 entry successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,883]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Log entry successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,914]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,939]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 1:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,939]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Transaction ID | Amount | Transaction Type | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,939]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  1 | 100.0 | CREDIT | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,939]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,942]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 2:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,942]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Transaction ID | Amount | Transaction Type | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,942]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  51 | 100.0 | DEBIT | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,942]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,944]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Log:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,944]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Log ID | Credit acc | Debit acc | Amount | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  101 | acc1 | acc2 | 100.0 | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Sample transaction with rollback
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  ================================
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Operation: Transferring 100.0 from Account2 to Account 1
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 1 entry successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,945]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 2 entry successful
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,946]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  rollback method was called
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,946]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,957]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 1:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,957]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Transaction ID | Amount | Transaction Type | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,957]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  1 | 100.0 | CREDIT | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,957]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,967]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Account 2:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,967]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Transaction ID | Amount | Transaction Type | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,968]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  51 | 100.0 | DEBIT | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,968]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,972]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Log:
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,972]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  Log ID | Credit acc | Debit acc | Amount | Timestamp
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,973]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  101 | acc1 | acc2 | 100.0 | Sat Jun 11 05:30:14 UTC 2016
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:14,973]  INFO {org.wso2.appserver.sample.ee.jta.servlet.AccountManagerBean} -  
+INFO  [org.wso2.appserver.integration.tests.javaee.jta.JtaServletTestCase] - Response : Please have a look at the terminal to see the output
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:15,232]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/LogViewer
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:15,673]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/LogViewer
+INFO  [org.wso2.carbon.automation.extensions.servers.utils.ServerLogReader] - [2016-06-11 05:30:16,151]  INFO {org.owasp.csrfguard.log.JavaLogger} -  CsrfGuard analyzing request /services/LogViewer
