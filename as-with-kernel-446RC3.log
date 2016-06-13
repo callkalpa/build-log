@@ -2681,3 +2681,172 @@ Operation completed in 2386 ms.
 [INFO] --- carbon-p2-plugin:1.5.6:materialize-product (creating-axis2service-profile) @ wso2appserver-profile-gen ---
 [INFO] Command line:
 	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -installIU carbon.product.id -profileProperties org.eclipse.update.install.features=true -profile axis2service -bundlepool file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/axis2service -p2.os linux -p2.ws gtk -p2.arch x86 -roaming
+Installing carbon.product.id 4.4.6.
+Operation completed in 2358 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:materialize-product (creating-jaggery-profile) @ wso2appserver-profile-gen ---
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -installIU carbon.product.id -profileProperties org.eclipse.update.install.features=true -profile jaggery -bundlepool file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/jaggery -p2.os linux -p2.ws gtk -p2.arch x86 -roaming
+Installing carbon.product.id 4.4.6.
+Operation completed in 2443 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-profile-gen (3-p2-profile-generation) @ wso2appserver-profile-gen ---
+[INFO] Running Equinox P2 Director Application
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -profileProperties org.eclipse.update.install.features=true -installIU org.wso2.carbon.javaee.tomee.server.feature.group/4.5.3,org.wso2.carbon.logging.mgt.feature.group/4.4.7,org.wso2.carbon.databridge.datapublisher.feature.group/4.4.7,org.wso2.carbon.wsdl.tools.feature.group/4.4.7,org.wso2.carbon.system.statistics.feature.group/4.4.7,org.wso2.carbon.soaptracer.feature.group/4.4.7,org.wso2.carbon.repomanager.axis2.feature.group/4.5.3,org.wso2.carbon.service.mgt.feature.group/4.5.3,org.wso2.carbon.module.mgt.feature.group/4.5.3,org.wso2.carbon.aarservices.feature.group/4.5.3,org.wso2.carbon.jarservices.feature.group/4.5.3,org.wso2.carbon.springservices.feature.group/4.5.3,org.wso2.carbon.security.mgt.feature.group/4.5.5,org.wso2.carbon.webapp.mgt.feature.group/4.5.3,org.wso2.carbon.discovery.core.feature.group/4.4.7,org.wso2.carbon.discovery.admin.ui.feature.group/4.4.7,org.wso2.carbon.tryit.feature.group/4.4.7,org.wso2.carbon.message.flows.feature.group/4.4.7,org.wso2.carbon.event.server.feature.group/4.4.7,org.wso2.carbon.registry.core.feature.group/4.4.8,org.wso2.carbon.registry.ui.menu.feature.group/4.4.8,org.wso2.carbon.registry.resource.properties.feature.group/4.4.8,org.wso2.appserver.styles.feature.group/5.3.1.SNAPSHOT,org.wso2.appserver.utils.feature.group/5.3.1.SNAPSHOT,org.wso2.carbon.application.mgt.feature.group/4.4.7,org.wso2.carbon.application.mgt.webapp.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.ndatasource.feature.group/4.4.7,org.wso2.carbon.ndatasource.ui.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.git.feature.group/4.4.7,org.wso2.carbon.transaction.manager.feature.group/4.4.7,org.wso2.carbon.tenant.common.feature.group/4.4.3,org.wso2.carbon.tenant.usage.agent.feature.group/4.4.3,org.wso2.carbon.tenant.throttling.agent.feature.group/4.4.3,org.wso2.carbon.tenant.deployment.feature.group/4.4.3,org.wso2.stratos.appserver.dashboard.ui.feature.group/5.3.1.SNAPSHOT,org.wso2.carbon.bam.service.agent.feature.group/4.5.3,org.wso2.carbon.bam.webapp.agent.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.identity.xacml.filter.feature.group/4.5.3,org.wso2.carbon.identity.authenticator.saml2.sso.feature.group/4.5.5,org.wso2.carbon.identity.user.profile.feature.group/4.5.5,org.wso2.carbon.identity.core.feature.group/4.5.5,org.jaggeryjs.feature.group/0.11.0,org.jaggeryjs.modules.carbon.feature.group/1.2.0,org.jaggeryjs.modules.email.feature.group/1.2.0,org.jaggeryjs.modules.gadget.feature.group/1.2.0,org.jaggeryjs.modules.i18n.feature.group/1.2.0,org.jaggeryjs.modules.oauth.feature.group/1.2.0,org.jaggeryjs.modules.process.feature.group/1.2.0,org.jaggeryjs.modules.uuid.feature.group/1.2.0,org.jaggeryjs.modules.ws.feature.group/1.2.0,org.wso2.carbon.user.mgt.feature.group/4.5.5,org.wso2.carbon.as.runtimes.cxf.feature.group/4.5.3,org.wso2.carbon.registry.contentsearch.feature.group/4.4.8,org.wso2.ciphertool.feature.group/1.0.0.wso2v3, -bundlepool /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/default -profile default -roaming
+Installing org.wso2.carbon.javaee.tomee.server.feature.group 4.5.3.
+Installing org.wso2.carbon.logging.mgt.feature.group 4.4.7.
+Installing org.wso2.carbon.databridge.datapublisher.feature.group 4.4.7.
+Installing org.wso2.carbon.wsdl.tools.feature.group 4.4.7.
+Installing org.wso2.carbon.system.statistics.feature.group 4.4.7.
+Installing org.wso2.carbon.soaptracer.feature.group 4.4.7.
+Installing org.wso2.carbon.repomanager.axis2.feature.group 4.5.3.
+Installing org.wso2.carbon.service.mgt.feature.group 4.5.3.
+Installing org.wso2.carbon.module.mgt.feature.group 4.5.3.
+Installing org.wso2.carbon.aarservices.feature.group 4.5.3.
+Installing org.wso2.carbon.jarservices.feature.group 4.5.3.
+Installing org.wso2.carbon.springservices.feature.group 4.5.3.
+Installing org.wso2.carbon.security.mgt.feature.group 4.5.5.
+Installing org.wso2.carbon.webapp.mgt.feature.group 4.5.3.
+Installing org.wso2.carbon.discovery.core.feature.group 4.4.7.
+Installing org.wso2.carbon.discovery.admin.ui.feature.group 4.4.7.
+Installing org.wso2.carbon.tryit.feature.group 4.4.7.
+Installing org.wso2.carbon.message.flows.feature.group 4.4.7.
+Installing org.wso2.carbon.event.server.feature.group 4.4.7.
+Installing org.wso2.carbon.registry.core.feature.group 4.4.8.
+Installing org.wso2.carbon.registry.ui.menu.feature.group 4.4.8.
+Installing org.wso2.carbon.registry.resource.properties.feature.group 4.4.8.
+Installing org.wso2.appserver.styles.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.appserver.utils.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.carbon.application.mgt.feature.group 4.4.7.
+Installing org.wso2.carbon.application.mgt.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.ndatasource.feature.group 4.4.7.
+Installing org.wso2.carbon.ndatasource.ui.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.git.feature.group 4.4.7.
+Installing org.wso2.carbon.transaction.manager.feature.group 4.4.7.
+Installing org.wso2.carbon.tenant.common.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.usage.agent.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.throttling.agent.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.deployment.feature.group 4.4.3.
+Installing org.wso2.stratos.appserver.dashboard.ui.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.carbon.bam.service.agent.feature.group 4.5.3.
+Installing org.wso2.carbon.bam.webapp.agent.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.xacml.filter.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.authenticator.saml2.sso.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.user.profile.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.core.feature.group 4.5.5.
+Installing org.jaggeryjs.feature.group 0.11.0.
+Installing org.jaggeryjs.modules.carbon.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.email.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.gadget.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.i18n.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.oauth.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.process.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.uuid.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.ws.feature.group 1.2.0.
+Installing org.wso2.carbon.user.mgt.feature.group 4.5.5.
+Installing org.wso2.carbon.as.runtimes.cxf.feature.group 4.5.3.
+Installing org.wso2.carbon.registry.contentsearch.feature.group 4.4.8.
+Installing org.wso2.ciphertool.feature.group 1.0.0.wso2v3.
+Operation completed in 16251 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-profile-gen (p2-profile-generation-for-worker-profile) @ wso2appserver-profile-gen ---
+[INFO] Running Equinox P2 Director Application
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -profileProperties org.eclipse.update.install.features=true -installIU org.wso2.carbon.javaee.tomee.server.feature.group/4.5.3,org.wso2.carbon.core.common.feature.group/4.4.6,org.wso2.carbon.core.server.feature.group/4.4.6,org.wso2.carbon.core.runtime.feature.group/4.4.6,org.wso2.carbon.logging.mgt.server.feature.group/4.4.7,org.wso2.carbon.databridge.datapublisher.feature.group/4.4.7,org.wso2.carbon.wsdl.tools.server.feature.group/4.4.7,org.wso2.carbon.system.statistics.server.feature.group/4.4.7,org.wso2.carbon.soaptracer.server.feature.group/4.4.7,org.wso2.carbon.repomanager.axis2.server.feature.group/4.5.3,org.wso2.carbon.service.mgt.server.feature.group/4.5.3,org.wso2.carbon.module.mgt.server.feature.group/4.5.3,org.wso2.carbon.aarservices.server.feature.group/4.5.3,org.wso2.carbon.jarservices.server.feature.group/4.5.3,org.wso2.carbon.springservices.server.feature.group/4.5.3,org.wso2.carbon.security.mgt.server.feature.group/4.5.5,org.wso2.carbon.webapp.mgt.server.feature.group/4.5.3,org.wso2.carbon.discovery.core.feature.group/4.4.7,org.wso2.carbon.tryit.feature.group/4.4.7,org.wso2.carbon.event.server.feature.group/4.4.7,org.wso2.carbon.registry.core.server.feature.group/4.4.8,org.wso2.carbon.registry.resource.properties.server.feature.group/4.4.8,org.wso2.appserver.utils.feature.group/5.3.1.SNAPSHOT,org.wso2.carbon.application.mgt.server.feature.group/4.4.7,org.wso2.carbon.application.mgt.webapp.server.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.deployment.synchronizer.server.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.subversion.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.git.feature.group/4.4.7,org.wso2.carbon.transaction.manager.feature.group/4.4.7,org.wso2.carbon.tenant.common.feature.group/4.4.3,org.wso2.carbon.tenant.usage.agent.feature.group/4.4.3,org.wso2.carbon.tenant.throttling.agent.feature.group/4.4.3,org.wso2.carbon.tenant.deployment.feature.group/4.4.3,org.wso2.stratos.appserver.dashboard.ui.feature.group/5.3.1.SNAPSHOT,org.wso2.carbon.bam.service.agent.server.feature.group/4.5.3,org.wso2.carbon.bam.webapp.agent.server.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.identity.xacml.filter.feature.group/4.5.3,org.wso2.carbon.identity.authenticator.saml2.sso.server.feature.group/4.5.5,org.wso2.carbon.identity.user.profile.server.feature.group/4.5.5,org.wso2.carbon.identity.core.server.feature.group/4.5.5,org.jaggeryjs.server.feature.group/0.11.0,org.jaggeryjs.modules.carbon.feature.group/1.2.0,org.jaggeryjs.modules.email.feature.group/1.2.0,org.jaggeryjs.modules.gadget.feature.group/1.2.0,org.jaggeryjs.modules.i18n.feature.group/1.2.0,org.jaggeryjs.modules.oauth.feature.group/1.2.0,org.jaggeryjs.modules.process.feature.group/1.2.0,org.jaggeryjs.modules.uuid.feature.group/1.2.0,org.jaggeryjs.modules.ws.feature.group/1.2.0,org.wso2.carbon.user.mgt.server.feature.group/4.5.5,org.wso2.carbon.as.runtimes.cxf.feature.group/4.5.3,org.wso2.carbon.registry.contentsearch.feature.group/4.4.8, -bundlepool /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/worker -profile worker -roaming
+Installing org.wso2.carbon.javaee.tomee.server.feature.group 4.5.3.
+Installing org.wso2.carbon.core.common.feature.group 4.4.6.
+Installing org.wso2.carbon.core.server.feature.group 4.4.6.
+Installing org.wso2.carbon.core.runtime.feature.group 4.4.6.
+Installing org.wso2.carbon.logging.mgt.server.feature.group 4.4.7.
+Installing org.wso2.carbon.databridge.datapublisher.feature.group 4.4.7.
+Installing org.wso2.carbon.wsdl.tools.server.feature.group 4.4.7.
+Installing org.wso2.carbon.system.statistics.server.feature.group 4.4.7.
+Installing org.wso2.carbon.soaptracer.server.feature.group 4.4.7.
+Installing org.wso2.carbon.repomanager.axis2.server.feature.group 4.5.3.
+Installing org.wso2.carbon.service.mgt.server.feature.group 4.5.3.
+Installing org.wso2.carbon.module.mgt.server.feature.group 4.5.3.
+Installing org.wso2.carbon.aarservices.server.feature.group 4.5.3.
+Installing org.wso2.carbon.jarservices.server.feature.group 4.5.3.
+Installing org.wso2.carbon.springservices.server.feature.group 4.5.3.
+Installing org.wso2.carbon.security.mgt.server.feature.group 4.5.5.
+Installing org.wso2.carbon.webapp.mgt.server.feature.group 4.5.3.
+Installing org.wso2.carbon.discovery.core.feature.group 4.4.7.
+Installing org.wso2.carbon.tryit.feature.group 4.4.7.
+Installing org.wso2.carbon.event.server.feature.group 4.4.7.
+Installing org.wso2.carbon.registry.core.server.feature.group 4.4.8.
+Installing org.wso2.carbon.registry.resource.properties.server.feature.group 4.4.8.
+Installing org.wso2.appserver.utils.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.carbon.application.mgt.server.feature.group 4.4.7.
+Installing org.wso2.carbon.application.mgt.webapp.server.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.deployment.synchronizer.server.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.subversion.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.git.feature.group 4.4.7.
+Installing org.wso2.carbon.transaction.manager.feature.group 4.4.7.
+Installing org.wso2.carbon.tenant.common.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.usage.agent.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.throttling.agent.feature.group 4.4.3.
+Installing org.wso2.carbon.tenant.deployment.feature.group 4.4.3.
+Installing org.wso2.stratos.appserver.dashboard.ui.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.carbon.bam.service.agent.server.feature.group 4.5.3.
+Installing org.wso2.carbon.bam.webapp.agent.server.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.xacml.filter.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.authenticator.saml2.sso.server.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.user.profile.server.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.core.server.feature.group 4.5.5.
+Installing org.jaggeryjs.server.feature.group 0.11.0.
+Installing org.jaggeryjs.modules.carbon.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.email.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.gadget.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.i18n.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.oauth.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.process.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.uuid.feature.group 1.2.0.
+Installing org.jaggeryjs.modules.ws.feature.group 1.2.0.
+Installing org.wso2.carbon.user.mgt.server.feature.group 4.5.5.
+Installing org.wso2.carbon.as.runtimes.cxf.feature.group 4.5.3.
+Installing org.wso2.carbon.registry.contentsearch.feature.group 4.4.8.
+Operation completed in 6236 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-profile-gen (3-p2-profile-generation-for-webapp) @ wso2appserver-profile-gen ---
+[INFO] Running Equinox P2 Director Application
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -profileProperties org.eclipse.update.install.features=true -installIU org.wso2.carbon.javaee.tomee.server.feature.group/4.5.3,org.wso2.carbon.logging.mgt.feature.group/4.4.7,org.wso2.carbon.databridge.datapublisher.feature.group/4.4.7,org.wso2.carbon.wsdl.tools.feature.group/4.4.7,org.wso2.carbon.system.statistics.feature.group/4.4.7,org.wso2.carbon.repomanager.axis2.feature.group/4.5.3,org.wso2.carbon.security.mgt.feature.group/4.5.5,org.wso2.carbon.webapp.mgt.feature.group/4.5.3,org.wso2.carbon.discovery.core.feature.group/4.4.7,org.wso2.carbon.discovery.admin.ui.feature.group/4.4.7,org.wso2.carbon.tryit.feature.group/4.4.7,org.wso2.carbon.event.server.feature.group/4.4.7,org.wso2.carbon.registry.core.feature.group/4.4.8,org.wso2.carbon.registry.ui.menu.feature.group/4.4.8,org.wso2.carbon.registry.resource.properties.feature.group/4.4.8,org.wso2.appserver.styles.feature.group/5.3.1.SNAPSHOT,org.wso2.appserver.utils.feature.group/5.3.1.SNAPSHOT,org.wso2.carbon.application.mgt.feature.group/4.4.7,org.wso2.carbon.application.mgt.webapp.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.ndatasource.feature.group/4.4.7,org.wso2.carbon.ndatasource.ui.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.feature.group/4.4.7,org.wso2.carbon.deployment.synchronizer.git.feature.group/4.4.7,org.wso2.carbon.transaction.manager.feature.group/4.4.7,org.wso2.carbon.bam.webapp.agent.feature.group/4.5.3,org.wso2.carbon.application.deployer.webapp.feature.group/4.5.3,org.wso2.carbon.identity.xacml.filter.feature.group/4.5.3,org.wso2.carbon.identity.authenticator.saml2.sso.feature.group/4.5.5,org.wso2.carbon.identity.user.profile.feature.group/4.5.5,org.wso2.carbon.identity.core.feature.group/4.5.5,org.wso2.carbon.user.mgt.feature.group/4.5.5,org.wso2.carbon.as.runtimes.cxf.feature.group/4.5.3, -bundlepool /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination /home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/webapp -profile webapp -roaming
+Installing org.wso2.carbon.javaee.tomee.server.feature.group 4.5.3.
+Installing org.wso2.carbon.logging.mgt.feature.group 4.4.7.
+Installing org.wso2.carbon.databridge.datapublisher.feature.group 4.4.7.
+Installing org.wso2.carbon.wsdl.tools.feature.group 4.4.7.
+Installing org.wso2.carbon.system.statistics.feature.group 4.4.7.
+Installing org.wso2.carbon.repomanager.axis2.feature.group 4.5.3.
+Installing org.wso2.carbon.security.mgt.feature.group 4.5.5.
+Installing org.wso2.carbon.webapp.mgt.feature.group 4.5.3.
+Installing org.wso2.carbon.discovery.core.feature.group 4.4.7.
+Installing org.wso2.carbon.discovery.admin.ui.feature.group 4.4.7.
+Installing org.wso2.carbon.tryit.feature.group 4.4.7.
+Installing org.wso2.carbon.event.server.feature.group 4.4.7.
+Installing org.wso2.carbon.registry.core.feature.group 4.4.8.
+Installing org.wso2.carbon.registry.ui.menu.feature.group 4.4.8.
+Installing org.wso2.carbon.registry.resource.properties.feature.group 4.4.8.
+Installing org.wso2.appserver.styles.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.appserver.utils.feature.group 5.3.1.SNAPSHOT.
+Installing org.wso2.carbon.application.mgt.feature.group 4.4.7.
+Installing org.wso2.carbon.application.mgt.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.ndatasource.feature.group 4.4.7.
+Installing org.wso2.carbon.ndatasource.ui.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.feature.group 4.4.7.
+Installing org.wso2.carbon.deployment.synchronizer.git.feature.group 4.4.7.
+Installing org.wso2.carbon.transaction.manager.feature.group 4.4.7.
+Installing org.wso2.carbon.bam.webapp.agent.feature.group 4.5.3.
+Installing org.wso2.carbon.application.deployer.webapp.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.xacml.filter.feature.group 4.5.3.
+Installing org.wso2.carbon.identity.authenticator.saml2.sso.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.user.profile.feature.group 4.5.5.
+Installing org.wso2.carbon.identity.core.feature.group 4.5.5.
+Installing org.wso2.carbon.user.mgt.feature.group 4.5.5.
+Installing org.wso2.carbon.as.runtimes.cxf.feature.group 4.5.3.
