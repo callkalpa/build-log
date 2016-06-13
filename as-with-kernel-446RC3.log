@@ -2405,3 +2405,279 @@ main:
 [INFO] Generating Advice file (p2.inf)
 [INFO] Copying bundle dependencies
 [INFO]    derby:10.3.2.1wso2v1
+[INFO]    hibernate:3.2.5.ga-wso2v1
+[INFO]    bcel:5.2.0.wso2v1
+[INFO]    asm:3.1.0.wso2v1
+[INFO]    cglib:2.2.0.wso2v1
+[INFO]    cglib:2.2.0.wso2v1
+[INFO]    axis2-jaxbri:1.6.1.wso2v19
+[INFO]    jaxb:2.2.5.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.utils.feature/target/org.wso2.stratos.appserver.utils.feature-5.3.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.stratos.appserver.utils.feature ---
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.utils.feature/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.utils.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.utils.feature-5.3.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.utils.feature/target/org.wso2.stratos.appserver.utils.feature-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.utils.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.utils.feature-5.3.1-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos  AppServer - Dashboard UI 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Deleting /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 17 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.stratos.appserver.dashboard.ui ---
+[WARNING] Source tree does not exist. Ignoring /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/src/main/java
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.wso2.stratos.appserver.dashboard.ui ---
+[WARNING] Bundle org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui:bundle:5.3.1-SNAPSHOT : Instructions in Export-Package that are never used: org\.wso2\.stratos\.appserver\.dashboard\.ui\..*|org\.wso2\.stratos\.appserver\.dashboard\.ui
+Classpath: Jar:.,Jar:axis2,Jar:log4j,Jar:org.wso2.carbon.registry.core,Jar:commons-io,Jar:annotations,Jar:org.eclipse.osgi.services,Jar:XmlSchema,Jar:org.wso2.carbon.registry.api,Jar:org.wso2.carbon.utils,Jar:bcprov-jdk15on,Jar:bcprov-jdk15on,Jar:org.wso2.carbon.user.api,Jar:org.wso2.carbon.queuing,Jar:org.wso2.carbon.base,Jar:org.wso2.carbon.securevault,Jar:smack,Jar:smackx,Jar:xercesImpl,Jar:jaxen,Jar:dom4j,Jar:jdom,Jar:xml-apis,Jar:xercesImpl,Jar:xom,Jar:xmlParserAPIs,Jar:xalan,Jar:icu4j,Jar:commons-fileupload,Jar:ant,Jar:ant,Jar:ant-launcher,Jar:javax.cache.wso2,Jar:geronimo-jta_1.1_spec,Jar:org.wso2.carbon.registry.xboot,Jar:org.wso2.securevault,Jar:axiom-api,Jar:geronimo-activation_1.1_spec,Jar:geronimo-javamail_1.4_spec,Jar:geronimo-stax-api_1.0_spec,Jar:axiom-impl,Jar:wstx-asl,Jar:jline,Jar:junit,Jar:commons-cli,Jar:commons-io,Jar:commons-codec,Jar:org.wso2.carbon.user.core,Jar:commons-dbcp,Jar:commons-collections,Jar:compass,Jar:abdera,Jar:org.wso2.carbon.logging,Jar:log4j,Jar:org.wso2.carbon.bootstrap,Jar:wrapper,Jar:jdbc-pool,Jar:tomcat-jdbc,Jar:tomcat-juli,Jar:commons-httpclient,Jar:commons-pool,Jar:commons-pool,Jar:org.wso2.carbon.ui,Jar:org.eclipse.osgi,Jar:axiom,Jar:geronimo-stax-api_1.0_spec,Jar:woodstox-core-asl,Jar:stax2-api,Jar:stax-api,Jar:tiles-jsp,Jar:org.wso2.carbon.core,Jar:hazelcast,Jar:hazelcast-all,Jar:org.eclipse.equinox.http.helper,Jar:neethi,Jar:httpcore,Jar:tomcat-catalina-ha,Jar:tomcat-tribes,Jar:tomcat-catalina,Jar:tomcat-annotations-api,Jar:tomcat-api,Jar:tomcat-util,Jar:wsdl4j,Jar:org.wso2.carbon.authenticator.proxy,Jar:org.wso2.carbon.authenticator.stub,Jar:org.wso2.carbon.core.common,Jar:org.eclipse.equinox.http.servlet,Jar:org.apache.jasper.glassfish,Jar:javax.servlet.jsp,Jar:org.wso2.carbon.core.commons.stub,Jar:jstl,Jar:javax.servlet,Jar:commons-lang,Jar:org.wso2.carbon.statistics.ui,Jar:org.wso2.carbon.statistics.stub,Jar:neethi,Jar:commons-logging
+
+[WARNING] Bundle org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui:bundle:5.3.1-SNAPSHOT : Superfluous export-package instructions: [org.wso2.stratos.appserver.dashboard.ui.*]
+[WARNING] Bundle org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui:bundle:5.3.1-SNAPSHOT : Did not find matching referal for !javax.xml.namespace
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Installing /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/target/org.wso2.stratos.appserver.dashboard.ui-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.dashboard.ui/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.dashboard.ui-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.dashboard.ui/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.dashboard.ui/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.dashboard.ui-5.3.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.wso2.stratos.appserver.dashboard.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos AppServer - Dashboard UI Features 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.stratos.appserver.dashboard.ui.feature ---
+[INFO] Deleting /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.stratos.appserver.dashboard.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.stratos.appserver.dashboard.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-feature-gen (p2-feature-generation) @ org.wso2.stratos.appserver.dashboard.ui.feature ---
+[INFO]    /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.stratos.appserver.dashboard.ui:5.3.1.SNAPSHOT
+[INFO]    org.wso2.carbon.ui.menu.stratos:2.2.0
+[INFO] Generating feature archive: /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/target/org.wso2.stratos.appserver.dashboard.ui.feature-5.3.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.stratos.appserver.dashboard.ui.feature ---
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.dashboard.ui.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.dashboard.ui.feature-5.3.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.dashboard.ui.feature/target/org.wso2.stratos.appserver.dashboard.ui.feature-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.dashboard.ui.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.dashboard.ui.feature-5.3.1-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AS - Login User Interface 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Deleting /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Source directory: /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 40 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.wso2.stratos.appserver.login.ui ---
+[WARNING] Bundle org.wso2.appserver:org.wso2.stratos.appserver.login.ui:bundle:5.3.1-SNAPSHOT : Did not find matching referal for org.apache.lucene.*
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Installing /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/target/org.wso2.stratos.appserver.login.ui-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.login.ui/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.login.ui-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/org.wso2.stratos.appserver.login.ui/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.login.ui/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.login.ui-5.3.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.wso2.stratos.appserver.login.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos AppServer - Deployment Features 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.stratos.appserver.login.ui.feature ---
+[INFO] Deleting /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.stratos.appserver.login.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.stratos.appserver.login.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-feature-gen (p2-feature-generation) @ org.wso2.stratos.appserver.login.ui.feature ---
+[INFO]    /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.stratos.appserver.login.ui:5.3.1.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/target/org.wso2.stratos.appserver.login.ui.feature-5.3.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.stratos.appserver.login.ui.feature ---
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.login.ui.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.login.ui.feature-5.3.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/product-as/modules/features/service/org.wso2.stratos.appserver.login.ui.feature/target/org.wso2.stratos.appserver.login.ui.feature-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.stratos.appserver.login.ui.feature/5.3.1-SNAPSHOT/org.wso2.stratos.appserver.login.ui.feature-5.3.1-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - AppServer Profile Generation 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ wso2appserver-profile-gen ---
+[INFO] Deleting /home/ubuntu/product-as/modules/p2-profile-gen/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ wso2appserver-profile-gen ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/p2-profile-gen/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ wso2appserver-profile-gen ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:unpack (1-unpack-p2-agent-distribution) @ wso2appserver-profile-gen ---
+[INFO] Configured Artifact: org.wso2.carbon:wso2carbon-core:4.4.6:zip
+[INFO] Unpacking /home/ubuntu/product-as/../repo-new/org/wso2/carbon/wso2carbon-core/4.4.6/wso2carbon-core-4.4.6.zip to /home/ubuntu/product-as/modules/p2-profile-gen/target with includes "" and excludes ""
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:p2-repo-gen (2-p2-repo-generation) @ wso2appserver-profile-gen ---
+[INFO] Extracting feature org.wso2.carbon:org.wso2.carbon.core.feature
+[INFO] Extracting feature org.wso2.carbon:org.wso2.carbon.core.runtime.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.ndatasource.ui.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.as.runtimes.cxf.feature
+[INFO] Extracting feature org.jaggeryjs:org.jaggeryjs.feature
+[INFO] Extracting feature org.jaggeryjs.modules:carbon.feature
+[INFO] Extracting feature org.jaggeryjs.modules:email.feature
+[INFO] Extracting feature org.jaggeryjs.modules:gadget.feature
+[INFO] Extracting feature org.jaggeryjs.modules:i18n.feature
+[INFO] Extracting feature org.jaggeryjs.modules:uuid.feature
+[INFO] Extracting feature org.jaggeryjs.modules:oauth.feature
+[INFO] Extracting feature org.jaggeryjs.modules:process.feature
+[INFO] Extracting feature org.jaggeryjs.modules:ws.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.service.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.security.mgt.server.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.module.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.aarservices.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.jarservices.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.springservices.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.application.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.application.mgt.webapp.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.application.deployer.webapp.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.identity.application.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.javaee.tomee.server.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.security.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.repomanager.axis2.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.discovery.core.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.discovery.admin.ui.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.git.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.transaction.manager.feature
+[INFO] Extracting feature org.wso2.ciphertool:org.wso2.ciphertool.feature
+[INFO] Extracting feature org.wso2.appserver:org.wso2.appserver.utils.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.system.statistics.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.soaptracer.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.databridge.datapublisher.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.message.flows.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.bam.webapp.agent.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.bam.service.agent.feature
+[INFO] Extracting feature org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.tenant.mgt.common.feature
+[INFO] Extracting feature org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature
+[INFO] Extracting feature org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.throttling.agent.feature
+[INFO] Extracting feature org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature
+[INFO] Extracting feature org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature
+[INFO] Extracting feature org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature
+[INFO] Extracting feature org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature
+[INFO] Extracting feature org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature
+[INFO] Extracting feature org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.claim.mgt.feature
+[INFO] Extracting feature org.wso2.appserver:org.wso2.appserver.styles.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.tryit.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.user.mgt.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.identity.xacml.ui.feature
+[INFO] Extracting feature org.wso2.carbon.deployment:org.wso2.carbon.identity.xacml.filter.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.identity.user.profile.feature
+[INFO] Extracting feature org.wso2.carbon.identity:org.wso2.carbon.identity.core.feature
+[INFO] Copying resources
+[INFO]    /home/ubuntu/product-as/modules/p2-profile-gen/target/maven-shared-archive-resources
+[INFO] Running Equinox P2 Publisher Application for Repository Generation
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher -source /home/ubuntu/product-as/modules/p2-profile-gen/target/tmp.1465818276532/featureExtract -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -metadataRepositoryName wso2appserver-profile-gen -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepositoryName wso2appserver-profile-gen -publishArtifacts -publishArtifactRepository -compress -append
+Generating metadata for ..
+Generation completed with success [8 seconds].
+[INFO] Running Equinox P2 Category Publisher Application for the Generated Repository
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:publish-product (publishing product) @ wso2appserver-profile-gen ---
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.publisher.ProductPublisher -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -productFile /home/ubuntu/product-as/modules/p2-profile-gen/carbon.product -executables /home/ubuntu/product-as/modules/p2-profile-gen/target/org.eclipse.equinox.executable_3.5.0.v20110530-7P7NFUFFLWUl76mart -publishArtifacts -configs gtk.linux.x86 -flavor tooling -append
+Generating metadata for ..
+Generation completed with success [0 seconds].
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:materialize-product (creating-worker-profile) @ wso2appserver-profile-gen ---
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -installIU carbon.product.id -profileProperties org.eclipse.update.install.features=true -profile worker -bundlepool file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/worker -p2.os linux -p2.ws gtk -p2.arch x86 -roaming
+Installing carbon.product.id 4.4.6.
+Operation completed in 2349 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:materialize-product (creating-webapp-profile) @ wso2appserver-profile-gen ---
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -installIU carbon.product.id -profileProperties org.eclipse.update.install.features=true -profile webapp -bundlepool file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/webapp -p2.os linux -p2.ws gtk -p2.arch x86 -roaming
+Installing carbon.product.id 4.4.6.
+Operation completed in 2386 ms.
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.6:materialize-product (creating-axis2service-profile) @ wso2appserver-profile-gen ---
+[INFO] Command line:
+	/bin/sh -c cd /home/ubuntu/product-as/modules/p2-profile-gen && /home/ubuntu/dev-tools/jdk1.7.0_75/jre/bin/java -jar /home/ubuntu/repo-new/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110725-1610.jar -nosplash -application org.eclipse.equinox.p2.director -metadataRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -artifactRepository file:/home/ubuntu/product-as/modules/p2-profile-gen/target/p2-repo -installIU carbon.product.id -profileProperties org.eclipse.update.install.features=true -profile axis2service -bundlepool file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components -shared file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/p2 -destination file:/home/ubuntu/product-as/modules/p2-profile-gen/target/wso2carbon-core-4.4.6/repository/components/axis2service -p2.os linux -p2.ws gtk -p2.arch x86 -roaming
