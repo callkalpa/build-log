@@ -4001,3 +4001,149 @@ Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1024
 [INFO] Packaging webapp
 [INFO] Assembling webapp [spring4-restful-faulty-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target/spring4-restful-faulty-service-5.3.1-SNAPSHOT]
 [INFO] Processing war project
+[INFO] Webapp assembled in [131 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target/spring4-restful-faulty-service.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring4-restful-faulty-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target/spring4-restful-faulty-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/spring4-restful-faulty-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-faulty-service/5.3.1-SNAPSHOT/spring4-restful-faulty-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 4 Restful - Webapp Classloading 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring4-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring4-restful-webapp-classloading ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring4-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring4-restful-webapp-classloading ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring4-restful-webapp-classloading ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring4-restful-webapp-classloading ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring4-restful-webapp-classloading ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring4-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring4-restful-webapp-classloading ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring4-restful-webapp-classloading] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/target/spring4-restful-webapp-classloading-5.3.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/src/main/webapp]
+[INFO] Webapp assembled in [5 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/target/spring4-restful-webapp-classloading.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring4-restful-webapp-classloading ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/target/spring4-restful-webapp-classloading.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/spring4-restful-webapp-classloading-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/webapp-classloading/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-webapp-classloading/5.3.1-SNAPSHOT/spring4-restful-webapp-classloading-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts- JAX-RS/CXF Test Webapp Artifacts 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ jaxrs.test.artifact ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ jaxrs.test.artifact ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ jaxrs.test.artifact ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jaxrs.test.artifact ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/jaxrs.test.artifact/5.3.1-SNAPSHOT/jaxrs.test.artifact-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jaxrs-client-api-test-webapp 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ jaxrs-client-api-test-webapp ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ jaxrs-client-api-test-webapp ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ jaxrs-client-api-test-webapp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jaxrs-client-api-test-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jaxrs-client-api-test-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jaxrs-client-api-test-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jaxrs-client-api-test-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ jaxrs-client-api-test-webapp ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ jaxrs-client-api-test-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jaxrs-client-api-test-webapp] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/WebContent]
+[INFO] Webapp assembled in [131 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (war) @ jaxrs-client-api-test-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jaxrs-client-api-test-webapp] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/WebContent]
+[INFO] Webapp assembled in [10 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jaxrs-client-api-test-webapp ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/target/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/jaxrs/jaxrs-client-test-webapp/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/jaxrs-client-api-test-webapp/5.3.1-SNAPSHOT/jaxrs-client-api-test-webapp-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JAX-RS Java security-check Manager testing web app 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ security-check ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ security-check ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/security-check/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ security-check ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ security-check ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/security-check/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ security-check ---
+[INFO] Compiling 4 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/security-check/target/classes
+[ERROR] PermGen space -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/OutOfMemoryError
