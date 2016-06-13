@@ -3169,3 +3169,835 @@ main:
 [INFO] 
 [INFO] --- maven-assembly-plugin:2.4:single (create-distribution) @ ldap-server-feature-installed-wso2as ---
 [INFO] Reading assembly descriptor: assembly.xml
+[INFO] Building zip: /home/ubuntu/product-as/modules/integration/ldap-server-feature-installed-wso2as/target/wso2as-5.3.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (auto-clean) @ ldap-server-feature-installed-wso2as ---
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/ldap-server-feature-installed-wso2as/target/wso2as-5.3.1-SNAPSHOT (includes = [], excludes = [])
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ldap-server-feature-installed-wso2as ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/ldap-server-feature-installed-wso2as/target/wso2as-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/ldap-server-feature-installed-wso2as/5.3.1-SNAPSHOT/ldap-server-feature-installed-wso2as-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/integration/ldap-server-feature-installed-wso2as/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/ldap-server-feature-installed-wso2as/5.3.1-SNAPSHOT/ldap-server-feature-installed-wso2as-5.3.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/product-as/modules/integration/ldap-server-feature-installed-wso2as/target/wso2as-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/ldap-server-feature-installed-wso2as/5.3.1-SNAPSHOT/ldap-server-feature-installed-wso2as-5.3.1-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common module 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ test-common ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ test-common ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ test-common ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ test-common ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/test-common/5.3.1-SNAPSHOT/test-common-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Test Common Module 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.appserver.integration.common.clients ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.appserver.integration.common.clients ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.appserver.integration.common.clients ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.appserver.integration.common.clients ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Building jar: /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/target/org.wso2.appserver.integration.common.clients-5.3.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.appserver.integration.common.clients ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/target/org.wso2.appserver.integration.common.clients-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/org.wso2.appserver.integration.common.clients-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/admin-clients/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.appserver.integration.common.clients/5.3.1-SNAPSHOT/org.wso2.appserver.integration.common.clients-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Test Common Utils Module 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.appserver.integration.common.utils ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.appserver.integration.common.utils ---
+Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1024/com/saucelabs/selenium/selenium-client-factory/2.6/selenium-client-factory-2.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/repositories/releases/com/saucelabs/selenium/selenium-client-factory/2.6/selenium-client-factory-2.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/com/saucelabs/selenium/selenium-client-factory/2.6/selenium-client-factory-2.6.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/saucelabs/selenium/selenium-client-factory/2.6/selenium-client-factory-2.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/repositories/orgwso2carbon-1024/com/saucelabs/selenium/sauce-ondemand-driver/2.6/sauce-ondemand-driver-2.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/repositories/releases/com/saucelabs/selenium/sauce-ondemand-driver/2.6/sauce-ondemand-driver-2.6.pom
+           Downloading: http://maven.wso2.org/nexus/content/groups/wso2-public/com/saucelabs/selenium/sauce-ondemand-driver/2.6/sauce-ondemand-driver-2.6.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/saucelabs/selenium/sauce-ondemand-driver/2.6/sauce-ondemand-driver-2.6.pom
+           [INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/target/classes
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/SpringServiceMaker.java: /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/SpringServiceMaker.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/SpringServiceMaker.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/ASHttpRequestUtil.java: /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/ASHttpRequestUtil.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/main/java/org/wso2/appserver/integration/common/utils/ASHttpRequestUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ org.wso2.appserver.integration.common.utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.appserver.integration.common.utils ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Building jar: /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/target/org.wso2.appserver.integration.common.utils-5.3.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.appserver.integration.common.utils ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/target/org.wso2.appserver.integration.common.utils-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/org.wso2.appserver.integration.common.utils-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/integration-test-utils/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/org.wso2.appserver.integration.common.utils/5.3.1-SNAPSHOT/org.wso2.appserver.integration.common.utils-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AS Integration Test UI Pages 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ui-pages ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ui-pages ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ui-pages ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ ui-pages ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ ui-pages ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ ui-pages ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ ui-pages ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ui-pages ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ ui-pages ---
+[INFO] Building jar: /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/target/ui-pages-5.3.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ui-pages ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/target/ui-pages-5.3.1-SNAPSHOT.jar to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/ui-pages/5.3.1-SNAPSHOT/ui-pages-5.3.1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/ui-pages/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/ui-pages/5.3.1-SNAPSHOT/ui-pages-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ common-artifacts ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ common-artifacts ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ common-artifacts ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ common-artifacts ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/common-artifacts/5.3.1-SNAPSHOT/common-artifacts-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts- Lazy Loading Info 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ lazy-loading-info ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ lazy-loading-info ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ lazy-loading-info ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ lazy-loading-info ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lazy-loading-info ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ lazy-loading-info ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lazy-loading-info ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ lazy-loading-info ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ lazy-loading-info ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [lazy-loading-info] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/target/lazy-loading-info]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/src/main/webapp]
+[INFO] Webapp assembled in [312 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/target/lazy-loading-info.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lazy-loading-info ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/target/lazy-loading-info.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/lazy-loading-info/5.3.1-SNAPSHOT/lazy-loading-info-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/lazy-loading-info/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/lazy-loading-info/5.3.1-SNAPSHOT/lazy-loading-info-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts- JNDISampleApp 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ carbon-datasource-lookup ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ carbon-datasource-lookup ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ carbon-datasource-lookup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ carbon-datasource-lookup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ carbon-datasource-lookup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ carbon-datasource-lookup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ carbon-datasource-lookup ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ carbon-datasource-lookup ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ carbon-datasource-lookup ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [carbon-datasource-lookup] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/target/carbon-datasource-lookup]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/src/main/webapp]
+[INFO] Webapp assembled in [7 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/target/carbon-datasource-lookup.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ carbon-datasource-lookup ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/target/carbon-datasource-lookup.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/carbon-datasource-lookup/5.3.1-SNAPSHOT/carbon-datasource-lookup-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/carbon-datasource-lookup/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/carbon-datasource-lookup/5.3.1-SNAPSHOT/carbon-datasource-lookup-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts - JNDIFooApp 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ tomcat-jndi-resource-lookup ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ tomcat-jndi-resource-lookup ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ tomcat-jndi-resource-lookup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ tomcat-jndi-resource-lookup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tomcat-jndi-resource-lookup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ tomcat-jndi-resource-lookup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tomcat-jndi-resource-lookup ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ tomcat-jndi-resource-lookup ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ tomcat-jndi-resource-lookup ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [tomcat-jndi-resource-lookup] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/target/tomcat-jndi-resource-lookup]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/src/main/webapp]
+[INFO] Webapp assembled in [7 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/target/tomcat-jndi-resource-lookup.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tomcat-jndi-resource-lookup ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/target/tomcat-jndi-resource-lookup.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/tomcat-jndi-resource-lookup/5.3.1-SNAPSHOT/tomcat-jndi-resource-lookup-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/tomcat-jndi-resource-lookup/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/tomcat-jndi-resource-lookup/5.3.1-SNAPSHOT/tomcat-jndi-resource-lookup-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Test Tomcat Context reload support 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ context-reload-test-webapp ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ context-reload-test-webapp ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ context-reload-test-webapp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ context-reload-test-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ context-reload-test-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ context-reload-test-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ context-reload-test-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ context-reload-test-webapp ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ context-reload-test-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [context-reload-test-webapp] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/target/context-reload-test-webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/src/main/webapp]
+[INFO] Webapp assembled in [6 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/target/context-reload-test-webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ context-reload-test-webapp ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/target/context-reload-test-webapp.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/context-reload-test-webapp/1.0.2-SNAPSHOT/context-reload-test-webapp-1.0.2-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/context-reload-test-webapp/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/context-reload-test-webapp/1.0.2-SNAPSHOT/context-reload-test-webapp-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Integration Common Artifacts- Host Info 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ host-info ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ host-info ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ host-info ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ host-info ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ host-info ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ host-info ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ host-info ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ host-info ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ host-info ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [host-info] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/target/host-info]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/src/main/webapp]
+[INFO] Webapp assembled in [6 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/target/host-info.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ host-info ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/target/host-info.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/host-info/5.3.1-SNAPSHOT/host-info-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/host-info/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/host-info/5.3.1-SNAPSHOT/host-info-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hibernate-example Webapp 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ hibernate-example ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ hibernate-example ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ hibernate-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ hibernate-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ hibernate-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/target/classes
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/src/main/java/org/wso2/appserver/hibernate/EmployeeManager.java: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/src/main/java/org/wso2/appserver/hibernate/EmployeeManager.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/src/main/java/org/wso2/appserver/hibernate/EmployeeManager.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ hibernate-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ hibernate-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ hibernate-example ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ hibernate-example ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hibernate-example] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/target/hibernate-example]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/src/main/webapp]
+[INFO] Webapp assembled in [243 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/target/hibernate-example.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ hibernate-example ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/target/hibernate-example.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/hibernate-example-1.0.2-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/hibernate-example/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/hibernate-example/1.0.2-SNAPSHOT/hibernate-example-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring Artifacts 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring/5.3.1-SNAPSHOT/spring-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful/5.3.1-SNAPSHOT/spring3-restful-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful - Simple Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful-simple-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful-simple-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful-simple-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring3-restful-simple-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring3-restful-simple-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring3-restful-simple-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring3-restful-simple-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring3-restful-simple-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring3-restful-simple-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring3-restful-simple-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/target/spring3-restful-simple-service]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/src/main/webapp]
+[INFO] Webapp assembled in [65 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/target/spring3-restful-simple-service.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful-simple-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/target/spring3-restful-simple-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/spring3-restful-simple-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/simple-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-simple-service/5.3.1-SNAPSHOT/spring3-restful-simple-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful - JNDI Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful-jndi-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful-jndi-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful-jndi-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring3-restful-jndi-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring3-restful-jndi-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring3-restful-jndi-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring3-restful-jndi-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring3-restful-jndi-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring3-restful-jndi-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring3-restful-jndi-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/target/spring3-restful-jndi-service]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/src/main/webapp]
+[INFO] Webapp assembled in [27 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/target/spring3-restful-jndi-service.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful-jndi-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/target/spring3-restful-jndi-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/spring3-restful-jndi-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/jndi-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-jndi-service/5.3.1-SNAPSHOT/spring3-restful-jndi-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful - Webapp Classloading 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful-webapp-classloading ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring3-restful-webapp-classloading ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring3-restful-webapp-classloading ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring3-restful-webapp-classloading ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring3-restful-webapp-classloading ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring3-restful-webapp-classloading ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring3-restful-webapp-classloading ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring3-restful-webapp-classloading] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/target/spring3-restful-webapp-classloading]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/src/main/webapp]
+[INFO] Webapp assembled in [7 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/target/spring3-restful-webapp-classloading.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful-webapp-classloading ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/target/spring3-restful-webapp-classloading.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/spring3-restful-webapp-classloading-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/webapp-classloading/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-webapp-classloading/5.3.1-SNAPSHOT/spring3-restful-webapp-classloading-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful - Runtime Libs 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful-runtime-libs ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful-runtime-libs ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful-runtime-libs ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.9:copy-dependencies (copy-dependencies) @ spring3-restful-runtime-libs ---
+[INFO] Copying spring-jdbc-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-jdbc-3.0.7.RELEASE.jar
+[INFO] Copying spring-context-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-context-3.0.7.RELEASE.jar
+[INFO] Copying spring-beans-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-beans-3.0.7.RELEASE.jar
+[INFO] Copying jackson-mapper-asl-1.9.9.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/jackson-mapper-asl-1.9.9.jar
+[INFO] Copying spring-context-support-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-context-support-3.0.7.RELEASE.jar
+[INFO] Copying spring-asm-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-asm-3.0.7.RELEASE.jar
+[INFO] Copying spring-aop-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-aop-3.0.7.RELEASE.jar
+[INFO] Copying commons-logging-1.1.1.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/commons-logging-1.1.1.jar
+[INFO] Copying jackson-core-asl-1.9.9.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/jackson-core-asl-1.9.9.jar
+[INFO] Copying spring-tx-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-tx-3.0.7.RELEASE.jar
+[INFO] Copying jaxb-api-2.2.7.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/jaxb-api-2.2.7.jar
+[INFO] Copying spring-web-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-web-3.0.7.RELEASE.jar
+[INFO] Copying spring-webmvc-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-webmvc-3.0.7.RELEASE.jar
+[INFO] Copying aopalliance-1.0.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/aopalliance-1.0.jar
+[INFO] Copying spring-expression-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-expression-3.0.7.RELEASE.jar
+[INFO] Copying spring-core-3.0.7.RELEASE.jar to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/runtime/spring-core-3.0.7.RELEASE.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:single (default) @ spring3-restful-runtime-libs ---
+[INFO] Reading assembly descriptor: src/assembly/bin.xml
+[INFO] Building zip: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/spring3-restful-runtime-libs-5.3.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful-runtime-libs ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/spring3-restful-runtime-libs-5.3.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/runtime-libs/target/spring3-restful-runtime-libs-5.3.1-SNAPSHOT.zip to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-runtime-libs/5.3.1-SNAPSHOT/spring3-restful-runtime-libs-5.3.1-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 3 Restful - Faulty Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring3-restful-faulty-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring3-restful-faulty-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring3-restful-faulty-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring3-restful-faulty-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring3-restful-faulty-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring3-restful-faulty-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring3-restful-faulty-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring3-restful-faulty-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring3-restful-faulty-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring3-restful-faulty-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/target/spring3-restful-faulty-service]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/src/main/webapp]
+[INFO] Webapp assembled in [15 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/target/spring3-restful-faulty-service.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring3-restful-faulty-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/target/spring3-restful-faulty-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/spring3-restful-faulty-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring3-restful/faulty-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring3-restful-faulty-service/5.3.1-SNAPSHOT/spring3-restful-faulty-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 4 Restful Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring4-restful ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring4-restful ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring4-restful ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring4-restful ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful/5.3.1-SNAPSHOT/spring4-restful-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 4 Restful - Simple Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring4-restful-simple-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring4-restful-simple-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring4-restful-simple-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring4-restful-simple-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring4-restful-simple-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring4-restful-simple-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring4-restful-simple-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring4-restful-simple-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring4-restful-simple-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring4-restful-simple-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/target/spring4-restful-simple-service-5.3.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [263 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/target/spring4-restful-simple-service.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring4-restful-simple-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/target/spring4-restful-simple-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/spring4-restful-simple-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/simple-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-simple-service/5.3.1-SNAPSHOT/spring4-restful-simple-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 4 Restful - JNDI Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring4-restful-jndi-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring4-restful-jndi-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring4-restful-jndi-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring4-restful-jndi-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring4-restful-jndi-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring4-restful-jndi-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring4-restful-jndi-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring4-restful-jndi-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring4-restful-jndi-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring4-restful-jndi-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/target/spring4-restful-jndi-service-5.3.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [40 msecs]
+[INFO] Building war: /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/target/spring4-restful-jndi-service.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring4-restful-jndi-service ---
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/target/spring4-restful-jndi-service.war to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/spring4-restful-jndi-service-5.3.1-SNAPSHOT.war
+[INFO] Installing /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/jndi-service/pom.xml to /home/ubuntu/product-as/../repo-new/org/wso2/appserver/spring4-restful-jndi-service/5.3.1-SNAPSHOT/spring4-restful-jndi-service-5.3.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 AppServer - Spring 4 Restful - Faulty Service 5.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ spring4-restful-faulty-service ---
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ spring4-restful-faulty-service ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ spring4-restful-faulty-service ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring4-restful-faulty-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ spring4-restful-faulty-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring4-restful-faulty-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ spring4-restful-faulty-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spring4-restful-faulty-service ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ spring4-restful-faulty-service ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring4-restful-faulty-service] in [/home/ubuntu/product-as/modules/integration/tests-common/common-artifacts/spring/spring4-restful/faulty-service/target/spring4-restful-faulty-service-5.3.1-SNAPSHOT]
+[INFO] Processing war project
