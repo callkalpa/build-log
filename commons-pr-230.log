@@ -2716,3 +2716,277 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.cluster.mgt.admin ---
 [INFO] Compiling 3 source files to /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.cluster.mgt.admin ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 22 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.ui/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.ui/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management - Distribution 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-2:attached (dist) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Reading assembly descriptor: bin.xml
+[INFO] Processing DependencySet (output=carbon-clustermgt-${pom.version})
+[WARNING] Cannot include project artifact: org.wso2.carbon.commons:org.wso2.carbon.cluster.mgt.distribution:pom:4.5.4-SNAPSHOT; it doesn't have an associated file or directory.
+[INFO] Building zip: /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.distribution/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.distribution/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos - Application Base Url Mapper Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ url-mapper-parent ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ url-mapper-parent ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ url-mapper-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ url-mapper-parent ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/url-mapper-parent/4.5.4-SNAPSHOT/url-mapper-parent-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - url mapper cluster message 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Compiling 7 source files to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Source tree does not exist. Ignoring /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/generated-code/src
+[WARNING] Class org.wso2.carbon.url.mapper.clustermessage.internal.VirtualHostClusterServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/main/java/org/wso2/carbon/url/mapper/clustermessage/internal/VirtualHostClusterServiceComponent.java:32
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for !javax.xml.namespace
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.apache.axiom.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.wso2.carbon.cluster.mgt.core.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet, javax.servlet.http, javax.xml.namespace]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Url Mapper BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper ---
+[INFO] Compiling 17 source files to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.url.mapper ---
+[WARNING] Class org.wso2.carbon.url.mapper.deployment.UrlMappingDeploymentInterceptor is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/deployment/UrlMappingDeploymentInterceptor.java:29
+[WARNING] Class org.wso2.carbon.url.mapper.internal.UrlMapperServerComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/internal/UrlMapperServerComponent.java:8
+[WARNING] Class org.wso2.carbon.url.mapper.internal.UrlMapperServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/internal/UrlMapperServiceComponent.java:49
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 6 MetaType Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 3 entries.
+[INFO] Generating 3 Service Component Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.exception, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.registry, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.util, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Url Mapper UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 23 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.ui:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [org.wso2.carbon.url.mapper.ui.i18n]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction Manager - Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ transaction-mgt ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ transaction-mgt ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ transaction-mgt ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ transaction-mgt ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/transaction-manager/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/transaction-mgt/4.5.4-SNAPSHOT/transaction-mgt-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction manager 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
