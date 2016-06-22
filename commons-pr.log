@@ -2421,3 +2421,166 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.discovery.core ---
 [INFO] Compiling 29 source files to /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.6.0:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.discovery.core ---
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.discovery.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.discovery.core ---
+[INFO] Compiling 3 source files to /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.discovery.core ---
+[INFO] Surefire report directory: /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.discovery.tests.search.ScopeMatchTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.wso2.carbon.discovery.tests.search.ScopeMatchTest
+Running org.wso2.carbon.discovery.tests.om.MessageSerializerTest
+http://10.100.3.25:9763/services/FooService https://10.100.3.25:9443/services/FooService jms:/FooService?param1=value1&amp;param2=value2
+log4j:WARN No appenders could be found for logger (org.apache.axiom.om.util.StAXUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+<wsd:Hello xmlns:wsd="http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01"><wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing"><wsa:Address>urn:uuid:0ef3dfb6-6753-4467-84af-f42fd94f2fde</wsa:Address></wsa:EndpointReference><wsd:Types xmlns:yt="http://test.org" xmlns:axis2ns1="http://uri1.com">axis2ns1:MyType yt:YourType</wsd:Types><wsd:Scopes>http://wso2.org/engineering http://wso2.org/engineering/qa http://wso2.org/marketing</wsd:Scopes><wsd:XAddrs>http://10.100.3.25:9763/services/FooService https://10.100.3.25:9443/services/FooService jms:/FooService?param1=value1&amp;param2=value2</wsd:XAddrs><wsd:MetadataVersion>1</wsd:MetadataVersion></wsd:Hello>
+<wsd:Bye xmlns:wsd="http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01"><wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing"><wsa:Address>urn:uuid:0ef3dfb6-6753-4467-84af-f42fd94f2fde</wsa:Address></wsa:EndpointReference><wsd:Types xmlns:yt="http://test.org" xmlns:axis2ns1="http://uri1.com">axis2ns1:MyType yt:YourType</wsd:Types><wsd:Scopes>http://wso2.org/engineering http://wso2.org/engineering/qa http://wso2.org/marketing</wsd:Scopes><wsd:XAddrs>http://10.100.3.25:9763/services/FooService https://10.100.3.25:9443/services/FooService jms:/FooService?param1=value1&amp;param2=value2</wsd:XAddrs><wsd:MetadataVersion>1</wsd:MetadataVersion></wsd:Bye>
+http://10.100.3.25:9763/services/FooService https://10.100.3.25:9443/services/FooService jms:/FooService?param1=value1&amp;param2=value2
+<wsd:Probe xmlns:wsd="http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01"><wsd:Types xmlns:yt="http://test.org" xmlns:axis2ns1="http://uri1.com">axis2ns1:MyType yt:YourType</wsd:Types><wsd:Scopes>http://wso2.org/engineering http://wso2.org/engineering/qa http://wso2.org/marketing</wsd:Scopes></wsd:Probe>
+<wsd:Resolve xmlns:wsd="http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01"><wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing"><wsa:Address>urn:uuid:0ef3dfb6-6753-4467-84af-f42fd94f2fde</wsa:Address></wsa:EndpointReference></wsd:Resolve>
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.378 sec - in org.wso2.carbon.discovery.tests.om.MessageSerializerTest
+Running org.wso2.carbon.discovery.tests.om.MessageProcessingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.wso2.carbon.discovery.tests.om.MessageProcessingTest
+
+Results :
+
+
+
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.discovery.core ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.core ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/target/org.wso2.carbon.discovery.core-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.core/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.core-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ws-discovery-core/org.wso2.carbon.discovery.core/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.core/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.core-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.discovery.core ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.discovery.module ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.discovery.module ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.discovery.module ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.discovery.module ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.discovery.module ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.discovery.module ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.discovery.module ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.discovery.module ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.discovery.module ---
+[INFO] Surefire report directory: /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.discovery.tests.om.MessageSerializerTest
+log4j:WARN No appenders could be found for logger (org.apache.axis2.addressing.EndpointReferenceHelper).
+log4j:WARN Please initialize the log4j system properly.
+<wsd:ProbeMatches xmlns:wsd="http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01"><wsd:ProbeMatch><wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing"><wsa:Address>http://hello-world.com</wsa:Address></wsa:EndpointReference><wsd:Types xmlns:yt="http://test.org" xmlns:axis2ns1="http://uri1.com">axis2ns1:MyType yt:YourType</wsd:Types><wsd:MetadataVersion>5000</wsd:MetadataVersion></wsd:ProbeMatch></wsd:ProbeMatches>
+5000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 sec - in org.wso2.carbon.discovery.tests.om.MessageSerializerTest
+Running org.wso2.carbon.discovery.tests.om.MessageProcessingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in org.wso2.carbon.discovery.tests.om.MessageProcessingTest
+
+Results :
+
+
+
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.discovery.module ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.module ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/target/org.wso2.carbon.discovery.module-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.module/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.module-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ws-discovery/org.wso2.carbon.discovery.module/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.module/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.module-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.discovery.module ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Google Analytics Tools 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ganalytics ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ganalytics/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ganalytics ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ganalytics/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ganalytics ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ganalytics ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ganalytics/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ganalytics/4.5.4-SNAPSHOT/ganalytics-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Google Analytics Publisher 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.ganalytics.publisher ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Compiling 3 source files to /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.ganalytics.publisher ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target/test-classes
