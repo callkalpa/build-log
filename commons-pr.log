@@ -4465,3 +4465,202 @@ Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ndatasource.ui ---
 [INFO] 
 [INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.ndatasource.ui ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.ndatasource.ui:bundle:4.5.4-SNAPSHOT : Unused Import-Package instructions: [org.apache.synapse.commons.*, org.wso2.carbon.ndatasource.stub.*, org.apache.axiom.*] 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.ui/target/org.wso2.carbon.ndatasource.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.ui/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.ui/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.ndatasource.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Ndatasource - datasources 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.ndatasource.datasources ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.ndatasource.datasources ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/target/org.wso2.carbon.ndatasource.datasources-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.datasources/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.datasources-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ndatasource/org.wso2.carbon.ndatasource.datasources/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.datasources/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.datasources-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.ndatasource.datasources ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - SOAP Tracer Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ soap-tracer ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ soap-tracer ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ soap-tracer ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ soap-tracer ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/soap-tracer/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/soap-tracer/4.5.4-SNAPSHOT/soap-tracer-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - SOAP Tracer BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tracer ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tracer ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tracer ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.tracer ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.tracer ---
+[INFO] Compiling 16 source files to /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.tracer ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.tracer ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.tracer ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.tracer ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tracer ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/target/org.wso2.carbon.tracer-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tracer/4.5.4-SNAPSHOT/org.wso2.carbon.tracer-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tracer/4.5.4-SNAPSHOT/org.wso2.carbon.tracer-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.tracer ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - SOAP Tracer UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tracer.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tracer.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tracer.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.tracer.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 15 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.tracer.ui ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.tracer.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.tracer.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.tracer.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.tracer.ui ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.tracer.ui:bundle:4.5.4-SNAPSHOT : Unused Import-Package instructions: [org.wso2.carbon.ui.*] 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tracer.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/target/org.wso2.carbon.tracer.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tracer.ui/4.5.4-SNAPSHOT/org.wso2.carbon.tracer.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/soap-tracer/org.wso2.carbon.tracer.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tracer.ui/4.5.4-SNAPSHOT/org.wso2.carbon.tracer.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.tracer.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos - Application Base Url Mapper Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ wsdl-tool-parent ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ wsdl-tool-parent ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ wsdl-tool-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ wsdl-tool-parent ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/wsdl-tools/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/wsdl-tool-parent/4.5.4-SNAPSHOT/wsdl-tool-parent-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon Java2WSDL Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ java2wsdl ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/java2wsdl/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ java2wsdl ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/java2wsdl/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ java2wsdl ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ java2wsdl ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/wsdl-tools/java2wsdl/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/java2wsdl/4.5.4-SNAPSHOT/java2wsdl-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Java2WSDL BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.java2wsdl ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/java2wsdl/org.wso2.carbon.modules.java2wsdl/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.java2wsdl ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/wsdl-tools/java2wsdl/org.wso2.carbon.modules.java2wsdl/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.java2wsdl ---
