@@ -474,3 +474,7 @@
      [java] Retrieving document at 'src/main/resources/OAuth2TokenValidationService.wsdl'.
      [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
      [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Compiling 90 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/classes
