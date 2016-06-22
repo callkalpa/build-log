@@ -2584,3 +2584,947 @@ Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ganalytics.publisher ---
 [INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Surefire report directory: /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.wso2.carbon.ganalytics.publisher.GoogleAnalyticsDataPublisherTest
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.704 sec - in org.wso2.carbon.ganalytics.publisher.GoogleAnalyticsDataPublisherTest
+
+Results :
+
+
+
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/target/org.wso2.carbon.ganalytics.publisher-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ganalytics.publisher/4.5.4-SNAPSHOT/org.wso2.carbon.ganalytics.publisher-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ganalytics/org.wso2.carbon.ganalytics.publisher/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ganalytics.publisher/4.5.4-SNAPSHOT/org.wso2.carbon.ganalytics.publisher-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.ganalytics.publisher ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Global Cache Invalidation module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ caching-invalidator ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/caching-invalidator/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ caching-invalidator ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/caching-invalidator/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ caching-invalidator ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ caching-invalidator ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/caching-invalidator/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/caching-invalidator/4.5.4-SNAPSHOT/caching-invalidator-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Caching Invalidator 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.caching.invalidator ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.caching.invalidator ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.caching.invalidator ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.caching.invalidator ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.caching.invalidator ---
+[INFO] Compiling 6 source files to /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.caching.invalidator ---
+[WARNING] Class org.wso2.carbon.caching.invalidator.internal.CacheInvalidationServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/src/main/java/org/wso2/carbon/caching/invalidator/internal/CacheInvalidationServiceComponent.java:30
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.caching.invalidator ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.caching.invalidator ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.caching.invalidator ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.caching.invalidator ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.caching.invalidator ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/target/org.wso2.carbon.caching.invalidator-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/caching-invalidator/org.wso2.carbon.caching.invalidator/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.caching.invalidator ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ cluster-mgt ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ cluster-mgt ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ cluster-mgt ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ cluster-mgt ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/cluster-mgt/4.5.4-SNAPSHOT/cluster-mgt-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.cluster.mgt.admin ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Compiling 3 source files to /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.cluster.mgt.admin ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/target/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.cluster.mgt.admin ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 22 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/target/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.ui/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.ui/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management - Distribution 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-2:attached (dist) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Reading assembly descriptor: bin.xml
+[INFO] Processing DependencySet (output=carbon-clustermgt-${pom.version})
+[WARNING] Cannot include project artifact: org.wso2.carbon.commons:org.wso2.carbon.cluster.mgt.distribution:pom:4.5.4-SNAPSHOT; it doesn't have an associated file or directory.
+[INFO] Building zip: /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.distribution ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.distribution/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/components/cluster-mgt/distribution/target/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.distribution/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.distribution-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Stratos - Application Base Url Mapper Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ url-mapper-parent ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ url-mapper-parent ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ url-mapper-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ url-mapper-parent ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/url-mapper-parent/4.5.4-SNAPSHOT/url-mapper-parent-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - url mapper cluster message 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Compiling 7 source files to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Source tree does not exist. Ignoring /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/generated-code/src
+[WARNING] Class org.wso2.carbon.url.mapper.clustermessage.internal.VirtualHostClusterServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/main/java/org/wso2/carbon/url/mapper/clustermessage/internal/VirtualHostClusterServiceComponent.java:32
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for !javax.xml.namespace
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.apache.axiom.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.wso2.carbon.cluster.mgt.core.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.clustermessage:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet, javax.servlet.http, javax.xml.namespace]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper.clustermessage ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Url Mapper BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper ---
+[INFO] Compiling 17 source files to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.url.mapper ---
+[WARNING] Class org.wso2.carbon.url.mapper.deployment.UrlMappingDeploymentInterceptor is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/deployment/UrlMappingDeploymentInterceptor.java:29
+[WARNING] Class org.wso2.carbon.url.mapper.internal.UrlMapperServerComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/internal/UrlMapperServerComponent.java:8
+[WARNING] Class org.wso2.carbon.url.mapper.internal.UrlMapperServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/main/java/org/wso2/carbon/url/mapper/internal/UrlMapperServiceComponent.java:49
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 6 MetaType Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 3 entries.
+[INFO] Generating 3 Service Component Descriptors to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.exception, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.registry, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.url.mapper.internal.util, classpath: [Jar:., Jar:org.wso2.carbon.tomcat.ext, Jar:org.eclipse.osgi, Jar:org.eclipse.equinox.common, Jar:org.eclipse.equinox.http.servlet, Jar:tomcat, Jar:tomcat-catalina-ha, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:org.wso2.carbon.user.core, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:org.wso2.carbon.user.api, Jar:org.wso2.carbon.queuing, Jar:org.wso2.carbon.base, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:org.wso2.carbon.securevault, Jar:axis2, Jar:smack, Jar:smackx, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.tomcat, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:geronimo-stax-api_1.0_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-lang, Jar:commons-io, Jar:commons-codec, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:org.eclipse.osgi.services, Jar:XmlSchema, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.registry.xboot, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:commons-pool, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.equinox.http.helper, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:org.wso2.carbon.url.mapper.clustermessage, Jar:org.wso2.carbon.cluster.mgt.core] from: /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/classes
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/target/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Url Mapper UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 23 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.url.mapper.ui ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.url.mapper.ui:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [org.wso2.carbon.url.mapper.ui.i18n]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/target/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.url.mapper.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction Manager - Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ transaction-mgt ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ transaction-mgt ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ transaction-mgt ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ transaction-mgt ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/transaction-manager/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/transaction-mgt/4.5.4-SNAPSHOT/transaction-mgt-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction manager 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.transaction.manager ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.transaction.manager ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.transaction.manager ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.transaction.manager ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.transaction.manager ---
+[INFO] Compiling 4 source files to /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.transaction.manager ---
+[WARNING] Class org.wso2.carbon.transaction.manager.TransactionManagerComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/src/main/java/org/wso2/carbon/transaction/manager/TransactionManagerComponent.java:41
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.transaction.manager ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.transaction.manager ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.transaction.manager ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.transaction.manager ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.transaction.manager ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/target/org.wso2.carbon.transaction.manager-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/transaction-manager/org.wso2.carbon.transaction.manager/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.transaction.manager ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Hostobjects Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ hostobjects ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ hostobjects ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ hostobjects ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ hostobjects ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/hostobjects/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/hostobjects/4.5.4-SNAPSHOT/hostobjects-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Single Sign-On Relying party HostObject 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.hostobjects.sso ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] Compiling 8 source files to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.hostobjects.sso ---
+[WARNING] Class org.wso2.carbon.hostobjects.sso.internal.SSOHostObjectServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/src/main/java/org/wso2/carbon/hostobjects/sso/internal/SSOHostObjectServiceComponent.java:26
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.hostobjects.sso ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/target/org.wso2.carbon.hostobjects.sso-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.sso/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.sso-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.sso/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.sso/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.sso-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.hostobjects.sso ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Utility methods of the Carbon Framework 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.hostobjects.carbonutil ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] Compiling 3 source files to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.hostobjects.carbonutil ---
+[WARNING] Class org.wso2.carbon.hostobjects.carbonutil.internal.CarbonHostObjectServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/src/main/java/org/wso2/carbon/hostobjects/carbonutil/internal/CarbonHostObjectServiceComponent.java:6
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.hostobjects.carbonutil ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/target/org.wso2.carbon.hostobjects.carbonutil-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.carbonutil/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.carbonutil-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/hostobjects/org.wso2.carbon.hostobjects.carbonutil/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.carbonutil/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.carbonutil-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.hostobjects.carbonutil ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ntask ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ntask ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ntask ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ntask ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ntask/4.5.4-SNAPSHOT/ntask-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Common 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ntask.common ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ntask.common ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ntask.common ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.ntask.common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.ntask.common ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.ntask.common ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.ntask.common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ntask.common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ntask.common ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.ntask.common ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ntask.common ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/target/org.wso2.carbon.ntask.common-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.common/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.common-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.common/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.common/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.common-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.ntask.common ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Core 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ntask.core ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ntask.core ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ntask.core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.ntask.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.ntask.core ---
+[INFO] Compiling 41 source files to /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.4:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.ntask.core ---
+[WARNING] Class org.wso2.carbon.ntask.core.internal.TasksDSComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/src/main/java/org/wso2/carbon/ntask/core/internal/TasksDSComponent.java:49
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.ntask.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ntask.core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ntask.core ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.ntask.core ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ntask.core ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/target/org.wso2.carbon.ntask.core-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.core/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.core-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.core/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.core/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.core-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.ntask.core ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Task Solutions 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ntask.solutions ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ntask.solutions ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ntask.solutions ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.ntask.solutions ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.ntask.solutions ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.ntask.solutions ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.ntask.solutions ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.ntask.solutions ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.ntask.solutions ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.ntask.solutions ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ntask.solutions ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/target/org.wso2.carbon.ntask.solutions-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.solutions/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.solutions-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/ntask/org.wso2.carbon.ntask.solutions/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.solutions/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.solutions-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.ntask.solutions ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ reporting ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ reporting ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ reporting ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ reporting ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/reporting/4.5.4-SNAPSHOT/reporting-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting API 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.api ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.api ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.reporting.api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.reporting.api ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.reporting.api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.reporting.api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.reporting.api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.reporting.api ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.reporting.api ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.api:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.osgi.framework.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.api:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet, javax.servlet.http, javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fmt, javax.servlet.jsp.jstl.sql, javax.servlet.jsp.jstl.tlv, javax.servlet.jsp.resources, javax.servlet.jsp.tagext, javax.servlet.resources]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.api ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/target/org.wso2.carbon.reporting.api-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.api/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.api-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.api/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.api/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.api-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.reporting.api ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Util 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.util ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.util ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.util ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.reporting.util ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.reporting.util ---
+[INFO] Compiling 15 source files to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/target/classes
+[WARNING] /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/src/main/java/org/wso2/carbon/reporting/util/JasperPrintProvider.java:[32,32] ReturnType is internal proprietary API and may be removed in a future release
+
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.reporting.util ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.reporting.util ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.reporting.util ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.reporting.util ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.reporting.util ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.util:bundle:4.5.4-SNAPSHOT : Did not find matching referal for common.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.util:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.osgi.framework.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.util:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet, javax.servlet.http, javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fmt, javax.servlet.jsp.jstl.sql, javax.servlet.jsp.jstl.tlv, javax.servlet.jsp.resources, javax.servlet.jsp.tagext, javax.servlet.resources]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.util ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/target/org.wso2.carbon.reporting.util-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.util/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.util-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.util/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.util/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.util-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.reporting.util ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Core 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.core ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.core ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.reporting.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.reporting.core ---
+[INFO] Compiling 14 source files to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.reporting.core ---
+[WARNING] Class org.wso2.carbon.reporting.core.internal.ReportingComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/src/main/java/org/wso2/carbon/reporting/core/internal/ReportingComponent.java:32
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.reporting.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.reporting.core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.reporting.core ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.reporting.core ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.core:bundle:4.5.4-SNAPSHOT : Did not find matching referal for common.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.core:bundle:4.5.4-SNAPSHOT : Did not find matching referal for jxl.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.core:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.jfree.chart.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.core:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.jfree.data.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.core:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet, javax.servlet.http, javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fmt, javax.servlet.jsp.jstl.sql, javax.servlet.jsp.jstl.tlv, javax.servlet.jsp.resources, javax.servlet.jsp.tagext, javax.servlet.resources]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.core ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/target/org.wso2.carbon.reporting.core-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.core/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.core-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.core/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.core/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.core-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.reporting.core ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.reporting.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.reporting.ui ---
+[INFO] Compiling 4 source files to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.reporting.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.reporting.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.reporting.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.reporting.ui ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.ui:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.osgi.framework.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.ui:bundle:4.5.4-SNAPSHOT : Did not find matching referal for org.wso2.carbon.reporting.stub.*
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.reporting.ui:bundle:4.5.4-SNAPSHOT : Importing packages that are never refered to by any class on the Bundle-Classpath[Jar:dot]: [javax.servlet.jsp, javax.servlet.jsp.el, javax.servlet.jsp.jstl.core, javax.servlet.jsp.jstl.fmt, javax.servlet.jsp.jstl.sql, javax.servlet.jsp.jstl.tlv, javax.servlet.jsp.resources, javax.servlet.jsp.tagext, javax.servlet.resources]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/target/org.wso2.carbon.reporting.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.ui/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.ui/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.reporting.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon Component - Reporting Template - BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.template.core ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.template.core/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.template.core ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.template.core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.template.core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.reporting.template.core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 15 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.reporting.template.core ---
+[INFO] Compiling 39 source files to /home/ubuntu/carbon-commons/components/reporting/org.wso2.carbon.reporting.template.core/target/classes
