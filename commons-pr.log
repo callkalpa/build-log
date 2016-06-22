@@ -1633,3 +1633,130 @@ main:
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.statistics.stub ---
 [INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/StatisticsAdmin.wsdl'.
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://context.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://engine.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.deployment.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://net.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://java2wsdl.description.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://engine.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://threadpool.util.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://description.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://clustering.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.deployment.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://net.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://securevault.wso2.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://transaction.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://context.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://context.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://services.statistics.carbon.wso2.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://context.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://management.clustering.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://state.clustering.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://context.axis2.apache.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://data.webapp.statistics.carbon.wso2.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.services.statistics.carbon.wso2.org/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:20 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+     [java] Jun 22, 2016 4:29:22 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.java/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.statistics.stub ---
+[INFO] Compiling 79 source files to /home/ubuntu/carbon-commons/service-stubs/system-statistics/org.wso2.carbon.statistics.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.statistics.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/system-statistics/org.wso2.carbon.statistics.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.statistics.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.statistics.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.statistics.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.statistics.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/system-statistics/org.wso2.carbon.statistics.stub/target/org.wso2.carbon.statistics.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics.stub/4.5.4-SNAPSHOT/org.wso2.carbon.statistics.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/system-statistics/org.wso2.carbon.statistics.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics.stub/4.5.4-SNAPSHOT/org.wso2.carbon.statistics.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.statistics.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Message Flows Service Stubs - Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ message-flows-stubs ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/message-flows/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ message-flows-stubs ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/message-flows/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ message-flows-stubs ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ message-flows-stubs ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/message-flows/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/message-flows-stubs/4.5.4-SNAPSHOT/message-flows-stubs-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Message Flows Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.messageflows.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/message-flows/org.wso2.carbon.messageflows.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.messageflows.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/message-flows/org.wso2.carbon.messageflows.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.messageflows.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/message-flows/org.wso2.carbon.messageflows.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.messageflows.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.messageflows.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.messageflows.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/FlowsAdminService.wsdl'.
+     [java] Jun 22, 2016 4:29:26 AM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://viewflows.carbon.wso2.org/xsd; compilation may fail
