@@ -3915,3 +3915,53 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.logging.service ---
 [INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.service/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.logging.service ---
+[INFO] Surefire report directory: /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.service/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNGMapConfigurator
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.79 sec - in TestSuite
+
+Results :
+
+
+
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:bundle (default-bundle) @ org.wso2.carbon.logging.service ---
+[WARNING] Warning building bundle org.wso2.carbon.commons:org.wso2.carbon.logging.service:bundle:4.5.4-SNAPSHOT : There are split packages, use directive -split-package:=(merge-first|merge-last) on instruction to get rid of this warning: org.wso2.carbon.logging.service.internal, classpath: [Jar:., Jar:axis2, Jar:org.wso2.carbon.core, Jar:hazelcast, Jar:hazelcast-all, Jar:org.eclipse.osgi, Jar:org.eclipse.osgi.services, Jar:org.eclipse.equinox.http.helper, Jar:bcprov-jdk15on, Jar:bcprov-jdk15on, Jar:javax.cache.wso2, Jar:geronimo-jta_1.1_spec, Jar:org.wso2.carbon.base, Jar:org.wso2.carbon.securevault, Jar:org.wso2.carbon.user.core, Jar:org.wso2.carbon.user.api, Jar:xercesImpl, Jar:xml-apis, Jar:xercesImpl, Jar:commons-dbcp, Jar:org.wso2.carbon.utils, Jar:org.wso2.carbon.queuing, Jar:smack, Jar:smackx, Jar:jaxen, Jar:dom4j, Jar:jdom, Jar:xom, Jar:xmlParserAPIs, Jar:xalan, Jar:icu4j, Jar:commons-fileupload, Jar:commons-fileupload, Jar:ant, Jar:ant, Jar:ant-launcher, Jar:commons-collections, Jar:neethi, Jar:httpcore, Jar:tomcat-catalina-ha, Jar:tomcat-juli, Jar:tomcat-tribes, Jar:tomcat-catalina, Jar:tomcat-annotations-api, Jar:tomcat-api, Jar:tomcat-util, Jar:wsdl4j, Jar:guava, Jar:guava, Jar:snakeyaml, Jar:org.wso2.carbon.ui, Jar:axiom, Jar:geronimo-stax-api_1.0_spec, Jar:geronimo-stax-api_1.0_spec, Jar:woodstox-core-asl, Jar:stax2-api, Jar:stax-api, Jar:tiles-jsp, Jar:org.wso2.carbon.authenticator.proxy, Jar:org.wso2.carbon.authenticator.stub, Jar:org.wso2.carbon.core.common, Jar:org.eclipse.equinox.http.servlet, Jar:org.apache.jasper.glassfish, Jar:javax.servlet.jsp, Jar:org.wso2.carbon.core.commons.stub, Jar:jstl, Jar:commons-lang, Jar:org.wso2.carbon.registry.core, Jar:commons-io, Jar:annotations, Jar:XmlSchema, Jar:org.wso2.carbon.registry.api, Jar:org.wso2.carbon.registry.xboot, Jar:org.wso2.securevault, Jar:axiom-api, Jar:geronimo-activation_1.1_spec, Jar:geronimo-javamail_1.4_spec, Jar:axiom-impl, Jar:wstx-asl, Jar:log4j, Jar:jline, Jar:commons-cli, Jar:commons-io, Jar:commons-codec, Jar:compass, Jar:abdera, Jar:jdbc-pool, Jar:tomcat-jdbc, Jar:poi-scratchpad, Jar:poi-scratchpad, Jar:poi, Jar:commons-pool, Jar:org.wso2.carbon.logging, Jar:log4j, Jar:commons-logging, Jar:logkit, Jar:avalon-framework, Jar:servlet-api, Jar:org.wso2.carbon.bootstrap, Jar:wrapper, Jar:commons-httpclient, Jar:commons-httpclient, Jar:not-yet-commons-ssl, Jar:hector-core, Jar:commons-lang, Jar:commons-pool, Jar:cassandra-all, Jar:snappy-java, Jar:compress-lzf, Jar:concurrentlinkedhashmap-lru, Jar:antlr, Jar:antlr-runtime, Jar:stringtemplate, Jar:antlr, Jar:avro, Jar:jetty, Jar:jetty-util, Jar:servlet-api, Jar:jackson-core-asl, Jar:jackson-mapper-asl, Jar:json-simple, Jar:high-scale-lib, Jar:snaptree, Jar:metrics-core, Jar:libthrift, Jar:httpclient, Jar:httpcore, Jar:cassandra-thrift, Jar:slf4j-api, Jar:uuid, Jar:speed4j] from: /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.service/target/classes
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging.service ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.service/target/org.wso2.carbon.logging.service-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.service/4.5.4-SNAPSHOT/org.wso2.carbon.logging.service-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.service/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.service/4.5.4-SNAPSHOT/org.wso2.carbon.logging.service-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.0:install (default-install) @ org.wso2.carbon.logging.service ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.admin.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.admin.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.admin.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.admin.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.admin.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.logging.admin.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 21 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.logging.admin.ui ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/logging/org.wso2.carbon.logging.admin.ui/target/classes
