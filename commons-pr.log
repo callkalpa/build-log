@@ -4976,3 +4976,2101 @@ Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.statistics ---
 [INFO] Compiling 20 source files to /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.statistics ---
+[WARNING] Class org.wso2.carbon.statistics.SystemStatisticsDeploymentInterceptor is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/src/main/java/org/wso2/carbon/statistics/SystemStatisticsDeploymentInterceptor.java:50
+[WARNING] Class org.wso2.carbon.statistics.internal.StatisticsServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/src/main/java/org/wso2/carbon/statistics/internal/StatisticsServiceComponent.java:41
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 4 MetaType Descriptors to /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 2 entries.
+[INFO] Generating 2 Service Component Descriptors to /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.statistics ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.statistics ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.statistics ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.statistics ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.statistics ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/target/org.wso2.carbon.statistics-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics/4.5.4-SNAPSHOT/org.wso2.carbon.statistics-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics/4.5.4-SNAPSHOT/org.wso2.carbon.statistics-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.statistics ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - System Statistics UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.statistics.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.statistics.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.statistics.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.statistics.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 16 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.statistics.ui ---
+[INFO] Compiling 2 source files to /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.statistics.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.statistics.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.statistics.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.statistics.ui ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.statistics.ui:bundle:4.5.4-SNAPSHOT : Unused Import-Package instructions: [org.apache.taglibs.standard.*] 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.statistics.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/target/org.wso2.carbon.statistics.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics.ui/4.5.4-SNAPSHOT/org.wso2.carbon.statistics.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/system-statistics/org.wso2.carbon.statistics.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.statistics.ui/4.5.4-SNAPSHOT/org.wso2.carbon.statistics.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.statistics.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Message Flows Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ message-flows ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ message-flows ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ message-flows ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ message-flows ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/message-flows/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/message-flows/4.5.4-SNAPSHOT/message-flows-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Message Flows BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.messageflows ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.messageflows ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.messageflows ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.messageflows ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.messageflows ---
+[INFO] Compiling 5 source files to /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.messageflows ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.messageflows ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.messageflows ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.messageflows ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.messageflows:bundle:4.5.4-SNAPSHOT : Unused Import-Package instructions: [org.apache.axiom.*] 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.messageflows ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/target/org.wso2.carbon.messageflows-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.messageflows/4.5.4-SNAPSHOT/org.wso2.carbon.messageflows-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.messageflows/4.5.4-SNAPSHOT/org.wso2.carbon.messageflows-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.messageflows ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Message Flows UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.messageflows.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.messageflows.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.messageflows.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.messageflows.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 35 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.messageflows.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.messageflows.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.messageflows.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.messageflows.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.messageflows.ui ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.messageflows.ui:bundle:4.5.4-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.messageflows.ui:bundle:4.5.4-SNAPSHOT : Unused Import-Package instructions: [org.apache.taglibs.standard.*, org.wso2.carbon.viewflows.stub.*] 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.messageflows.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows.ui/target/org.wso2.carbon.messageflows.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.messageflows.ui/4.5.4-SNAPSHOT/org.wso2.carbon.messageflows.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/message-flows/org.wso2.carbon.messageflows.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.messageflows.ui/4.5.4-SNAPSHOT/org.wso2.carbon.messageflows.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.messageflows.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Email Verification Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ email-verification ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ email-verification ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ email-verification ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ email-verification ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/email-verification/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/email-verification/4.5.4-SNAPSHOT/email-verification-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Email Verification BE 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.email.verification ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.email.verification ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.email.verification ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.email.verification ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.email.verification ---
+[INFO] Compiling 7 source files to /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.email.verification ---
+[WARNING] Class org.wso2.carbon.email.verification.internal.EmailVerificationServiceComponent is using deprecated javadoc tags  at file:/home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/src/main/java/org/wso2/carbon/email/verification/internal/EmailVerificationServiceComponent.java:29
+[WARNING] It is highly recommended to fix these problems, as future versions might not support these features anymore.
+[INFO] Generating 2 MetaType Descriptors to /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target/scr-plugin-generated/OSGI-INF/metatype/metatype.xml
+[INFO] Writing abstract service descriptor /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 1 entries.
+[INFO] Generating 1 Service Component Descriptors to /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.email.verification ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.email.verification ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.email.verification ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.email.verification ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.email.verification ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/target/org.wso2.carbon.email.verification-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.email.verification ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Email Verification UI 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.email.verification.ui ---
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.email.verification.ui ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.email.verification.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.email.verification.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.email.verification.ui ---
+[INFO] Compiling 1 source file to /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.email.verification.ui ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.email.verification.ui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.email.verification.ui ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.email.verification.ui ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.email.verification.ui ---
+[INFO] Installing /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/target/org.wso2.carbon.email.verification.ui-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification.ui/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification.ui-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/components/email-verification/org.wso2.carbon.email.verification.ui/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification.ui/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification.ui-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.email.verification.ui ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Application Management Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ application-mgt-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ application-mgt-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ application-mgt-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ application-mgt-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/application-mgt-features/4.5.4-SNAPSHOT/application-mgt-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Application Management Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.application.mgt.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.application.mgt.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.application.mgt.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.application.mgt.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.application.mgt:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.application.upload:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/target/org.wso2.carbon.application.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.application.mgt.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.server.feature/target/org.wso2.carbon.application.mgt.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Application Management UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.application.mgt.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.application.mgt.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.application.mgt.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.application.mgt.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.application.mgt.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.application.mgt.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/target/org.wso2.carbon.application.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.application.mgt.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.ui.feature/target/org.wso2.carbon.application.mgt.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Application Management Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.application.mgt.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.application.mgt.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.application.mgt.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.application.mgt.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.application.mgt.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.application.mgt.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/target/org.wso2.carbon.application.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.application.mgt.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/application-mgt/org.wso2.carbon.application.mgt.feature/target/org.wso2.carbon.application.mgt.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.application.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.application.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Deployment Synchronizer Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ deployment-synchronizer-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ deployment-synchronizer-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ deployment-synchronizer-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ deployment-synchronizer-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/deployment-synchronizer-feature/4.5.4-SNAPSHOT/deployment-synchronizer-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Deployment Synchronizer Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.deployment.synchronizer.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.deployment.synchronizer.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.deployment.synchronizer.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.deployment.synchronizer.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.deployment.synchronizer:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/target/org.wso2.carbon.deployment.synchronizer.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.deployment.synchronizer.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.server.feature/target/org.wso2.carbon.deployment.synchronizer.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - SVN Based Deployment Synchronizer Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.deployment.synchronizer.subversion.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.deployment.synchronizer.subversion.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.deployment.synchronizer.subversion.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.deployment.synchronizer.subversion.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.deployment.synchronizer.subversion:4.5.4.SNAPSHOT
+[INFO]    svn-client-adapter:1.10.9.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/target/org.wso2.carbon.deployment.synchronizer.subversion.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.deployment.synchronizer.subversion.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.subversion.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.subversion.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.subversion.feature/target/org.wso2.carbon.deployment.synchronizer.subversion.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.subversion.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.subversion.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Deployment Synchronizer Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.deployment.synchronizer.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.deployment.synchronizer.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.deployment.synchronizer.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.deployment.synchronizer.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.subversion.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/target/org.wso2.carbon.deployment.synchronizer.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.deployment.synchronizer.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.feature/target/org.wso2.carbon.deployment.synchronizer.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Deployment Synchronizer UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.deployment.synchronizer.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.deployment.synchronizer.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.deployment.synchronizer.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.deployment.synchronizer.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.deployment.synchronizer.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.deployment.synchronizer.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/target/org.wso2.carbon.deployment.synchronizer.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.deployment.synchronizer.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.ui.feature/target/org.wso2.carbon.deployment.synchronizer.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - GIT Based Deployment Synchronizer Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.deployment.synchronizer.git.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.deployment.synchronizer.git.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.deployment.synchronizer.git.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.deployment.synchronizer.git.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.deployment.synchronizer.git:4.5.4.SNAPSHOT
+[INFO]    org.eclipse.jgit:2.3.1.wso2v2
+[INFO]    jsch:0.1.49.wso2v1
+[INFO]    gitblit:1.2.0.wso2v1
+[INFO]    org.wso2.carbon.adc.repositoryinformation.service.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/target/org.wso2.carbon.deployment.synchronizer.git.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.deployment.synchronizer.git.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.git.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.git.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/deployment-synchronizer/org.wso2.carbon.deployment.synchronizer.git.feature/target/org.wso2.carbon.deployment.synchronizer.git.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.deployment.synchronizer.git.feature/4.5.4-SNAPSHOT/org.wso2.carbon.deployment.synchronizer.git.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ws-discovery-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ws-discovery-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ws-discovery-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ws-discovery-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ws-discovery-feature/4.5.4-SNAPSHOT/ws-discovery-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Admin UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.discovery.admin.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.discovery.admin.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.discovery.admin.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.discovery.admin.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.discovery.admin.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.discovery.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/target/org.wso2.carbon.discovery.admin.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.admin.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.admin.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.admin.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.admin.ui.feature/target/org.wso2.carbon.discovery.admin.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.admin.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.admin.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Client Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.discovery.client.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.discovery.client.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.discovery.client.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.discovery.client.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.discovery.module:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/target/org.wso2.carbon.discovery.client.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.client.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.client.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.client.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.client.feature/target/org.wso2.carbon.discovery.client.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.client.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.client.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Management UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.discovery.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.discovery.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.discovery.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.discovery.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.discovery.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.discovery.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/target/org.wso2.carbon.discovery.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery/org.wso2.carbon.discovery.ui.feature/target/org.wso2.carbon.discovery.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Global cache invalidation feature module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ caching-invalidator-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ caching-invalidator-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ caching-invalidator-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ caching-invalidator-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/caching-invalidator/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/caching-invalidator-feature/4.5.4-SNAPSHOT/caching-invalidator-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Global Caching Invalidator Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.caching.invalidator.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.caching.invalidator.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.caching.invalidator.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.caching.invalidator.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.caching.invalidator:4.5.4.SNAPSHOT
+[INFO] Copying import bundle dependencies
+[INFO]    amqp-client:3.0.3.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/target/org.wso2.carbon.caching.invalidator.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.caching.invalidator.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.server.feature/target/org.wso2.carbon.caching.invalidator.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Global Caching Invalidator Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.caching.invalidator.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.caching.invalidator.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.caching.invalidator.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.caching.invalidator.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.caching.invalidator.server.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/target/org.wso2.carbon.caching.invalidator.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.caching.invalidator.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator.feature/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/caching-invalidator/org.wso2.carbon.caching.invalidator.feature/target/org.wso2.carbon.caching.invalidator.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.caching.invalidator.feature/4.5.4-SNAPSHOT/org.wso2.carbon.caching.invalidator.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ cluster-mgt-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ cluster-mgt-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ cluster-mgt-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ cluster-mgt-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/cluster-mgt-features/4.5.4-SNAPSHOT/cluster-mgt-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.cluster.mgt.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.cluster.mgt.admin:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/target/org.wso2.carbon.cluster.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.server.feature/target/org.wso2.carbon.cluster.mgt.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.cluster.mgt.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.cluster.mgt.admin.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.cluster.mgt.admin.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/target/org.wso2.carbon.cluster.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.ui.feature/target/org.wso2.carbon.cluster.mgt.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.cluster.mgt.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.cluster.mgt.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.cluster.mgt.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/target/org.wso2.carbon.cluster.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/cluster-mgt/org.wso2.carbon.cluster.mgt.feature/target/org.wso2.carbon.cluster.mgt.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Hostobjects Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ hostobjects-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/hostobjects/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ hostobjects-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/hostobjects/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ hostobjects-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ hostobjects-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/hostobjects/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/hostobjects-features/4.5.4-SNAPSHOT/hostobjects-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - SSO Hostobjects Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.hostobjects.sso.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.hostobjects.sso.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.hostobjects.sso.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.hostobjects.sso.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.hostobjects.sso:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/target/org.wso2.carbon.hostobjects.sso.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.hostobjects.sso.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.sso.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.sso.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/hostobjects/org.wso2.carbon.hostobjects.sso.server.feature/target/org.wso2.carbon.hostobjects.sso.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.hostobjects.sso.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.hostobjects.sso.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging Management Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ logging-mgt-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ logging-mgt-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ logging-mgt-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ logging-mgt-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/logging-mgt-features/4.5.4-SNAPSHOT/logging-mgt-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging Management Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.mgt.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.mgt.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.mgt.server.feature ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (prefilter-resources) @ org.wso2.carbon.logging.mgt.server.feature ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.logging.mgt.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/src/main/resources
+[INFO]    /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Updating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.logging.service:4.5.4.SNAPSHOT
+[INFO]    spring.framework:3.2.9.wso2v1
+[INFO]    libthrift:0.7.0.wso2v2
+[INFO]    perf4j:0.9.12.wso2v1
+[INFO]    high-scale-lib:1.0.0.wso2v1
+[INFO]    slf4j.api:1.6.1
+[INFO]    slf4j.log4j12:1.6.1
+[INFO]    hector-core:1.1.4.wso2v1
+[INFO]    antlr:3.2.0.wso2v1
+[INFO]    antlr-runtime:3.2.0.wso2v1
+[INFO]    com.google.guava:13.0.1
+[INFO]    commons-configuration:1.6.0.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/target/org.wso2.carbon.logging.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging.mgt.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.server.feature/target/org.wso2.carbon.logging.mgt.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging Management UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.mgt.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.mgt.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.mgt.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.logging.mgt.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.logging.admin.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.logging.view.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.logging.admin.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.logging.view.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/target/org.wso2.carbon.logging.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging.mgt.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.ui.feature/target/org.wso2.carbon.logging.mgt.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging Management Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.mgt.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.mgt.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.mgt.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.logging.mgt.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/target/org.wso2.carbon.logging.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging.mgt.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/logging-mgt/org.wso2.carbon.logging.mgt.feature/target/org.wso2.carbon.logging.mgt.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.mgt.feature/4.5.4-SNAPSHOT/org.wso2.carbon.logging.mgt.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ntask-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ntask-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ntask-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ntask-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ntask/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ntask-features/4.5.4-SNAPSHOT/ntask-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ntask.core.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ntask.core.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ntask.core.feature ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (copy-resources) @ org.wso2.carbon.ntask.core.feature ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.ntask.core.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/src/main/resources
+[INFO]    /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Updating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.ntask.core:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.ntask.common:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.ntask.solutions:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.remote-tasks.stub:4.5.4.SNAPSHOT
+[INFO]    quartz:2.1.1.wso2v1
+[INFO]    slf4j.log4j12:1.6.1
+[INFO]    slf4j.api:1.6.1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/target/org.wso2.carbon.ntask.core.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ntask.core.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.core.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.core.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.core.feature/target/org.wso2.carbon.ntask.core.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.core.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.core.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tasks Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ntask.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ntask.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ntask.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.ntask.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.ntask.core.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/target/org.wso2.carbon.ntask.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ntask.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ntask/org.wso2.carbon.ntask.feature/target/org.wso2.carbon.ntask.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ntask.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ntask.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ reporting-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ reporting-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ reporting-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ reporting-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/reporting-features/4.5.4-SNAPSHOT/reporting-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.reporting.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.reporting.core:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.util:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.api:4.5.4.SNAPSHOT
+[INFO]    jasperreports:6.1.1.wso2v2
+[INFO]    jxl:2.6.8.wso2v1
+[INFO]    itext:2.1.7.wso2v1
+[INFO]    commons-beanutils:1.8.0.wso2v1
+[INFO]    commons-digester:1.8.1.wso2v1
+[INFO]    jcommon:1.0.15.wso2v1
+[INFO]    jfreechart:1.0.13.wso2v1
+[INFO]    xalan:2.7.1.wso2v1
+[INFO]    jackson-annotations:2.6.1.wso2v1
+[INFO]    jackson-core:2.6.1.wso2v1
+[INFO]    jackson-databind:2.6.1.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/target/org.wso2.carbon.reporting.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.server.feature/target/org.wso2.carbon.reporting.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.reporting.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.reporting.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.util:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.api:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.ui.menu.tools:4.4.3
+[INFO] Copying import bundle dependencies
+[INFO]    jasperreports:6.1.1.wso2v2
+[INFO]    xalan:2.7.1.wso2v1
+[INFO]    jxl:2.6.8.wso2v1
+[INFO]    itext:2.1.7.wso2v1
+[INFO]    commons-beanutils:1.8.0.wso2v1
+[INFO]    commons-digester:1.8.1.wso2v1
+[INFO]    jcommon:1.0.15.wso2v1
+[INFO]    jfreechart:1.0.13.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/target/org.wso2.carbon.reporting.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.ui.feature/target/org.wso2.carbon.reporting.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Template Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.template.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.template.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.template.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.reporting.template.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.reporting.template.core:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.util:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.core:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.api:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/target/org.wso2.carbon.reporting.template.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.template.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.template.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.template.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.server.feature/target/org.wso2.carbon.reporting.template.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.template.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.template.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Template UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.template.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.template.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.template.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.reporting.template.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.reporting.template.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.template.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.reporting.custom.ui:4.5.4.SNAPSHOT
+[INFO] Copying import bundle dependencies
+[INFO]    jasperreports:6.1.1.wso2v2
+[INFO]    jxl:2.6.8.wso2v1
+[INFO]    itext:2.1.7.wso2v1
+[INFO]    commons-beanutils:1.8.0.wso2v1
+[INFO]    commons-digester:1.8.1.wso2v1
+[INFO]    jcommon:1.0.15.wso2v1
+[INFO]    jfreechart:1.0.13.wso2v1
+[INFO]    xalan:2.7.1.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/target/org.wso2.carbon.reporting.template.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.template.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.template.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.template.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.template.ui.feature/target/org.wso2.carbon.reporting.template.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.template.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.template.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Reporting Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.reporting.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.reporting.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.reporting.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.reporting.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.reporting.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.reporting.template.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.reporting.ui.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.reporting.template.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/target/org.wso2.carbon.reporting.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.reporting.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/reporting/org.wso2.carbon.reporting.feature/target/org.wso2.carbon.reporting.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.reporting.feature/4.5.4-SNAPSHOT/org.wso2.carbon.reporting.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction Manager Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ transaction-manager-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ transaction-manager-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ transaction-manager-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ transaction-manager-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/transaction-manager/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/transaction-manager-features/4.5.4-SNAPSHOT/transaction-manager-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction-Manager Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.transaction.manager.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.transaction.manager.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.transaction.manager.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.transaction.manager.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.transaction.manager:4.5.4.SNAPSHOT
+[INFO]    atomikos:3.8.0.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/target/org.wso2.carbon.transaction.manager.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.transaction.manager.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.server.feature/target/org.wso2.carbon.transaction.manager.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Transaction Manager Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.transaction.manager.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.transaction.manager.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.transaction.manager.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.transaction.manager.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.transaction.manager.server.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/target/org.wso2.carbon.transaction.manager.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.transaction.manager.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager.feature/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/transaction-manager/org.wso2.carbon.transaction.manager.feature/target/org.wso2.carbon.transaction.manager.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.transaction.manager.feature/4.5.4-SNAPSHOT/org.wso2.carbon.transaction.manager.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Try-it Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ tryit-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ tryit-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ tryit-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tryit-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/tryit-features/4.5.4-SNAPSHOT/tryit-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tryit Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tryit.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tryit.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tryit.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.tryit.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.tryit:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/target/org.wso2.carbon.tryit.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tryit.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.server.feature/target/org.wso2.carbon.tryit.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tryit UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tryit.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tryit.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tryit.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.tryit.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.tryit.ui:4.5.4.SNAPSHOT
+[INFO] Copying import bundle dependencies
+[INFO]    org.wso2.carbon.ui.menu.tools:4.4.3
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/target/org.wso2.carbon.tryit.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tryit.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.ui.feature/target/org.wso2.carbon.tryit.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Tryit Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tryit.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tryit.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tryit.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.tryit.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.tryit.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.tryit.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/target/org.wso2.carbon.tryit.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tryit.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/tryit/org.wso2.carbon.tryit.feature/target/org.wso2.carbon.tryit.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tryit.feature/4.5.4-SNAPSHOT/org.wso2.carbon.tryit.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Service Management Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ url-mapper-features ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ url-mapper-features ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ url-mapper-features ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ url-mapper-features ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/url-mapper-features/4.5.4-SNAPSHOT/url-mapper-features-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - URL Mapper Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.server.feature ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (prefilter-resources) @ org.wso2.carbon.url.mapper.server.feature ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.url.mapper.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/src/main/resources
+[INFO]    /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.url.mapper:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.url.mapper.clustermessage:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/target/org.wso2.carbon.url.mapper.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.server.feature/target/org.wso2.carbon.url.mapper.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - URL Mapper UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.url.mapper.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.url.mapper.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.url.mapper.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/target/org.wso2.carbon.url.mapper.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.ui.feature/target/org.wso2.carbon.url.mapper.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - URL Mapper Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.url.mapper.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.url.mapper.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.url.mapper.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/target/org.wso2.carbon.url.mapper.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.feature/target/org.wso2.carbon.url.mapper.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - URL Mapper cluster message Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.url.mapper.clustermessage.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.url.mapper.clustermessage.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.url.mapper.clustermessage.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.url.mapper.clustermessage.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.url.mapper.clustermessage:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/target/org.wso2.carbon.url.mapper.clustermessage.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.url.mapper.clustermessage.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/url-mapper/org.wso2.carbon.url.mapper.clustermessage.feature/target/org.wso2.carbon.url.mapper.clustermessage.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.url.mapper.clustermessage.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.url.mapper.clustermessage.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Event Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ event-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ event-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ event-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ event-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/event-feature/4.5.4-SNAPSHOT/event-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Event Common Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.event.common.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.event.common.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.event.common.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.event.common.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.event.client:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.common:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.client.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/target/org.wso2.carbon.event.common.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.event.common.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.common.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.common.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.common.feature/target/org.wso2.carbon.event.common.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.common.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.common.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Event Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.event.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.event.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.event.server.feature ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (copy-resources) @ org.wso2.carbon.event.server.feature ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.event.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/src/main/resources
+[INFO]    /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Updating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.event.core:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.admin:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.ws:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.qpid.stub:4.5.4.SNAPSHOT
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.common.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/target/org.wso2.carbon.event.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.event.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.server.feature/target/org.wso2.carbon.event.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Event UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.event.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.event.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.event.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.event.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.event.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.event.client.stub:4.5.4.SNAPSHOT
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.common.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/target/org.wso2.carbon.event.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.event.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.ui.feature/target/org.wso2.carbon.event.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Event Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.event.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.event.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.event.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.event.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.common.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.event.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/target/org.wso2.carbon.event.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.event.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/event/org.wso2.carbon.event.feature/target/org.wso2.carbon.event.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.event.feature/4.5.4-SNAPSHOT/org.wso2.carbon.event.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - New Datasource Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ndatasource-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ndatasource-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ndatasource-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ndatasource-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ndatasource-feature/4.5.4-SNAPSHOT/ndatasource-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - New Datasource capp Deployer Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ndatasource.capp.deployer.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ndatasource.capp.deployer.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ndatasource.capp.deployer.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.ndatasource.capp.deployer.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.ndatasource.capp.deployer:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/target/org.wso2.carbon.ndatasource.capp.deployer.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.capp.deployer.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.capp.deployer.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.capp.deployer.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.capp.deployer.server.feature/target/org.wso2.carbon.ndatasource.capp.deployer.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.capp.deployer.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.capp.deployer.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - New Datasource Management Datasources Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ndatasource.datasources.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ndatasource.datasources.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ndatasource.datasources.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.ndatasource.datasources.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.ndatasource.datasources:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/target/org.wso2.carbon.ndatasource.datasources.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.datasources.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.datasources.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.datasources.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.datasources.feature/target/org.wso2.carbon.ndatasource.datasources.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.datasources.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.datasources.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - New Datasource Management UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ndatasource.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ndatasource.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ndatasource.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.ndatasource.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.ndatasource.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.ndatasource.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/target/org.wso2.carbon.ndatasource.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.ui.feature/target/org.wso2.carbon.ndatasource.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - New Datasource Management Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.ndatasource.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.ndatasource.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.ndatasource.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.ndatasource.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.ndatasource.ui.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.ndatasource.datasources.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/target/org.wso2.carbon.ndatasource.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.ndatasource.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ndatasource/org.wso2.carbon.ndatasource.feature/target/org.wso2.carbon.ndatasource.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.ndatasource.feature/4.5.4-SNAPSHOT/org.wso2.carbon.ndatasource.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ ws-discovery-core-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery-core/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ ws-discovery-core-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery-core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ ws-discovery-core-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ws-discovery-core-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery-core/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/ws-discovery-core-feature/4.5.4-SNAPSHOT/ws-discovery-core-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WS-Discovery Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.discovery.core.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.discovery.core.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.discovery.core.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.discovery.core.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.discovery.core:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/target/org.wso2.carbon.discovery.core.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.core.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.core.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.core.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/ws-discovery-core/org.wso2.carbon.discovery.core.feature/target/org.wso2.carbon.discovery.core.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.core.feature/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.core.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WSDL Tools Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ wsdl-tools-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ wsdl-tools-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ wsdl-tools-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ wsdl-tools-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/wsdl-tools-feature/4.5.4-SNAPSHOT/wsdl-tools-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WSDL Tools Server Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.wsdl.tools.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.wsdl.tools.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.wsdl.tools.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.wsdl.tools.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.wsdl2code:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.java2wsdl:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.tools.wsdlvalidator:4.5.4.SNAPSHOT
+[INFO]    wsdl-validator:1.2.0.wso2v1
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/target/org.wso2.carbon.wsdl.tools.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.wsdl.tools.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.server.feature/target/org.wso2.carbon.wsdl.tools.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WSDL Tools UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.wsdl.tools.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.wsdl.tools.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.wsdl.tools.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.wsdl.tools.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.wsdl2code.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.java2wsdl.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.wsdl2code.stub:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.tools.wsdlvalidator.ui:4.5.4.SNAPSHOT
+[INFO] Copying import bundle dependencies
+[INFO]    org.wso2.carbon.ui.menu.tools:4.4.3
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/target/org.wso2.carbon.wsdl.tools.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.wsdl.tools.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.ui.feature/target/org.wso2.carbon.wsdl.tools.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - WSDL Tools Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.wsdl.tools.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.wsdl.tools.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.wsdl.tools.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (4-p2-feature-generation) @ org.wso2.carbon.wsdl.tools.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.server.feature
+[INFO] Extracting feature org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.ui.feature
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/target/org.wso2.carbon.wsdl.tools.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.wsdl.tools.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/wsdl-tools/org.wso2.carbon.wsdl.tools.feature/target/org.wso2.carbon.wsdl.tools.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.wsdl.tools.feature/4.5.4-SNAPSHOT/org.wso2.carbon.wsdl.tools.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - System Statistics Feature Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ statistics-feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ statistics-feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ statistics-feature ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ statistics-feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/system-statistics/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/statistics-feature/4.5.4-SNAPSHOT/statistics-feature-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Statistics Core Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.system.statistics.server.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.system.statistics.server.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.system.statistics.server.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.system.statistics.server.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.statistics:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/target/org.wso2.carbon.system.statistics.server.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.system.statistics.server.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.system.statistics.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.system.statistics.server.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.server.feature/target/org.wso2.carbon.system.statistics.server.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.system.statistics.server.feature/4.5.4-SNAPSHOT/org.wso2.carbon.system.statistics.server.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Statistics UI Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.system.statistics.ui.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.system.statistics.ui.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.system.statistics.ui.feature ---
+[INFO] 
+[INFO] --- carbon-p2-plugin:1.5.4:p2-feature-gen (p2-feature-generation) @ org.wso2.carbon.system.statistics.ui.feature ---
+[INFO]    /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/target/maven-shared-archive-resources
+[INFO] Generating feature manifest
+[INFO] Generating feature properties
+[INFO] Generating MANIFEST.MF
+[INFO] Generating Advice file (p2.inf)
+[INFO] Copying bundle dependencies
+[INFO]    org.wso2.carbon.statistics.ui:4.5.4.SNAPSHOT
+[INFO]    org.wso2.carbon.statistics.stub:4.5.4.SNAPSHOT
+[INFO] Generating feature archive: /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/target/org.wso2.carbon.system.statistics.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.system.statistics.ui.feature ---
+[INFO] Installing /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.system.statistics.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.system.statistics.ui.feature-4.5.4-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.ui.feature/target/org.wso2.carbon.system.statistics.ui.feature-4.5.4-SNAPSHOT.zip to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.system.statistics.ui.feature/4.5.4-SNAPSHOT/org.wso2.carbon.system.statistics.ui.feature-4.5.4-SNAPSHOT.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Statistics Feature 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.system.statistics.feature ---
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.feature/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.system.statistics.feature ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/features/system-statistics/org.wso2.carbon.system.statistics.feature/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.system.statistics.feature ---
