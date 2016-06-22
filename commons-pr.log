@@ -875,3 +875,9 @@
 [INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.logging.view.stub ---
 [INFO] Executing tasks
      [java] Retrieving document at 'src/main/resources/LogViewer.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.logging.view.stub ---
+[INFO] Compiling 52 source files to /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.view.stub/target/classes
