@@ -478,3 +478,400 @@
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.identity.oauth.stub ---
 [INFO] Compiling 90 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.identity.oauth.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.identity.oauth.stub ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth.stub.types,  has 1,  private references [org.wso2.carbon.identity.base.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth.stub.types.axis2,  has 3,  private references [org.wso2.carbon.core.common.xsd, org.wso2.carbon.identity.base.xsd, org.wso2.carbon.identity.oauth.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth2.stub,  has 1,  private references [org.wso2.carbon.user.api.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth2.stub.types.axis2,  has 1,  private references [org.wso2.carbon.user.api.xsd], 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.oauth.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.oauth.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Entitlement Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.identity.entitlement.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/EntitlementPolicyAdminService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/EntitlementService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/EntitlementAdminService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Compiling 113 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.identity.entitlement.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.identity.entitlement.stub ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.entitlement.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.entitlement.stub.types.axis2,  has 1,  private references [org.wso2.carbon.identity.base.xsd], 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target/org.wso2.carbon.identity.entitlement.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.entitlement.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.entitlement.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.entitlement.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.entitlement.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Throttling Agent Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.throttling.agent.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/MultitenancyThrottlingService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Compiling 8 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.throttling.agent.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/target/org.wso2.carbon.throttling.agent.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.throttling.agent.stub/4.5.4-SNAPSHOT/org.wso2.carbon.throttling.agent.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.throttling.agent.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.throttling.agent.stub/4.5.4-SNAPSHOT/org.wso2.carbon.throttling.agent.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.throttling.agent.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Email Verification Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.email.verification.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.email.verification.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/EmailVerificationService.wsdl'.
+     [java] Jun 22, 2016 2:49:14 PM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://util.verification.email.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Compiling 10 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.email.verification.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.email.verification.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.email.verification.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.email.verification.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/target/org.wso2.carbon.email.verification.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification.stub/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.email.verification.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.email.verification.stub/4.5.4-SNAPSHOT/org.wso2.carbon.email.verification.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.email.verification.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Stratos Common Stubs 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.tenant.common.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/PackageInfoServce.wsdl'.
+     [java] Jun 22, 2016 2:49:17 PM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://packages.common.stratos.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Compiling 10 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.tenant.common.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/target/org.wso2.carbon.tenant.common.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tenant.common.stub/4.5.4-SNAPSHOT/org.wso2.carbon.tenant.common.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.tenant.common.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.tenant.common.stub/4.5.4-SNAPSHOT/org.wso2.carbon.tenant.common.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.tenant.common.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Service Stubs - Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ cluster-mgt-stubs ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ cluster-mgt-stubs ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ cluster-mgt-stubs ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ cluster-mgt-stubs ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/cluster-mgt-stubs/4.5.4-SNAPSHOT/cluster-mgt-stubs-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Cluster Management Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/ClusterAdmin.wsdl'.
+     [java] Jun 22, 2016 2:49:20 PM org.apache.axis2.schema.SchemaCompiler compile
+     [java] WARNING: No schemaLocation for import of http://admin.mgt.cluster.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Compiling 18 source files to /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/target/org.wso2.carbon.cluster.mgt.admin.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.stub/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/cluster-mgt/org.wso2.carbon.cluster.mgt.admin.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.cluster.mgt.admin.stub/4.5.4-SNAPSHOT/org.wso2.carbon.cluster.mgt.admin.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.cluster.mgt.admin.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Service Stubs - Aggregator Module 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ logging-stubs ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ logging-stubs ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ logging-stubs ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ logging-stubs ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/logging/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/logging-stubs/4.5.4-SNAPSHOT/logging-stubs-4.5.4-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.logging.admin.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/LogAdmin.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Compiling 33 source files to /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.logging.admin.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.logging.admin.stub ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.logging.admin.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.logging.admin.stub.types.axis2,  has 1,  private references [org.wso2.carbon.logging.service.xsd], 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/target/org.wso2.carbon.logging.admin.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.admin.stub/4.5.4-SNAPSHOT/org.wso2.carbon.logging.admin.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.admin.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.logging.admin.stub/4.5.4-SNAPSHOT/org.wso2.carbon.logging.admin.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.logging.admin.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Logging View Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.logging.view.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.view.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.logging.view.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.view.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ org.wso2.carbon.logging.view.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/logging/org.wso2.carbon.logging.view.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.logging.view.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.logging.view.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.logging.view.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/LogViewer.wsdl'.
