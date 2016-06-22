@@ -1245,3 +1245,7 @@
      [java] Retrieving document at '/home/ubuntu/carbon-commons/service-stubs/event/org.wso2.carbon.event.client.stub/src/main/resources/BrokerSecurityManager.wsdl'.
      [java] Jun 22, 2016 2:50:01 PM org.apache.axis2.schema.SchemaCompiler compile
      [java] WARNING: No schemaLocation for import of http://core.event.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.event.client.stub ---
+[INFO] Compiling 82 source files to /home/ubuntu/carbon-commons/service-stubs/event/org.wso2.carbon.event.client.stub/target/classes
