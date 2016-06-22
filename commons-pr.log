@@ -414,3 +414,140 @@
      [java] Retrieving document at 'src/main/resources/DiscoveryAdmin.wsdl'.
      [java] Jun 22, 2016 4:27:37 AM org.apache.axis2.schema.SchemaCompiler compile
      [java] WARNING: No schemaLocation for import of http://util.discovery.carbon.wso2.org/xsd; compilation may fail
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.discovery.stub ---
+[INFO] Compiling 24 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.discovery.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.discovery.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.discovery.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.discovery.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.discovery.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.discovery.stub ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.discovery.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.discovery.stub/target/org.wso2.carbon.discovery.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.stub/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.discovery.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.discovery.stub/4.5.4-SNAPSHOT/org.wso2.carbon.discovery.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.discovery.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - OAuth Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.identity.oauth.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/OAuthAdminService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/OAuthService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/OAuth2Service.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/OAuth2TokenValidationService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Compiling 90 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.identity.oauth.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.identity.oauth.stub ---
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth.stub.types,  has 1,  private references [org.wso2.carbon.identity.base.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth.stub.types.axis2,  has 3,  private references [org.wso2.carbon.core.common.xsd, org.wso2.carbon.identity.oauth.xsd, org.wso2.carbon.identity.base.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth2.stub,  has 1,  private references [org.wso2.carbon.user.api.xsd], 
+[WARNING] Bundle org.wso2.carbon.commons:org.wso2.carbon.identity.oauth.stub:bundle:4.5.4-SNAPSHOT : Export org.wso2.carbon.identity.oauth2.stub.types.axis2,  has 1,  private references [org.wso2.carbon.user.api.xsd], 
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/target/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.jar to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.oauth.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.oauth.stub/pom.xml to /home/ubuntu/carbon-commons/../repo/org/wso2/carbon/commons/org.wso2.carbon.identity.oauth.stub/4.5.4-SNAPSHOT/org.wso2.carbon.identity.oauth.stub-4.5.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:install (default-install) @ org.wso2.carbon.identity.oauth.stub ---
+[INFO] Local OBR update disabled (enable with -DobrRepository)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSO2 Carbon - Entitlement Stub 4.5.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target
+[INFO] 
+[INFO] --- incremental-build-plugin:1.3:incremental-build (default) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Verifying module descriptor ...
+[INFO] Pom descriptor modification detected.
+[INFO] Deleting /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Source directory: /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target/generated-code/src added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.wso2.carbon.identity.entitlement.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (source-code-generation) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Executing tasks
+     [java] Retrieving document at 'src/main/resources/EntitlementPolicyAdminService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/EntitlementService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] Retrieving document at 'src/main/resources/EntitlementAdminService.wsdl'.
+     [java] log4j:WARN No appenders could be found for logger (org.apache.axis2.description.WSDL11ToAllAxisServicesBuilder).
+     [java] log4j:WARN Please initialize the log4j system properly.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] Compiling 113 source files to /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.wso2.carbon.identity.entitlement.stub ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/carbon-commons/service-stubs/org.wso2.carbon.identity.entitlement.stub/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ org.wso2.carbon.identity.entitlement.stub ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:bundle (default-bundle) @ org.wso2.carbon.identity.entitlement.stub ---
