@@ -2842,3 +2842,6 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ org.wso2.carbon.url.mapper.clustermessage ---
 [INFO] Compiling 7 source files to /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.7.2:scr (generate-scr-scrdescriptor) @ org.wso2.carbon.url.mapper.clustermessage ---
+[WARNING] Source tree does not exist. Ignoring /home/ubuntu/carbon-commons/components/url-mapper/org.wso2.carbon.url.mapper.clustermessage/target/generated-code/src
